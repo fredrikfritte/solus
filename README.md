@@ -74,9 +74,9 @@ Download them and install them with sudo eopkg it package-X.X.X-X-X-x86_64.eopkg
 
   _Turtl lets you take notes, bookmark websites, and store documents for sensitive projects._
 
-- slsk
+- gbml
 
-  _Steam Linux Swiss Knife - A backup utility and database for Linux Steam games._
+  _Gaming Backup Multitool for Linux - Backup utility and database for Linux Steam games._
 
 - notejot
 
