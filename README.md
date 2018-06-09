@@ -9,7 +9,11 @@ This is my Solus 3rd-party repo source.
 
 Download them and install them with sudo eopkg it package-X.X.X-X-X-x86_64.eopkg
 
+## Download link
+
 All packages are hosted here: <https://www.dropbox.com/sh/p6ykxnrrpbxc8s2/AACW26gI6L42Z5_KZJca5U5Va?dl=0>
+
+## Packages list
 
 - duckietv
 
@@ -104,4 +108,7 @@ All packages are hosted here: <https://www.dropbox.com/sh/p6ykxnrrpbxc8s2/AACW26
 - budgie-weather-applet
 
   _A weather applet for Budgie Desktop_
+
+- news
+ _network.news._
 
