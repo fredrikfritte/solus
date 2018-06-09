@@ -1,17 +1,22 @@
-# solus-3rd-party-repo
-
+# Solus 3rd Party Repo
 
 This is my Solus 3rd-party repo source. 
 
 *These packages are not official so not reviewed or supported by the Solus team.*
 
-<u>Packages availables:</u>
+## Want a package in official repo ?
 
-Download them and install them with sudo eopkg it package-X.X.X-X-X-x86_64.eopkg
+Make a feature request at <http://dev.solus-project.com/>
+
+If the Solus dev team is interested, I'll provide a patch to them
 
 ## Download link
 
 All packages are hosted here: <https://www.dropbox.com/sh/p6ykxnrrpbxc8s2/AACW26gI6L42Z5_KZJca5U5Va?dl=0>
+
+## How to install eopkg file
+
+Download them and install them with sudo eopkg it package-X.X.X-X-X-x86_64.eopkg
 
 ## Packages list
 
