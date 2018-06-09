@@ -1,0 +1,21 @@
+name       : news
+version    : 1.1.18
+release    : 1
+source     :
+    - https://github.com/Allen-B1/news/archive/v1.1.18.tar.gz : 2594419857f83b3a11072827c0f63ae78890334846d5ac9e9dc7c056a377ef2a
+license    : GPL-3.0
+component  : network.news
+summary    : A news viewer
+description: |
+    A news viewer.
+builddeps  :
+    - pkgconfig(granite)
+    - pkgconfig(gtk+-3.0)
+    - pkgconfig(libxml-2.0)
+    - pkgconfig(webkit2gtk-4.0)
+setup      : |
+    %cmake
+build      : |
+    %make
+install    : |
+    %make_install
