@@ -1,9 +1,9 @@
 name       : megasync
-version    : 3.6.0.0
-release    : 5
+version    : 3.6.6.0
+release    : 6
 source     :
-    - https://github.com/meganz/MEGAsync/archive/v3.6.0.0_Linux.tar.gz : 4be2ff9e3c0beb7653e269e14802fc0cf82b58cd78b0dbbae469533635cd8ddc
-    - https://github.com/meganz/sdk/archive/v3.3.0.tar.gz: dcfcbc4af4f3a7a7637643c5acc29de25fd7b985a870bcc3acd8fe1fc15e82c9
+    - https://github.com/meganz/MEGAsync/archive/v3.6.6.0_Linux.tar.gz : 377a0b77b2506ebe0052d6366c3b5b74c3012cb4938e4df5e4b003677073f5fa
+    - https://github.com/meganz/sdk/archive/v3.3.8.tar.gz :  a64bf54b335ebbfc0138f4d81f3106bc4f02e9c1c8f840cd90515a7b34c01cd4
 license    : MEGA LIMITED CODE REVIEW LICENCE
 component  : network.clients
 summary    : Sync your files to your Mega account.
@@ -22,8 +22,10 @@ builddeps  :
     - cryptopp-devel
 setup      : |
     cd $workdir/src/MEGASync/mega
-    tar -xf $sources/v3.3.0.tar.gz --strip 1 -C .
-    %autogen --without-freeimage
+    tar -xf $sources/v3.3.8.tar.gz --strip 1 -C .
+    %autogen --without-freeimage  \
+     --without-termcap \
+     --without-ffmpeg
     cd $workdir/src
     %configure
 build      : |
