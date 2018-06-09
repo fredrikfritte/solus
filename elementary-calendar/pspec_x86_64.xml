@@ -1,0 +1,58 @@
+<PISI>
+    <Source>
+        <Name>elementary-calendar</Name>
+        <Packager>
+            <Name>Devil505</Name>
+            <Email>devil505@tuta.io</Email>
+        </Packager>
+        <License>GPL-3.0-or-later</License>
+        <PartOf>office</PartOf>
+        <Summary xml:lang="en">Desktop calendar app designed for elementary OS</Summary>
+        <Description xml:lang="en">Desktop calendar app designed for elementary OS
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>elementary-calendar</Name>
+        <Summary xml:lang="en">Desktop calendar app designed for elementary OS</Summary>
+        <Description xml:lang="en">Desktop calendar app designed for elementary OS
+</Description>
+        <PartOf>office</PartOf>
+        <Files>
+            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="library">/usr/lib64/io.elementary.calendar/plugins/CalDAV/libcaldav.so</Path>
+            <Path fileType="library">/usr/lib64/io.elementary.calendar/plugins/Google/libgoogle.so</Path>
+            <Path fileType="library">/usr/lib64/lib*.so.*</Path>
+            <Path fileType="data">/usr/share/applications/io.elementary.calendar-daemon.desktop</Path>
+            <Path fileType="data">/usr/share/applications/io.elementary.calendar.desktop</Path>
+            <Path fileType="data">/usr/share/glib-2.0/schemas/io.elementary.calendar.gschema.xml</Path>
+            <Path fileType="localedata">/usr/share/locale</Path>
+            <Path fileType="data">/usr/share/metainfo/io.elementary.calendar.appdata.xml</Path>
+        </Files>
+    </Package>
+    <Package>
+        <Name>elementary-calendar-devel</Name>
+        <Summary xml:lang="en">Development files for elementary-calendar</Summary>
+        <Description xml:lang="en">Desktop calendar app designed for elementary OS
+</Description>
+        <PartOf>programming.devel</PartOf>
+        <RuntimeDependencies>
+            <Dependency release="1">elementary-calendar</Dependency>
+        </RuntimeDependencies>
+        <Files>
+            <Path fileType="header">/usr/include/</Path>
+            <Path fileType="library">/usr/lib64/lib*.so</Path>
+            <Path fileType="data">/usr/lib64/pkgconfig/*.pc</Path>
+            <Path fileType="data">/usr/share/vala*/vapi/*</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2018-06-09</Date>
+            <Version>0.4.2</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Devil505</Name>
+            <Email>devil505@tuta.io</Email>
+        </Update>
+    </History>
+</PISI>

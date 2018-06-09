@@ -120,5 +120,9 @@ Download them and install them with sudo eopkg it package-X.X.X-X-X-x86_64.eopkg
 
 - screenshot-tool
 
- _Screenshot tool designed for elementary OS_
+ _Screenshot tool designed for elementary OS._
+
+- elementary-calendar
+
+ _Desktop calendar app designed for elementary OS._
 
