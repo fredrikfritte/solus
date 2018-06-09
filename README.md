@@ -115,5 +115,10 @@ Download them and install them with sudo eopkg it package-X.X.X-X-X-x86_64.eopkg
   _A weather applet for Budgie Desktop_
 
 - news
+
  _network.news._
+
+- screenshot-tool
+
+ _Screenshot tool designed for elementary OS_
 

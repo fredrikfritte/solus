@@ -1,0 +1,24 @@
+name       : screenshot-tool
+version    : 0.1.5
+release    : 1
+source     :
+    - https://github.com/elementary/screenshot-tool/archive/0.1.5.tar.gz : 7b214d7f7ae75902a8dac0ddc692930b1231753ed1e66e26cee0e8b30f8046be
+license    : LGPL-3.0-or-later
+component  : multimedia.graphics
+summary    : Screenshot tool designed for elementary OS
+description: |
+    Screenshot tool designed for elementary OS
+builddeps  :
+    - pkgconfig(gdk-pixbuf-2.0)
+    - pkgconfig(granite)
+    - pkgconfig(gdk-3.0)
+    - pkgconfig(gtk+-3.0)
+    - pkgconfig(libcanberra)
+    - meson
+    - vala
+setup      : |
+    %meson_configure
+build      : |
+    %meson_build
+install    : |
+    %meson_install

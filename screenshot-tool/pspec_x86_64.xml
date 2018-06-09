@@ -1,0 +1,42 @@
+<PISI>
+    <Source>
+        <Name>screenshot-tool</Name>
+        <Packager>
+            <Name>Devil505</Name>
+            <Email>devil505@tuta.io</Email>
+        </Packager>
+        <License>LGPL-3.0-or-later</License>
+        <PartOf>multimedia.graphics</PartOf>
+        <Summary xml:lang="en">Screenshot tool designed for elementary OS</Summary>
+        <Description xml:lang="en">Screenshot tool designed for elementary OS
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>screenshot-tool</Name>
+        <Summary xml:lang="en">Screenshot tool designed for elementary OS</Summary>
+        <Description xml:lang="en">Screenshot tool designed for elementary OS
+</Description>
+        <PartOf>multimedia.graphics</PartOf>
+        <Files>
+            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="data">/usr/share/applications/io.elementary.screenshot-tool.desktop</Path>
+            <Path fileType="data">/usr/share/glib-2.0/schemas/io.elementary.screenshot-tool.gschema.xml</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/128x128/apps/accessories-screenshot.svg</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/32x32/apps/accessories-screenshot.svg</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/48x48/apps/accessories-screenshot.svg</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/64x64/apps/accessories-screenshot.svg</Path>
+            <Path fileType="localedata">/usr/share/locale</Path>
+            <Path fileType="data">/usr/share/metainfo/io.elementary.screenshot-tool.appdata.xml</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2018-06-09</Date>
+            <Version>0.1.5</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Devil505</Name>
+            <Email>devil505@tuta.io</Email>
+        </Update>
+    </History>
+</PISI>
