@@ -3,7 +3,7 @@
         <Name>nautilus-megasync</Name>
         <Packager>
             <Name>Devil505</Name>
-            <Email>devil505linux@gmail.com</Email>
+            <Email>devil505@tuta.io</Email>
         </Packager>
         <License>MEGA LIMITED CODE REVIEW LICENCE</License>
         <PartOf>desktop.gnome</PartOf>
@@ -43,11 +43,11 @@
     </Package>
     <History>
         <Update release="1">
-            <Date>2018-01-27</Date>
-            <Version>3.6.0.0</Version>
+            <Date>2018-06-09</Date>
+            <Version>3.6.6.0</Version>
             <Comment>Packaging update</Comment>
             <Name>Devil505</Name>
-            <Email>devil505linux@gmail.com</Email>
+            <Email>devil505@tuta.io</Email>
         </Update>
     </History>
 </PISI>
