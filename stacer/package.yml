@@ -1,0 +1,24 @@
+name       : stacer
+version    : 1.0.9
+release    : 1
+source     :
+    -  https://github.com/oguzhaninan/Stacer/archive/v1.0.9.tar.gz : 86bcd77e0d7dd05550c6c57cbc59b0457b68b3075f3ed141bdb4e69dc75082ca
+license    : MIT
+component  : system.utils
+summary    : Linux System Optimizer and Monitoring 
+description: |
+    Linux System Optimizer and Monitoring 
+builddeps  :
+    - pkgconfig(Qt5Charts)
+    - pkgconfig(Qt5Core)
+    - pkgconfig(Qt5Gui)
+    - pkgconfig(Qt5Network)
+    - pkgconfig(Qt5Widgets)
+setup      : |
+    %cmake
+build      : |
+    %make
+install    : |
+    %make_install
+
+

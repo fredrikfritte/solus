@@ -126,3 +126,6 @@ Download them and install them with sudo eopkg it package-X.X.X-X-X-x86_64.eopkg
 
  _Desktop calendar app designed for elementary OS._
 
+- stacer
+
+ _Linux System Optimizer and Monitoring._

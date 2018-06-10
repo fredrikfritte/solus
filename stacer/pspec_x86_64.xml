@@ -1,0 +1,36 @@
+<PISI>
+    <Source>
+        <Name>stacer</Name>
+        <Packager>
+            <Name>Devil505</Name>
+            <Email>devil505@tuta.io</Email>
+        </Packager>
+        <License>MIT</License>
+        <PartOf>system.utils</PartOf>
+        <Summary xml:lang="en">Linux System Optimizer and Monitoring</Summary>
+        <Description xml:lang="en">Linux System Optimizer and Monitoring 
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>stacer</Name>
+        <Summary xml:lang="en">Linux System Optimizer and Monitoring</Summary>
+        <Description xml:lang="en">Linux System Optimizer and Monitoring 
+</Description>
+        <PartOf>system.utils</PartOf>
+        <Files>
+            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="data">/usr/share/applications/stacer.desktop</Path>
+            <Path fileType="data">/usr/share/icons/stacer.png</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2018-06-10</Date>
+            <Version>1.0.9</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Devil505</Name>
+            <Email>devil505@tuta.io</Email>
+        </Update>
+    </History>
+</PISI>
