@@ -150,6 +150,10 @@ Download them and install them with sudo eopkg it package-X.X.X-X-X-x86_64.eopkg
 
  _Never miss out on the monetary value of a virtual currency with this handy applet._
 
+ - findfileconflicts
+
+ _Helps to find file names which could have conflicts._
+
 ## EXPERIMENTAL
 
  - nvidia 396.24
