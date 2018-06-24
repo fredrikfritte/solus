@@ -1,0 +1,24 @@
+name       : aesop
+version    : 1.0.2
+release    : 1
+source     :
+    - https://github.com/lainsce/aesop/archive/1.0.2.tar.gz : 7a1532c8e9c42fb87b9822467875ed60f2f101afc06007d581e6064f96809c29
+license    : GPL-3.0-or-later
+component  : office.viewers
+summary    : The simplest PDF viewer around
+description: |
+    The simplest PDF viewer around.
+builddeps  :
+    - pkgconfig(cairo)
+    - pkgconfig(gee-0.8)
+    - pkgconfig(granite)
+    - pkgconfig(gtk+-3.0)
+    - pkgconfig(poppler-glib)
+    - meson
+    - vala
+setup      : |
+    %meson_configure
+build      : |
+    %meson_build
+install    : |
+    %meson_install

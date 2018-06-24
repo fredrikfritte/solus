@@ -1,0 +1,22 @@
+name       : monilet
+version    : 0.1.9
+release    : 1
+source     :
+    - https://github.com/kmal-kenneth/monilet/archive/0.1.9.tar.gz : b2aaeb1a7834bcfc219c38d18f79ee7139583efeaa37b2ae1b5885675573515c
+license    : GPL-3.0-or-later
+component  : system.utils
+summary    : It's a system monitor applet. 
+description: |
+   See percentage of use your CPU and number of cores. Also percentage used memory, amount of memory used and total memory.
+builddeps  :
+    - pkgconfig(granite)
+    - pkgconfig(gtk+-3.0)
+    - pkgconfig(libgtop-2.0)
+    - meson
+    - vala
+setup      : |
+    %cmake
+build      : |
+    %make
+install    : |
+    %make_install

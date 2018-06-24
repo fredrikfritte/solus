@@ -129,3 +129,25 @@ Download them and install them with sudo eopkg it package-X.X.X-X-X-x86_64.eopkg
 - stacer
 
  _Linux System Optimizer and Monitoring._
+
+- aesop
+
+ _The simplest PDF viewer around._
+
+ - pwned-checker
+
+ _Simple application for checking if a password is found in Pwned Passwords repository._
+
+- palaura
+
+ _Find any word's definition with this handy dictionary_
+
+ - monilet
+
+ _See percentage of use your CPU and number of cores. Also percentage used memory, amount of memory used and total memory._
+
+## EXPERIMENTAL
+
+ - nvidia 396.24
+
+It's the NVIDIA driver 396.24, you can install the packages, be aware it can broken your system after an kernel upgrade from Solus official repo !!!
