@@ -146,10 +146,6 @@ Download them and install them with sudo eopkg it package-X.X.X-X-X-x86_64.eopkg
 
  _See percentage of use your CPU and number of cores. Also percentage used memory, amount of memory used and total memory._
 
- - coin
-
- _Never miss out on the monetary value of a virtual currency with this handy applet._
-
  - findfileconflicts
 
  _Helps to find file names which could have conflicts._
