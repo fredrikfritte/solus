@@ -1,6 +1,6 @@
 name       : monilet
 version    : 0.1.9
-release    : 1
+release    : 2
 source     :
     - https://github.com/kmal-kenneth/monilet/archive/0.1.9.tar.gz : b2aaeb1a7834bcfc219c38d18f79ee7139583efeaa37b2ae1b5885675573515c
 license    : GPL-3.0-or-later

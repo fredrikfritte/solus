@@ -1,6 +1,6 @@
 name       : palaura
 version    : 1.0.1
-release    : 1
+release    : 2
 source     :
     - https://github.com/lainsce/palaura/archive/1.0.1.tar.gz : 1d04a143c422d9a5f92a657178635580f65dc81b4d1d4ffabaf300d7a0fe3d0c
 license    : GPL-3.0-or-later

@@ -1,6 +1,6 @@
 name       : audience
 version    : 0.2.5
-release    : 2
+release    : 3
 source     :
     - https://github.com/elementary/videos/archive/0.2.5.tar.gz : 4f22565033f5c44380d215c5f9c3672a8a2ad75d81af0e06b7b5a4bf18522207
 license    : GPL-3.0

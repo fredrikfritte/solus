@@ -1,6 +1,6 @@
 name       : pwned-checker
 version    : 0.1.8
-release    : 1
+release    : 2
 source     :
     - https://github.com/PlugaruT/pwned-checker/archive/0.1.8.tar.gz : ba3ea4a8bdfae1d645d881f20cb4f26825fa8ba6046142d61259cbdf833a48e5
 license    : GPL-3.0-or-later

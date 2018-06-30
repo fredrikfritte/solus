@@ -1,6 +1,6 @@
 name       : playmymusic
 version    : 1.0.1
-release    : 1
+release    : 2
 source     :
     - https://github.com/artemanufrij/playmymusic/archive/1.0.1.tar.gz : 1e7e1dd9df44d46e6148c75636cb76e3944b38d0f8b868a2dee83c832e677355
 license    : GPL-2.0-or-later

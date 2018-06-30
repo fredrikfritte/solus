@@ -1,6 +1,6 @@
 name       : showmypictures
 version    : 0.2.5
-release    : 1
+release    : 2
 source     :
     - https://github.com/artemanufrij/showmypictures/archive/0.2.5.tar.gz : 82e463f98bc01c19e06cd3f886c15300cc45fffb1ee82631387c7acf22e41ad9
 license    : GPL-2.0
