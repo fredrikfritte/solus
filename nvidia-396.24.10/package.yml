@@ -1,8 +1,8 @@
 name       : nvidia-glx-driver
-version    : '396.24'
-release    : 248
+version    : '396.24.10'
+release    : 251
 source     :
-    - http://cn.download.nvidia.com/XFree86/Linux-x86_64/396.24/NVIDIA-Linux-x86_64-396.24.run : 59bb112b17ca72cd15fed4e521d4b52b0e9f5b8b13a95b36521f8eda978b568e
+    - https://developer.nvidia.com/linux-3962410 : 286206d1aca0dc5f605f5313b8eab0b3945f8c3719b7d0c13f4c2e1b66fe17ad
 extract    : no
 homepage   : https://nvidia.com
 license    :
@@ -59,7 +59,7 @@ builddeps  :
 permanent  :
     - /lib/modules
 setup      : |
-    sh $sources/NVIDIA-Linux-x86_64-$version.run --extract-only
+    sh $sources/linux-3962410 --extract-only
     pushd NVIDIA*
 
     # Prepare kernel trees
