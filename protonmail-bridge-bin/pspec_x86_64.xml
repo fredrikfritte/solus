@@ -378,31 +378,42 @@
             <Path fileType="library">/usr/lib/protonmail/bridge/qml/QtQuick/Controls.2/Label.qml</Path>
             <Path fileType="library">/usr/lib/protonmail/bridge/qml/QtQuick/Controls.2/Label.qmlc</Path>
             <Path fileType="library">/usr/lib/protonmail/bridge/qml/QtQuick/Controls.2/Material/ApplicationWindow.qml</Path>
+            <Path fileType="library">/usr/lib/protonmail/bridge/qml/QtQuick/Controls.2/Material/ApplicationWindow.qmlc</Path>
             <Path fileType="library">/usr/lib/protonmail/bridge/qml/QtQuick/Controls.2/Material/BoxShadow.qml</Path>
             <Path fileType="library">/usr/lib/protonmail/bridge/qml/QtQuick/Controls.2/Material/BusyIndicator.qml</Path>
+            <Path fileType="library">/usr/lib/protonmail/bridge/qml/QtQuick/Controls.2/Material/BusyIndicator.qmlc</Path>
             <Path fileType="library">/usr/lib/protonmail/bridge/qml/QtQuick/Controls.2/Material/Button.qml</Path>
+            <Path fileType="library">/usr/lib/protonmail/bridge/qml/QtQuick/Controls.2/Material/Button.qmlc</Path>
             <Path fileType="library">/usr/lib/protonmail/bridge/qml/QtQuick/Controls.2/Material/CheckBox.qml</Path>
             <Path fileType="library">/usr/lib/protonmail/bridge/qml/QtQuick/Controls.2/Material/CheckDelegate.qml</Path>
             <Path fileType="library">/usr/lib/protonmail/bridge/qml/QtQuick/Controls.2/Material/CheckIndicator.qml</Path>
             <Path fileType="library">/usr/lib/protonmail/bridge/qml/QtQuick/Controls.2/Material/ComboBox.qml</Path>
+            <Path fileType="library">/usr/lib/protonmail/bridge/qml/QtQuick/Controls.2/Material/ComboBox.qmlc</Path>
             <Path fileType="library">/usr/lib/protonmail/bridge/qml/QtQuick/Controls.2/Material/CursorDelegate.qml</Path>
             <Path fileType="library">/usr/lib/protonmail/bridge/qml/QtQuick/Controls.2/Material/DelayButton.qml</Path>
             <Path fileType="library">/usr/lib/protonmail/bridge/qml/QtQuick/Controls.2/Material/Dial.qml</Path>
             <Path fileType="library">/usr/lib/protonmail/bridge/qml/QtQuick/Controls.2/Material/Dialog.qml</Path>
             <Path fileType="library">/usr/lib/protonmail/bridge/qml/QtQuick/Controls.2/Material/DialogButtonBox.qml</Path>
             <Path fileType="library">/usr/lib/protonmail/bridge/qml/QtQuick/Controls.2/Material/Drawer.qml</Path>
+            <Path fileType="library">/usr/lib/protonmail/bridge/qml/QtQuick/Controls.2/Material/Drawer.qmlc</Path>
             <Path fileType="library">/usr/lib/protonmail/bridge/qml/QtQuick/Controls.2/Material/ElevationEffect.qml</Path>
             <Path fileType="library">/usr/lib/protonmail/bridge/qml/QtQuick/Controls.2/Material/Frame.qml</Path>
             <Path fileType="library">/usr/lib/protonmail/bridge/qml/QtQuick/Controls.2/Material/GroupBox.qml</Path>
             <Path fileType="library">/usr/lib/protonmail/bridge/qml/QtQuick/Controls.2/Material/ItemDelegate.qml</Path>
+            <Path fileType="library">/usr/lib/protonmail/bridge/qml/QtQuick/Controls.2/Material/ItemDelegate.qmlc</Path>
             <Path fileType="library">/usr/lib/protonmail/bridge/qml/QtQuick/Controls.2/Material/Label.qml</Path>
+            <Path fileType="library">/usr/lib/protonmail/bridge/qml/QtQuick/Controls.2/Material/Label.qmlc</Path>
             <Path fileType="library">/usr/lib/protonmail/bridge/qml/QtQuick/Controls.2/Material/Menu.qml</Path>
+            <Path fileType="library">/usr/lib/protonmail/bridge/qml/QtQuick/Controls.2/Material/Menu.qmlc</Path>
             <Path fileType="library">/usr/lib/protonmail/bridge/qml/QtQuick/Controls.2/Material/MenuItem.qml</Path>
+            <Path fileType="library">/usr/lib/protonmail/bridge/qml/QtQuick/Controls.2/Material/MenuItem.qmlc</Path>
             <Path fileType="library">/usr/lib/protonmail/bridge/qml/QtQuick/Controls.2/Material/MenuSeparator.qml</Path>
             <Path fileType="library">/usr/lib/protonmail/bridge/qml/QtQuick/Controls.2/Material/Page.qml</Path>
             <Path fileType="library">/usr/lib/protonmail/bridge/qml/QtQuick/Controls.2/Material/PageIndicator.qml</Path>
             <Path fileType="library">/usr/lib/protonmail/bridge/qml/QtQuick/Controls.2/Material/Pane.qml</Path>
+            <Path fileType="library">/usr/lib/protonmail/bridge/qml/QtQuick/Controls.2/Material/Pane.qmlc</Path>
             <Path fileType="library">/usr/lib/protonmail/bridge/qml/QtQuick/Controls.2/Material/Popup.qml</Path>
+            <Path fileType="library">/usr/lib/protonmail/bridge/qml/QtQuick/Controls.2/Material/Popup.qmlc</Path>
             <Path fileType="library">/usr/lib/protonmail/bridge/qml/QtQuick/Controls.2/Material/ProgressBar.qml</Path>
             <Path fileType="library">/usr/lib/protonmail/bridge/qml/QtQuick/Controls.2/Material/RadioButton.qml</Path>
             <Path fileType="library">/usr/lib/protonmail/bridge/qml/QtQuick/Controls.2/Material/RadioDelegate.qml</Path>
@@ -412,10 +423,12 @@
             <Path fileType="library">/usr/lib/protonmail/bridge/qml/QtQuick/Controls.2/Material/RoundButton.qml</Path>
             <Path fileType="library">/usr/lib/protonmail/bridge/qml/QtQuick/Controls.2/Material/ScrollBar.qml</Path>
             <Path fileType="library">/usr/lib/protonmail/bridge/qml/QtQuick/Controls.2/Material/ScrollIndicator.qml</Path>
+            <Path fileType="library">/usr/lib/protonmail/bridge/qml/QtQuick/Controls.2/Material/ScrollIndicator.qmlc</Path>
             <Path fileType="library">/usr/lib/protonmail/bridge/qml/QtQuick/Controls.2/Material/Slider.qml</Path>
             <Path fileType="library">/usr/lib/protonmail/bridge/qml/QtQuick/Controls.2/Material/SliderHandle.qml</Path>
             <Path fileType="library">/usr/lib/protonmail/bridge/qml/QtQuick/Controls.2/Material/SpinBox.qml</Path>
             <Path fileType="library">/usr/lib/protonmail/bridge/qml/QtQuick/Controls.2/Material/StackView.qml</Path>
+            <Path fileType="library">/usr/lib/protonmail/bridge/qml/QtQuick/Controls.2/Material/StackView.qmlc</Path>
             <Path fileType="library">/usr/lib/protonmail/bridge/qml/QtQuick/Controls.2/Material/SwipeDelegate.qml</Path>
             <Path fileType="library">/usr/lib/protonmail/bridge/qml/QtQuick/Controls.2/Material/SwipeView.qml</Path>
             <Path fileType="library">/usr/lib/protonmail/bridge/qml/QtQuick/Controls.2/Material/Switch.qml</Path>
@@ -426,7 +439,9 @@
             <Path fileType="library">/usr/lib/protonmail/bridge/qml/QtQuick/Controls.2/Material/TextArea.qml</Path>
             <Path fileType="library">/usr/lib/protonmail/bridge/qml/QtQuick/Controls.2/Material/TextField.qml</Path>
             <Path fileType="library">/usr/lib/protonmail/bridge/qml/QtQuick/Controls.2/Material/ToolBar.qml</Path>
+            <Path fileType="library">/usr/lib/protonmail/bridge/qml/QtQuick/Controls.2/Material/ToolBar.qmlc</Path>
             <Path fileType="library">/usr/lib/protonmail/bridge/qml/QtQuick/Controls.2/Material/ToolButton.qml</Path>
+            <Path fileType="library">/usr/lib/protonmail/bridge/qml/QtQuick/Controls.2/Material/ToolButton.qmlc</Path>
             <Path fileType="library">/usr/lib/protonmail/bridge/qml/QtQuick/Controls.2/Material/ToolSeparator.qml</Path>
             <Path fileType="library">/usr/lib/protonmail/bridge/qml/QtQuick/Controls.2/Material/ToolTip.qml</Path>
             <Path fileType="library">/usr/lib/protonmail/bridge/qml/QtQuick/Controls.2/Material/Tumbler.qml</Path>
@@ -1163,8 +1178,8 @@
     </Package>
     <History>
         <Update release="1">
-            <Date>2018-06-28</Date>
-            <Version>1.0.4</Version>
+            <Date>2018-07-13</Date>
+            <Version>1.0.5</Version>
             <Comment>Packaging update</Comment>
             <Name>Devil505</Name>
             <Email>devil505@tuta.io</Email>
