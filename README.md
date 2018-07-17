@@ -132,23 +132,27 @@ Download them and install them with sudo eopkg it package-X.X.X-X-X-x86_64.eopkg
 
 - aesop
 
- _The simplest PDF viewer around._
+_The simplest PDF viewer around._
 
- - pwned-checker
+- pwned-checker
 
- _Simple application for checking if a password is found in Pwned Passwords repository._
+_Simple application for checking if a password is found in Pwned Passwords repository._
 
 - palaura
 
- _Find any word's definition with this handy dictionary_
+_Find any word's definition with this handy dictionary_
 
- - monilet
+- monilet
 
- _See percentage of use your CPU and number of cores. Also percentage used memory, amount of memory used and total memory._
+_See percentage of use your CPU and number of cores. Also percentage used memory, amount of memory used and total memory._
 
- - findfileconflicts
+- findfileconflicts
 
- _Helps to find file names which could have conflicts._
+_Helps to find file names which could have conflicts._
+
+- protonvpn-cli
+
+_ProtonVPN CLI tool for protonvpn.com._
 
 ## EXPERIMENTAL
 
