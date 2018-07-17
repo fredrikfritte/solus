@@ -1,0 +1,33 @@
+name       : protonvpn-cli
+version    : 20180610
+release    : 1
+source     :
+    -  git|https://github.com/ProtonVPN/protonvpn-cli.git : 114d461c7c63e7db52d8af7d88731d38e12575cd
+license    : MIT
+component  : network
+summary    : ProtonVPN CLI tool for protonvpn.com
+description: |
+    ProtonVPN CLI tool for protonvpn.com
+rundeps  :
+    - dialog
+    - openresolv
+    - openvpn
+    - procps-ng
+setup      : |
+    if ! test -f /etc/openvpn/update-resolv-conf; then
+        mkdir -p "$workdir/openvpn-update-resolv-conf"
+
+        git clone \
+            https://github.com/masterkorp/openvpn-update-resolv-conf.git \
+            "$workdir/openvpn-update-resolv-conf"
+
+        _oldpath="$(pwd)"
+        cd "$workdir/openvpn-update-resolv-conf"
+        install -D -m655 update-resolv-conf.sh \
+            "$installdir/etc/openvpn/update-resolv-conf"
+        cd "${_oldpath}"
+    fi
+install    : |
+    install -Dm755 ./protonvpn-cli.sh "$installdir/usr/bin/protonvpn-cli"
+    ln -s "$installdir/usr/bin/protonvpn-cli" "$installdir/usr/bin/pvpn"
+    install -Dm644 ./license.md "$installdir/usr/share/licenses/protonvpn-cli/LICENSE"
