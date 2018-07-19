@@ -150,6 +150,10 @@ _See percentage of use your CPU and number of cores. Also percentage used memory
 
 _Helps to find file names which could have conflicts._
 
+- protonmail-bridge-bin
+
+_The Bridge is an application that runs on your computer in the background and seamlessly encrypts and decrypts your mail as it enters and leaves your computer._
+
 - protonvpn-cli
 
 _ProtonVPN CLI tool for protonvpn.com._
