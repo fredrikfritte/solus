@@ -2,7 +2,7 @@
     <Source>
         <Name>megasync</Name>
         <Packager>
-            <Name>Devil505</Name>
+            <Name>Daniel</Name>
             <Email>devil505@tuta.io</Email>
         </Packager>
         <License>MEGA LIMITED CODE REVIEW LICENCE</License>
@@ -19,7 +19,7 @@
 </Description>
         <PartOf>network.clients</PartOf>
         <Files>
-            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="executable">/usr/bin/megasync</Path>
             <Path fileType="data">/usr/share/applications/megasync.desktop</Path>
             <Path fileType="data">/usr/share/icons/hicolor/128x128/apps/mega.png</Path>
             <Path fileType="data">/usr/share/icons/hicolor/16x16/apps/mega.png</Path>
@@ -31,11 +31,11 @@
         </Files>
     </Package>
     <History>
-        <Update release="6">
-            <Date>2018-06-09</Date>
+        <Update release="7">
+            <Date>2018-07-22</Date>
             <Version>3.6.6.0</Version>
             <Comment>Packaging update</Comment>
-            <Name>Devil505</Name>
+            <Name>Daniel</Name>
             <Email>devil505@tuta.io</Email>
         </Update>
     </History>
