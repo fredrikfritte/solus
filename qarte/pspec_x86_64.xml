@@ -1,0 +1,125 @@
+<PISI>
+    <Source>
+        <Name>qarte</Name>
+        <Packager>
+            <Name>Daniel</Name>
+            <Email>devil505@tuta.io</Email>
+        </Packager>
+        <License>GPL-3.0-or-later</License>
+        <PartOf>network.web</PartOf>
+        <Summary xml:lang="en">Allow you to browse into the archive of arte+7 &amp; arteLiveWeb sites and to record your prefered videos.</Summary>
+        <Description xml:lang="en">Allow you to browse into the archive of arte+7 &amp; arteLiveWeb sites and to record your prefered videos.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>qarte</Name>
+        <Summary xml:lang="en">Allow you to browse into the archive of arte+7 &amp; arteLiveWeb sites and to record your prefered videos.</Summary>
+        <Description xml:lang="en">Allow you to browse into the archive of arte+7 &amp; arteLiveWeb sites and to record your prefered videos.
+</Description>
+        <PartOf>network.web</PartOf>
+        <Files>
+            <Path fileType="executable">/usr/bin/qarte</Path>
+            <Path fileType="data">/usr/share/applications/q_arte.desktop</Path>
+            <Path fileType="localedata">/usr/share/locale/de/LC_MESSAGES/qarte.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/fr/LC_MESSAGES/qarte.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/pt/LC_MESSAGES/qarte.mo</Path>
+            <Path fileType="man">/usr/share/man/man1/qarte.1</Path>
+            <Path fileType="data">/usr/share/pixmaps/qarte.png</Path>
+            <Path fileType="data">/usr/share/qarte/__init__.py</Path>
+            <Path fileType="data">/usr/share/qarte/about.py</Path>
+            <Path fileType="data">/usr/share/qarte/arteconcert.py</Path>
+            <Path fileType="data">/usr/share/qarte/artetv.py</Path>
+            <Path fileType="data">/usr/share/qarte/core.py</Path>
+            <Path fileType="data">/usr/share/qarte/daemon.py</Path>
+            <Path fileType="data">/usr/share/qarte/data.py</Path>
+            <Path fileType="data">/usr/share/qarte/diskusage.py</Path>
+            <Path fileType="data">/usr/share/qarte/gui/VWidgets_qt5/__init__.py</Path>
+            <Path fileType="data">/usr/share/qarte/gui/VWidgets_qt5/colorsdata.py</Path>
+            <Path fileType="data">/usr/share/qarte/gui/VWidgets_qt5/vcolorcombobox.py</Path>
+            <Path fileType="data">/usr/share/qarte/gui/VWidgets_qt5/vlineedit.py</Path>
+            <Path fileType="data">/usr/share/qarte/gui/VWidgets_qt5/vtooldockpanel.py</Path>
+            <Path fileType="data">/usr/share/qarte/gui/VWidgets_qt5/vtoolheader.py</Path>
+            <Path fileType="data">/usr/share/qarte/gui/VWidgets_qt5/vtoolpanel.py</Path>
+            <Path fileType="data">/usr/share/qarte/gui/__init__.py</Path>
+            <Path fileType="data">/usr/share/qarte/gui/basket.py</Path>
+            <Path fileType="data">/usr/share/qarte/gui/commonwidgets/__init__.py</Path>
+            <Path fileType="data">/usr/share/qarte/gui/commonwidgets/horizontalslider.py</Path>
+            <Path fileType="data">/usr/share/qarte/gui/concertsviewer.py</Path>
+            <Path fileType="data">/usr/share/qarte/gui/downloadingwidgets.py</Path>
+            <Path fileType="data">/usr/share/qarte/gui/mainui.py</Path>
+            <Path fileType="data">/usr/share/qarte/gui/schedulerdialog.py</Path>
+            <Path fileType="data">/usr/share/qarte/gui/spacewarning.py</Path>
+            <Path fileType="data">/usr/share/qarte/gui/uiconcerts.py</Path>
+            <Path fileType="data">/usr/share/qarte/gui/videoplayer.py</Path>
+            <Path fileType="data">/usr/share/qarte/gui/warning.py</Path>
+            <Path fileType="data">/usr/share/qarte/loader.py</Path>
+            <Path fileType="data">/usr/share/qarte/loadingscheduler.py</Path>
+            <Path fileType="data">/usr/share/qarte/logeditor.py</Path>
+            <Path fileType="data">/usr/share/qarte/medias/44766.jpeg</Path>
+            <Path fileType="data">/usr/share/qarte/medias/Mit_offenen_Karten_Logo.gif</Path>
+            <Path fileType="data">/usr/share/qarte/medias/Xenius.jpg</Path>
+            <Path fileType="data">/usr/share/qarte/medias/add_44x30.png</Path>
+            <Path fileType="data">/usr/share/qarte/medias/apply.png</Path>
+            <Path fileType="data">/usr/share/qarte/medias/best_journal.jpg</Path>
+            <Path fileType="data">/usr/share/qarte/medias/cartes_fr.jpeg</Path>
+            <Path fileType="data">/usr/share/qarte/medias/classic_off.png</Path>
+            <Path fileType="data">/usr/share/qarte/medias/classic_on.png</Path>
+            <Path fileType="data">/usr/share/qarte/medias/clean.png</Path>
+            <Path fileType="data">/usr/share/qarte/medias/clipboard.png</Path>
+            <Path fileType="data">/usr/share/qarte/medias/copy.png</Path>
+            <Path fileType="data">/usr/share/qarte/medias/copyright</Path>
+            <Path fileType="data">/usr/share/qarte/medias/dessous_cartes.jpg</Path>
+            <Path fileType="data">/usr/share/qarte/medias/download_44x30.png</Path>
+            <Path fileType="data">/usr/share/qarte/medias/eraser.png</Path>
+            <Path fileType="data">/usr/share/qarte/medias/jazz_off.png</Path>
+            <Path fileType="data">/usr/share/qarte/medias/jazz_on.png</Path>
+            <Path fileType="data">/usr/share/qarte/medias/journal.jpg</Path>
+            <Path fileType="data">/usr/share/qarte/medias/journal_junior.jpg</Path>
+            <Path fileType="data">/usr/share/qarte/medias/karambolage.jpeg</Path>
+            <Path fileType="data">/usr/share/qarte/medias/list-remove.png</Path>
+            <Path fileType="data">/usr/share/qarte/medias/list-remove.svg</Path>
+            <Path fileType="data">/usr/share/qarte/medias/logo+7_112x48.png</Path>
+            <Path fileType="data">/usr/share/qarte/medias/logoLW_213x36.png</Path>
+            <Path fileType="data">/usr/share/qarte/medias/magnifier_20x20.png</Path>
+            <Path fileType="data">/usr/share/qarte/medias/minus_white_20x5.png</Path>
+            <Path fileType="data">/usr/share/qarte/medias/news_off.png</Path>
+            <Path fileType="data">/usr/share/qarte/medias/news_on.png</Path>
+            <Path fileType="data">/usr/share/qarte/medias/next_44x30.png</Path>
+            <Path fileType="data">/usr/share/qarte/medias/noPreview.png</Path>
+            <Path fileType="data">/usr/share/qarte/medias/playlist.png</Path>
+            <Path fileType="data">/usr/share/qarte/medias/playlist.svg</Path>
+            <Path fileType="data">/usr/share/qarte/medias/plus_white_20x20.png</Path>
+            <Path fileType="data">/usr/share/qarte/medias/previous_44x30.png</Path>
+            <Path fileType="data">/usr/share/qarte/medias/qarte_logo.png</Path>
+            <Path fileType="data">/usr/share/qarte/medias/refresh.png</Path>
+            <Path fileType="data">/usr/share/qarte/medias/refresh.svg</Path>
+            <Path fileType="data">/usr/share/qarte/medias/rock_off.png</Path>
+            <Path fileType="data">/usr/share/qarte/medias/rock_on.png</Path>
+            <Path fileType="data">/usr/share/qarte/medias/save.png</Path>
+            <Path fileType="data">/usr/share/qarte/medias/select-all.png</Path>
+            <Path fileType="data">/usr/share/qarte/medias/settings.png</Path>
+            <Path fileType="data">/usr/share/qarte/medias/shadow.png</Path>
+            <Path fileType="data">/usr/share/qarte/medias/sound.png</Path>
+            <Path fileType="data">/usr/share/qarte/medias/sound.svg</Path>
+            <Path fileType="data">/usr/share/qarte/medias/stop_44x30.png</Path>
+            <Path fileType="data">/usr/share/qarte/medias/theater_off.png</Path>
+            <Path fileType="data">/usr/share/qarte/medias/theater_on.png</Path>
+            <Path fileType="data">/usr/share/qarte/medias/web.png</Path>
+            <Path fileType="data">/usr/share/qarte/medias/world_off.png</Path>
+            <Path fileType="data">/usr/share/qarte/medias/world_on.png</Path>
+            <Path fileType="data">/usr/share/qarte/pycrontab.py</Path>
+            <Path fileType="data">/usr/share/qarte/settings.py</Path>
+            <Path fileType="data">/usr/share/qarte/tvdownloadingconfig.py</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2018-07-22</Date>
+            <Version>4.4.0</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Daniel</Name>
+            <Email>devil505@tuta.io</Email>
+        </Update>
+    </History>
+</PISI>

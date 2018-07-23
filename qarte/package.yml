@@ -1,0 +1,28 @@
+name       : qarte
+version    : 4.4.0
+release    : 1
+source     :
+    - http://ppa.launchpad.net/vincent-vandevyvre/vvv/ubuntu/pool/main/q/qarte/qarte_4.4.0.orig.tar.gz : 447217304dcd816960a0cc345ed5508686352f8a651e3f5b169597e655f65f66
+license    : GPL-3.0-or-later
+component  : network.web
+summary    : Allow you to browse into the archive of arte+7 & arteLiveWeb sites and to record your prefered videos.
+description: | 
+    Allow you to browse into the archive of arte+7 & arteLiveWeb sites and to record your prefered videos.
+rundeps  :
+    - qt5-multimedia
+    - qt5-svg
+    - qt5-translations
+    - python-qt5
+install    : |
+  install -Dm755 qarte "$installdir"/usr/bin/qarte
+  install -Dm644 qarte.1 "$installdir"/usr/share/man/man1/qarte.1
+  install -Dm644 q_arte.desktop "$installdir"/usr/share/applications/q_arte.desktop
+  install -Dm644 qarte.png "$installdir"/usr/share/pixmaps/qarte.png
+
+  install -d "$installdir"/usr/share/qarte
+  cp -rp * "$installdir"/usr/share/qarte
+
+  mv "$installdir"/usr/share/qarte/locale "$installdir"/usr/share
+  rm "$installdir"/usr/share/qarte/{qarte,qarte.1,q_arte.desktop,qarte.png}
+
+
