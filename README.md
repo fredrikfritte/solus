@@ -158,6 +158,10 @@ _The Bridge is an application that runs on your computer in the background and s
 
 _ProtonVPN CLI tool for protonvpn.com._
 
+- qarte
+
+_Allow you to browse into the archive of arte+7 & arteLiveWeb sites and to record your prefered videos._
+
 ## EXPERIMENTAL
 
  - nvidia 396.24
