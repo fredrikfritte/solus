@@ -1,8 +1,8 @@
 name       : protonvpn-cli
-version    : 20180610
+version    : 1.1.0
 release    : 1
 source     :
-    -  git|https://github.com/ProtonVPN/protonvpn-cli.git : 114d461c7c63e7db52d8af7d88731d38e12575cd
+    -  https://github.com/ProtonVPN/protonvpn-cli/archive/v1.1.0.tar.gz : 1a8eb6b2ab8bc6327eca920ad86b452aeff9470d3205e3fe4dfcc7a799937811
 license    : MIT
 component  : network
 summary    : ProtonVPN CLI tool for protonvpn.com

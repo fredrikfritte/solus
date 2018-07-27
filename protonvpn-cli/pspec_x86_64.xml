@@ -2,7 +2,7 @@
     <Source>
         <Name>protonvpn-cli</Name>
         <Packager>
-            <Name>Devil505</Name>
+            <Name>Daniel</Name>
             <Email>devil505@tuta.io</Email>
         </Packager>
         <License>MIT</License>
@@ -19,7 +19,6 @@
 </Description>
         <PartOf>network</PartOf>
         <Files>
-            <Path fileType="config">/etc/openvpn/update-resolv-conf</Path>
             <Path fileType="executable">/usr/bin/protonvpn-cli</Path>
             <Path fileType="executable">/usr/bin/pvpn</Path>
             <Path fileType="data">/usr/share/licenses/protonvpn-cli/LICENSE</Path>
@@ -27,10 +26,10 @@
     </Package>
     <History>
         <Update release="1">
-            <Date>2018-07-17</Date>
-            <Version>20180610</Version>
+            <Date>2018-07-27</Date>
+            <Version>1.1.0</Version>
             <Comment>Packaging update</Comment>
-            <Name>Devil505</Name>
+            <Name>Daniel</Name>
             <Email>devil505@tuta.io</Email>
         </Update>
     </History>
