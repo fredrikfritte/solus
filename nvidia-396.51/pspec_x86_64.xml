@@ -20,7 +20,7 @@
 </Description>
         <PartOf>kernel.drivers</PartOf>
         <RuntimeDependencies>
-            <Dependency releaseFrom="252">nvidia-glx-driver-common</Dependency>
+            <Dependency releaseFrom="254">nvidia-glx-driver-common</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="data">/lib/modules/4.9.116-102.lts/kernel/drivers/video/nvidia-drm.ko</Path>
@@ -36,7 +36,7 @@
 </Description>
         <PartOf>xorg.driver</PartOf>
         <RuntimeDependencies>
-            <Dependency releaseFrom="252">nvidia-glx-driver-common</Dependency>
+            <Dependency releaseFrom="254">nvidia-glx-driver-common</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="library">/usr/lib32/libEGL_nvidia.so</Path>
@@ -221,7 +221,7 @@
 </Description>
         <PartOf>kernel.drivers</PartOf>
         <RuntimeDependencies>
-            <Dependency releaseFrom="252">nvidia-glx-driver-common</Dependency>
+            <Dependency releaseFrom="254">nvidia-glx-driver-common</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="data">/lib/modules/4.17.11-84.current/kernel/drivers/video/nvidia-drm.ko</Path>
@@ -242,8 +242,8 @@
         </Files>
     </Package>
     <History>
-        <Update release="252">
-            <Date>2018-08-06</Date>
+        <Update release="254">
+            <Date>2018-08-07</Date>
             <Version>396.51</Version>
             <Comment>Packaging update</Comment>
             <Name>Devil505</Name>
