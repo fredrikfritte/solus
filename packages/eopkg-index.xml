@@ -638,12 +638,12 @@
             <Dependency releaseFrom="4">libglvnd-32bit</Dependency>
             <Dependency releaseFrom="9">libxext-32bit</Dependency>
             <Dependency releaseFrom="51">glibc-32bit</Dependency>
-            <Dependency releaseFrom="254">nvidia-glx-driver-common</Dependency>
+            <Dependency releaseFrom="255">nvidia-glx-driver-common</Dependency>
             <Dependency>libva-vdpau-driver-32bit</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="254">
-                <Date>2018-08-07</Date>
+            <Update release="255">
+                <Date>2018-08-11</Date>
                 <Version>396.51</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Devil505</Name>
@@ -655,9 +655,9 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>174520490</InstalledSize>
-        <PackageSize>45473558</PackageSize>
-        <PackageHash>1f57afd895d32987257e65672c60436ae54845ee</PackageHash>
-        <PackageURI>nvidia-glx-driver-32bit-396.51-254-1-x86_64.eopkg</PackageURI>
+        <PackageSize>45473521</PackageSize>
+        <PackageHash>035ce2aa4d603475a3b001aa937cd1873801500f</PackageHash>
+        <PackageURI>nvidia-glx-driver-32bit-396.51-255-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>nvidia-glx-driver</Name>
@@ -682,8 +682,8 @@
             <Dependency releaseFrom="35">gdk-pixbuf</Dependency>
             <Dependency releaseFrom="9">libxext</Dependency>
             <Dependency releaseFrom="20">libatk</Dependency>
-            <Dependency releaseFrom="22">libgtk-2</Dependency>
-            <Dependency releaseFrom="78">libgtk-3</Dependency>
+            <Dependency releaseFrom="23">libgtk-2</Dependency>
+            <Dependency releaseFrom="80">libgtk-3</Dependency>
             <Dependency releaseFrom="4">libglvnd</Dependency>
             <Dependency releaseFrom="28">pango</Dependency>
             <Dependency>linux-driver-management</Dependency>
@@ -695,8 +695,8 @@
             <Package>nvidia-340-glx-driver-common</Package>
         </Conflicts>
         <History>
-            <Update release="254">
-                <Date>2018-08-07</Date>
+            <Update release="255">
+                <Date>2018-08-11</Date>
                 <Version>396.51</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Devil505</Name>
@@ -708,9 +708,9 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>200243859</InstalledSize>
-        <PackageSize>48282938</PackageSize>
-        <PackageHash>c24cb0f1258f5ad7c9ccb9e477e980a74281038f</PackageHash>
-        <PackageURI>nvidia-glx-driver-common-396.51-254-1-x86_64.eopkg</PackageURI>
+        <PackageSize>48282911</PackageSize>
+        <PackageHash>b1f23e7a42603eb54fedeb1162dc70535f3d0b41</PackageHash>
+        <PackageURI>nvidia-glx-driver-common-396.51-255-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>nvidia-glx-driver</Name>
@@ -728,12 +728,12 @@
         <PartOf>kernel.drivers</PartOf>
         <License>EULA</License>
         <RuntimeDependencies>
-            <Dependency release="102">linux-lts</Dependency>
-            <Dependency releaseFrom="254">nvidia-glx-driver-common</Dependency>
+            <Dependency release="103">linux-lts</Dependency>
+            <Dependency releaseFrom="255">nvidia-glx-driver-common</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="254">
-                <Date>2018-08-07</Date>
+            <Update release="255">
+                <Date>2018-08-11</Date>
                 <Version>396.51</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Devil505</Name>
@@ -745,9 +745,9 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>21588528</InstalledSize>
-        <PackageSize>8329387</PackageSize>
-        <PackageHash>01e8cd3441731362c7fe30195af181ef2f00fe4b</PackageHash>
-        <PackageURI>nvidia-glx-driver-396.51-254-1-x86_64.eopkg</PackageURI>
+        <PackageSize>8328925</PackageSize>
+        <PackageHash>6f7c1ceb61cd8fe29d70e4232ca43d0888d229ec</PackageHash>
+        <PackageURI>nvidia-glx-driver-396.51-255-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>nvidia-glx-driver</Name>
@@ -812,8 +812,8 @@
         <PartOf>kernel.drivers</PartOf>
         <License>EULA</License>
         <History>
-            <Update release="254">
-                <Date>2018-08-07</Date>
+            <Update release="255">
+                <Date>2018-08-11</Date>
                 <Version>396.51</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Devil505</Name>
@@ -826,8 +826,8 @@
         <Architecture>x86_64</Architecture>
         <InstalledSize>35448</InstalledSize>
         <PackageSize>1778</PackageSize>
-        <PackageHash>e7651cb3ced05bf621d2ee22b083b1617155a5a7</PackageHash>
-        <PackageURI>nvidia-glx-driver-modaliases-396.51-254-1-x86_64.eopkg</PackageURI>
+        <PackageHash>61290fa6c943ca9bfaa43a841d0609e562d07cd1</PackageHash>
+        <PackageURI>nvidia-glx-driver-modaliases-396.51-255-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>nvidia-glx-driver</Name>
@@ -1254,12 +1254,12 @@
         <PartOf>kernel.drivers</PartOf>
         <License>EULA</License>
         <RuntimeDependencies>
-            <Dependency release="84">linux-current</Dependency>
-            <Dependency releaseFrom="254">nvidia-glx-driver-common</Dependency>
+            <Dependency release="85">linux-current</Dependency>
+            <Dependency releaseFrom="255">nvidia-glx-driver-common</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="254">
-                <Date>2018-08-07</Date>
+            <Update release="255">
+                <Date>2018-08-11</Date>
                 <Version>396.51</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Devil505</Name>
@@ -1271,9 +1271,9 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>22146848</InstalledSize>
-        <PackageSize>8366080</PackageSize>
-        <PackageHash>d2335efff5b79e05ccd8c76fabe5263711871847</PackageHash>
-        <PackageURI>nvidia-glx-driver-current-396.51-254-1-x86_64.eopkg</PackageURI>
+        <PackageSize>8366086</PackageSize>
+        <PackageHash>1079b51d657017120765c44760b23a53cde0aaf7</PackageHash>
+        <PackageURI>nvidia-glx-driver-current-396.51-255-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>nvidia-glx-driver</Name>
