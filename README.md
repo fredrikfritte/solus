@@ -4,19 +4,27 @@ This is my Solus 3rd-party repo source.
 
 *These packages are not official so not reviewed or supported by the Solus team.*
 
+## Addiing the repo
+
+ sudo eopkg add-repo devil505 https://gitlab.com/devil505/solus-3rd-party-repo/raw/master/packages/eopkg-index.xml.xz
+ 
+## Enabling the Repository
+
+ sudo eopkg enable-repo devil505
+
+## Removing the Repository
+
+ sudo eopkg remove-repo devil505
+
+## Disabling the 
+
+ sudo eopkg disable-repo devil505
+
 ## Want a package in official repo ?
 
 Make a feature request at <http://dev.solus-project.com/>
 
 If the Solus dev team is interested, I'll provide a patch to them
-
-## Download link
-
-All packages are hosted here: <https://www.dropbox.com/sh/p6ykxnrrpbxc8s2/AACW26gI6L42Z5_KZJca5U5Va?dl=0>
-
-## How to install eopkg file
-
-Download them and install them with sudo eopkg it package-X.X.X-X-X-x86_64.eopkg
 
 ## Packages list
 
@@ -164,6 +172,6 @@ _Allow you to browse into the archive of arte+7 & arteLiveWeb sites and to recor
 
 ## EXPERIMENTAL
 
- - nvidia 396.24
+ - nvidia 396.51
 
-It's the NVIDIA driver 396.24, you can install the packages, be aware it can broken your system after an kernel upgrade from Solus official repo !!!
+It's the NVIDIA driver 396.51, you can install the packages, be aware it can broken your system after an kernel upgrade from Solus official repo !!!
