@@ -1,5 +1,40 @@
 <PISI>
     <Package>
+        <Name>wireguard-current</Name>
+        <Summary xml:lang="en">wireguard module for linux-current</Summary>
+        <Description xml:lang="en">WireGuard® is an extremely simple yet fast and modern VPN that utilizes state-of-the-art cryptography. It aims to be faster, simpler, leaner, and more useful than IPSec, while avoiding the massive headache. It intends to be considerably more performant than OpenVPN. WireGuard is designed as a general purpose VPN for running on embedded interfaces and super computers alike, fit for many different circumstances. Initially released for the Linux kernel, it is now cross-platform and widely deployable. It is currently under heavy development, but already it might be regarded as the most secure, easiest to use, and simplest VPN solution in the industry.</Description>
+        <PartOf>kernel.drivers</PartOf>
+        <License>GPL-2.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency release="85">linux-current</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2018-08-12</Date>
+                <Version>0.0.20180809</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Devil505</Name>
+                <Email>devil505@tuta.io</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>330408</InstalledSize>
+        <PackageSize>87287</PackageSize>
+        <PackageHash>7188e0daddcdddd27524935ee8daa3a62a0fe7fb</PackageHash>
+        <PackageURI>wireguard-current-0.0.20180809-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>wireguard</Name>
+            <Packager>
+                <Name>Devil505</Name>
+                <Email>devil505@tuta.io</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>openresolv</Name>
         <Summary xml:lang="en">resolv.conf management framework (resolvconf)</Summary>
         <Description xml:lang="en">Enter resolvconf, the middleman between the network configuration services and /etc/resolv.conf. resolvconf itself is just a script that stores, removes and lists a full resolv.conf generated for the interface. It then calls all the helper scripts it knows about so it can configure the real /etc/resolv.conf and optionally any local nameservers other than libc.</Description>
@@ -193,6 +228,53 @@
             <Packager>
                 <Name>Devil505</Name>
                 <Email>devil505linux@gmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>qomui</Name>
+        <Summary xml:lang="en">OpenVPN Gui with advanced features and support for multiple providers</Summary>
+        <Description xml:lang="en">Qomui (Qt OpenVPN Management UI) is an easy-to-use OpenVPN Gui for GNU/Linux with some unique features such as provider-independent support for double-hop connections. Qomui supports multiple providers with added convenience when using AirVPN, PIA, ProtonVPN, Windscribe or Mullvad.</Description>
+        <PartOf>network.clients</PartOf>
+        <License>GPL-3.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency>bind-utils</Dependency>
+            <Dependency>dnsmasq</Dependency>
+            <Dependency>openvpn</Dependency>
+            <Dependency>python-beautifulsoup4</Dependency>
+            <Dependency>python-dbus</Dependency>
+            <Dependency>python-geoip</Dependency>
+            <Dependency>python-lxml</Dependency>
+            <Dependency>python-pexpect</Dependency>
+            <Dependency>python-psutil</Dependency>
+            <Dependency>python-pycountry</Dependency>
+            <Dependency>python-qtpy</Dependency>
+            <Dependency>python-requests</Dependency>
+            <Dependency>stunnel</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2018-08-12</Date>
+                <Version>0.6.3</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Devil505</Name>
+                <Email>devil505@tuta.io</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>3314132</InstalledSize>
+        <PackageSize>2879449</PackageSize>
+        <PackageHash>a5dea5b7b9b46de8fc3f3346927070b04265b069</PackageHash>
+        <PackageURI>qomui-0.6.3-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>qomui</Name>
+            <Packager>
+                <Name>Devil505</Name>
+                <Email>devil505@tuta.io</Email>
             </Packager>
         </Source>
     </Package>
@@ -722,6 +804,41 @@
         </Source>
     </Package>
     <Package>
+        <Name>wireguard</Name>
+        <Summary xml:lang="en">Fast and secure kernelspace VPN</Summary>
+        <Description xml:lang="en">WireGuard® is an extremely simple yet fast and modern VPN that utilizes state-of-the-art cryptography. It aims to be faster, simpler, leaner, and more useful than IPSec, while avoiding the massive headache. It intends to be considerably more performant than OpenVPN. WireGuard is designed as a general purpose VPN for running on embedded interfaces and super computers alike, fit for many different circumstances. Initially released for the Linux kernel, it is now cross-platform and widely deployable. It is currently under heavy development, but already it might be regarded as the most secure, easiest to use, and simplest VPN solution in the industry.</Description>
+        <PartOf>kernel.drivers</PartOf>
+        <License>GPL-2.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency release="85">linux-current</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2018-08-12</Date>
+                <Version>0.0.20180809</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Devil505</Name>
+                <Email>devil505@tuta.io</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>330344</InstalledSize>
+        <PackageSize>87282</PackageSize>
+        <PackageHash>e3bf6375a69d1f371d5a93059106d75acc374319</PackageHash>
+        <PackageURI>wireguard-0.0.20180809-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>wireguard</Name>
+            <Packager>
+                <Name>Devil505</Name>
+                <Email>devil505@tuta.io</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>nvidia-glx-driver</Name>
         <Summary xml:lang="en">NVIDIA Binary Driver (LTS Kernel)</Summary>
         <Description xml:lang="en">NVIDIA Binary Driver</Description>
@@ -1033,24 +1150,24 @@
         </Source>
     </Package>
     <Package>
-        <Name>palaura</Name>
-        <Summary xml:lang="en">Find any word&apos;s definition with this handy dictionary</Summary>
-        <Description xml:lang="en">Find any word&apos;s definition, and details about it, with this handy dictionary by your side.</Description>
-        <PartOf>office</PartOf>
+        <Name>monilet</Name>
+        <Summary xml:lang="en">It&apos;s a system monitor applet.</Summary>
+        <Description xml:lang="en">See percentage of use your CPU and number of cores. Also percentage used memory, amount of memory used and total memory.</Description>
+        <PartOf>system.utils</PartOf>
         <License>GPL-3.0-or-later</License>
         <RuntimeDependencies>
             <Dependency releaseFrom="78">libgtk-3</Dependency>
-            <Dependency releaseFrom="45">glib2</Dependency>
-            <Dependency releaseFrom="11">libgee</Dependency>
-            <Dependency releaseFrom="14">libjson-glib</Dependency>
+            <Dependency releaseFrom="12">libgtop</Dependency>
+            <Dependency releaseFrom="36">libcairo</Dependency>
             <Dependency releaseFrom="9">granite</Dependency>
             <Dependency releaseFrom="51">glibc</Dependency>
-            <Dependency releaseFrom="20">libsoup</Dependency>
+            <Dependency releaseFrom="45">glib2</Dependency>
+            <Dependency releaseFrom="23">pango</Dependency>
         </RuntimeDependencies>
         <History>
             <Update release="2">
                 <Date>2018-06-30</Date>
-                <Version>1.0.1</Version>
+                <Version>0.1.9</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Devil505</Name>
                 <Email>devil505@tuta.io</Email>
@@ -1060,13 +1177,13 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>174141</InstalledSize>
-        <PackageSize>36664</PackageSize>
-        <PackageHash>ef9a6aace848a6ea76d10189ce800351403c1fdd</PackageHash>
-        <PackageURI>palaura-1.0.1-2-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>157784</InstalledSize>
+        <PackageSize>30438</PackageSize>
+        <PackageHash>92bc123ad5be93b8a467ab656afce1dc999e4622</PackageHash>
+        <PackageURI>monilet-0.1.9-2-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
-            <Name>palaura</Name>
+            <Name>monilet</Name>
             <Packager>
                 <Name>Devil505</Name>
                 <Email>devil505@tuta.io</Email>
@@ -1672,24 +1789,19 @@
         </Source>
     </Package>
     <Package>
-        <Name>monilet</Name>
-        <Summary xml:lang="en">It&apos;s a system monitor applet.</Summary>
-        <Description xml:lang="en">See percentage of use your CPU and number of cores. Also percentage used memory, amount of memory used and total memory.</Description>
-        <PartOf>system.utils</PartOf>
-        <License>GPL-3.0-or-later</License>
+        <Name>wireguard-tools</Name>
+        <Summary xml:lang="en">wireguard tools</Summary>
+        <Description xml:lang="en">WireGuard® is an extremely simple yet fast and modern VPN that utilizes state-of-the-art cryptography. It aims to be faster, simpler, leaner, and more useful than IPSec, while avoiding the massive headache. It intends to be considerably more performant than OpenVPN. WireGuard is designed as a general purpose VPN for running on embedded interfaces and super computers alike, fit for many different circumstances. Initially released for the Linux kernel, it is now cross-platform and widely deployable. It is currently under heavy development, but already it might be regarded as the most secure, easiest to use, and simplest VPN solution in the industry.</Description>
+        <PartOf>network.clients</PartOf>
+        <License>GPL-2.0-or-later</License>
         <RuntimeDependencies>
-            <Dependency releaseFrom="78">libgtk-3</Dependency>
-            <Dependency releaseFrom="12">libgtop</Dependency>
-            <Dependency releaseFrom="36">libcairo</Dependency>
-            <Dependency releaseFrom="9">granite</Dependency>
+            <Dependency releaseFrom="3">libmnl</Dependency>
             <Dependency releaseFrom="51">glibc</Dependency>
-            <Dependency releaseFrom="45">glib2</Dependency>
-            <Dependency releaseFrom="23">pango</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="2">
-                <Date>2018-06-30</Date>
-                <Version>0.1.9</Version>
+            <Update release="1">
+                <Date>2018-08-12</Date>
+                <Version>0.0.20180809</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Devil505</Name>
                 <Email>devil505@tuta.io</Email>
@@ -1699,13 +1811,54 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>157784</InstalledSize>
-        <PackageSize>30438</PackageSize>
-        <PackageHash>92bc123ad5be93b8a467ab656afce1dc999e4622</PackageHash>
-        <PackageURI>monilet-0.1.9-2-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>130992</InstalledSize>
+        <PackageSize>48861</PackageSize>
+        <PackageHash>bb38d77c68ed0d0074ca3fa7b9360533e681b235</PackageHash>
+        <PackageURI>wireguard-tools-0.0.20180809-1-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
-            <Name>monilet</Name>
+            <Name>wireguard</Name>
+            <Packager>
+                <Name>Devil505</Name>
+                <Email>devil505@tuta.io</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>palaura</Name>
+        <Summary xml:lang="en">Find any word&apos;s definition with this handy dictionary</Summary>
+        <Description xml:lang="en">Find any word&apos;s definition, and details about it, with this handy dictionary by your side.</Description>
+        <PartOf>office</PartOf>
+        <License>GPL-3.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="78">libgtk-3</Dependency>
+            <Dependency releaseFrom="45">glib2</Dependency>
+            <Dependency releaseFrom="11">libgee</Dependency>
+            <Dependency releaseFrom="14">libjson-glib</Dependency>
+            <Dependency releaseFrom="9">granite</Dependency>
+            <Dependency releaseFrom="51">glibc</Dependency>
+            <Dependency releaseFrom="20">libsoup</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="2">
+                <Date>2018-06-30</Date>
+                <Version>1.0.1</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Devil505</Name>
+                <Email>devil505@tuta.io</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>174141</InstalledSize>
+        <PackageSize>36664</PackageSize>
+        <PackageHash>ef9a6aace848a6ea76d10189ce800351403c1fdd</PackageHash>
+        <PackageURI>palaura-1.0.1-2-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>palaura</Name>
             <Packager>
                 <Name>Devil505</Name>
                 <Email>devil505@tuta.io</Email>

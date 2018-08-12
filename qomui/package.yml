@@ -1,0 +1,30 @@
+name       : qomui
+version    : 0.6.3
+release    : 1
+source     :
+    -  https://github.com/corrad1nho/qomui/archive/v0.6.3.tar.gz : 3ad282d26e62c1eb8d89ce544eabd3b01d09255fe031f8e01a3be4d3f0172ccf
+license    : GPL-3.0-or-later
+component  : network.clients
+summary    : OpenVPN Gui with advanced features and support for multiple providers
+description: |
+    Qomui (Qt OpenVPN Management UI) is an easy-to-use OpenVPN Gui for GNU/Linux with some unique features such as provider-independent support for double-hop connections. Qomui supports multiple providers with added convenience when using AirVPN, PIA, ProtonVPN, Windscribe or Mullvad.
+builddeps  :
+    - python-setuptools
+rundeps  :
+    - bind-utils
+    - dnsmasq
+    - openvpn
+    - python-beautifulsoup4
+    - python-dbus
+    - python-geoip
+    - python-lxml
+    - python-pexpect
+    - python-psutil
+    - python-pycountry
+    - python-qtpy
+    - python-requests
+    - stunnel
+build      : |
+    %python3_setup
+install    : |
+    %python3_install
