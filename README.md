@@ -21,7 +21,7 @@ Solus 3rd Party Repo
 
 ## Want a package in Solus official repo ?
 
-Make a packagerequest at <http://dev.solus-project.com/> or support the opened task (see below)
+Make a package request at <http://dev.solus-project.com/> or support the opened task (see below)
 
 If the Solus dev team is interested, I'll provide a patch to them.
 
