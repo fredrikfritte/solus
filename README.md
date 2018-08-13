@@ -3,7 +3,7 @@ Solus 3rd Party Repo
 
 *These packages are not officials, so not reviewed or supported by the Solus team.*
 
-## Addiing the repo
+## Adding the repo
 
 `sudo eopkg add-repo devil505 https://gitlab.com/devil505/solus-3rd-party-repo/raw/master/packages/eopkg-index.xml.xz`
  
@@ -15,7 +15,7 @@ Solus 3rd Party Repo
 
 `sudo eopkg remove-repo devil505`
 
-## Disabling the 
+## Disabling the Repository
 
 `sudo eopkg disable-repo devil505`
 
