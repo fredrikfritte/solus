@@ -58,11 +58,11 @@ If the Solus dev team is interested, I'll provide a patch to them.
 | nvidia-glx-driver-common-396.51 |  | 
 | nvidia-glx-driver-current-396.51 |  | 
 | nvidia-glx-driver-modaliases-396.51 |  | 
-| openresolv | [TASK 2931](https://dev.solus-project.com/T2931) |  | 
+| openresolv | [TASK 2931](https://dev.solus-project.com/T2931) | patch submitted [D3587](https://dev.solus-project.com/D3587) | 
 | palaura |  | 
 | playmymusic | [TASK 6683](https://dev.solus-project.com/T6683) | rejected... | 
 | protonmail-bridge-bin
-| protonvpn-cli | [TASK 6682](https://dev.solus-project.com/T6682) |  | 
+| protonvpn-cli | [TASK 6682](https://dev.solus-project.com/T6682) | patch submitted [D3588](https://dev.solus-project.com/D3588) | 
 | qarte |  | 
 | qomui | [TASK 6722](https://dev.solus-project.com/T6722) |  | 
 | quilter |  | 
