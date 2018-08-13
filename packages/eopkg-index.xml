@@ -41,12 +41,12 @@
         <PartOf>network</PartOf>
         <License>BSD</License>
         <History>
-            <Update release="1">
-                <Date>2018-02-27</Date>
+            <Update release="2">
+                <Date>2018-08-13</Date>
                 <Version>3.9.0</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Devil505</Name>
-                <Email>devil505linux@gmail.com</Email>
+                <Email>devil505@tuta.io</Email>
             </Update>
         </History>
         <BuildHost>solus</BuildHost>
@@ -54,15 +54,15 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>64773</InstalledSize>
-        <PackageSize>18582</PackageSize>
-        <PackageHash>d18a5a2b922af4af2f3c7c02d3e0b6c799f05ac5</PackageHash>
-        <PackageURI>openresolv-3.9.0-1-1-x86_64.eopkg</PackageURI>
+        <PackageSize>18573</PackageSize>
+        <PackageHash>95ea465fbeae42d6c48ebfc5be2de0283f92eafd</PackageHash>
+        <PackageURI>openresolv-3.9.0-2-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>openresolv</Name>
             <Packager>
                 <Name>Devil505</Name>
-                <Email>devil505linux@gmail.com</Email>
+                <Email>devil505@tuta.io</Email>
             </Packager>
         </Source>
     </Package>
@@ -662,50 +662,66 @@
         </Source>
     </Package>
     <Package>
-        <Name>megasync</Name>
-        <Summary xml:lang="en">Sync your files to your Mega account.</Summary>
-        <Description xml:lang="en">Easy automated syncing between your computers and your MEGA Cloud Drive.</Description>
-        <PartOf>network.clients</PartOf>
-        <License>MEGA LIMITED CODE REVIEW LICENCE</License>
+        <Name>duckietv</Name>
+        <Summary xml:lang="en">A personalized calendar that tracks the shows you like</Summary>
+        <Description xml:lang="en">DuckieTV is an application that takes care of TV-Show addicts by providing a personalized TV-Show calendar.</Description>
+        <PartOf>network.web</PartOf>
+        <License>MIT</License>
         <RuntimeDependencies>
-            <Dependency releaseFrom="3">libsodium</Dependency>
-            <Dependency releaseFrom="23">qt5-base</Dependency>
-            <Dependency releaseFrom="4">libzen</Dependency>
-            <Dependency releaseFrom="51">glibc</Dependency>
-            <Dependency releaseFrom="6">cryptopp</Dependency>
-            <Dependency releaseFrom="32">openssl</Dependency>
-            <Dependency releaseFrom="11">libmediainfo</Dependency>
-            <Dependency releaseFrom="42">libstdc++</Dependency>
-            <Dependency releaseFrom="42">libgcc</Dependency>
-            <Dependency releaseFrom="26">sqlite3</Dependency>
-            <Dependency releaseFrom="42">curl</Dependency>
-            <Dependency releaseFrom="3">c-ares</Dependency>
-            <Dependency releaseFrom="2">libuv</Dependency>
-            <Dependency releaseFrom="10">qt5-svg</Dependency>
+            <Dependency releaseFrom="20">dbus</Dependency>
+            <Dependency releaseFrom="6">libxcomposite</Dependency>
+            <Dependency releaseFrom="10">libxi</Dependency>
+            <Dependency releaseFrom="12">expat</Dependency>
+            <Dependency releaseFrom="8">libxcursor</Dependency>
+            <Dependency releaseFrom="29">libstdc++</Dependency>
+            <Dependency releaseFrom="7">libxtst</Dependency>
+            <Dependency releaseFrom="29">libgcc</Dependency>
+            <Dependency releaseFrom="10">libnspr</Dependency>
+            <Dependency releaseFrom="13">libxcb</Dependency>
+            <Dependency releaseFrom="8">gconf</Dependency>
+            <Dependency releaseFrom="15">pango</Dependency>
+            <Dependency releaseFrom="15">cups</Dependency>
+            <Dependency releaseFrom="6">libxscrnsaver</Dependency>
+            <Dependency releaseFrom="38">glib2</Dependency>
+            <Dependency releaseFrom="64">libgtk-3</Dependency>
+            <Dependency releaseFrom="19">libnss</Dependency>
+            <Dependency releaseFrom="28">libcairo</Dependency>
+            <Dependency releaseFrom="16">alsa-lib</Dependency>
+            <Dependency releaseFrom="46">glibc</Dependency>
+            <Dependency releaseFrom="15">libx11</Dependency>
+            <Dependency releaseFrom="8">libxfixes</Dependency>
+            <Dependency releaseFrom="23">fontconfig</Dependency>
+            <Dependency releaseFrom="30">gdk-pixbuf</Dependency>
+            <Dependency releaseFrom="10">libxrender</Dependency>
+            <Dependency releaseFrom="18">libatk</Dependency>
+            <Dependency releaseFrom="7">libxdamage</Dependency>
+            <Dependency releaseFrom="8">libxext</Dependency>
+            <Dependency releaseFrom="8">libxrandr</Dependency>
+            <Dependency>nodejs</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="7">
-                <Date>2018-07-22</Date>
-                <Version>3.6.6.0</Version>
+            <Update release="1">
+                <Date>2017-10-15</Date>
+                <Version>1.1.5</Version>
                 <Comment>Packaging update</Comment>
-                <Name>Daniel</Name>
-                <Email>devil505@tuta.io</Email>
+                <Name>Devil505</Name>
+                <Email>devil505linux@gmail.com</Email>
             </Update>
         </History>
         <BuildHost>solus</BuildHost>
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>7815131</InstalledSize>
-        <PackageSize>3050734</PackageSize>
-        <PackageHash>71aedaf95ab86444593b6e1ce3e31a4130680b5e</PackageHash>
-        <PackageURI>megasync-3.6.6.0-7-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>181930502</InstalledSize>
+        <PackageSize>56753117</PackageSize>
+        <PackageHash>fb2ccbc37456e539045cf0f89cc71cf0c25aa0fa</PackageHash>
+        <PackageURI>duckietv-1.1.5-1-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
-            <Name>megasync</Name>
+            <Name>duckietv</Name>
             <Packager>
-                <Name>Daniel</Name>
-                <Email>devil505@tuta.io</Email>
+                <Name>Devil505</Name>
+                <Email>devil505linux@gmail.com</Email>
             </Packager>
         </Source>
     </Package>
@@ -1402,66 +1418,50 @@
         </Source>
     </Package>
     <Package>
-        <Name>duckietv</Name>
-        <Summary xml:lang="en">A personalized calendar that tracks the shows you like</Summary>
-        <Description xml:lang="en">DuckieTV is an application that takes care of TV-Show addicts by providing a personalized TV-Show calendar.</Description>
-        <PartOf>network.web</PartOf>
-        <License>MIT</License>
+        <Name>megasync</Name>
+        <Summary xml:lang="en">Sync your files to your Mega account.</Summary>
+        <Description xml:lang="en">Easy automated syncing between your computers and your MEGA Cloud Drive.</Description>
+        <PartOf>network.clients</PartOf>
+        <License>MEGA LIMITED CODE REVIEW LICENCE</License>
         <RuntimeDependencies>
-            <Dependency releaseFrom="20">dbus</Dependency>
-            <Dependency releaseFrom="6">libxcomposite</Dependency>
-            <Dependency releaseFrom="10">libxi</Dependency>
-            <Dependency releaseFrom="12">expat</Dependency>
-            <Dependency releaseFrom="8">libxcursor</Dependency>
-            <Dependency releaseFrom="29">libstdc++</Dependency>
-            <Dependency releaseFrom="7">libxtst</Dependency>
-            <Dependency releaseFrom="29">libgcc</Dependency>
-            <Dependency releaseFrom="10">libnspr</Dependency>
-            <Dependency releaseFrom="13">libxcb</Dependency>
-            <Dependency releaseFrom="8">gconf</Dependency>
-            <Dependency releaseFrom="15">pango</Dependency>
-            <Dependency releaseFrom="15">cups</Dependency>
-            <Dependency releaseFrom="6">libxscrnsaver</Dependency>
-            <Dependency releaseFrom="38">glib2</Dependency>
-            <Dependency releaseFrom="64">libgtk-3</Dependency>
-            <Dependency releaseFrom="19">libnss</Dependency>
-            <Dependency releaseFrom="28">libcairo</Dependency>
-            <Dependency releaseFrom="16">alsa-lib</Dependency>
-            <Dependency releaseFrom="46">glibc</Dependency>
-            <Dependency releaseFrom="15">libx11</Dependency>
-            <Dependency releaseFrom="8">libxfixes</Dependency>
-            <Dependency releaseFrom="23">fontconfig</Dependency>
-            <Dependency releaseFrom="30">gdk-pixbuf</Dependency>
-            <Dependency releaseFrom="10">libxrender</Dependency>
-            <Dependency releaseFrom="18">libatk</Dependency>
-            <Dependency releaseFrom="7">libxdamage</Dependency>
-            <Dependency releaseFrom="8">libxext</Dependency>
-            <Dependency releaseFrom="8">libxrandr</Dependency>
-            <Dependency>nodejs</Dependency>
+            <Dependency releaseFrom="3">libsodium</Dependency>
+            <Dependency releaseFrom="25">qt5-base</Dependency>
+            <Dependency releaseFrom="4">libzen</Dependency>
+            <Dependency releaseFrom="51">glibc</Dependency>
+            <Dependency releaseFrom="6">cryptopp</Dependency>
+            <Dependency releaseFrom="32">openssl</Dependency>
+            <Dependency releaseFrom="11">libmediainfo</Dependency>
+            <Dependency releaseFrom="42">libstdc++</Dependency>
+            <Dependency releaseFrom="42">libgcc</Dependency>
+            <Dependency releaseFrom="26">sqlite3</Dependency>
+            <Dependency releaseFrom="42">curl</Dependency>
+            <Dependency releaseFrom="3">c-ares</Dependency>
+            <Dependency releaseFrom="2">libuv</Dependency>
+            <Dependency releaseFrom="10">qt5-svg</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="1">
-                <Date>2017-10-15</Date>
-                <Version>1.1.5</Version>
+            <Update release="8">
+                <Date>2018-08-13</Date>
+                <Version>3.6.7.0</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Devil505</Name>
-                <Email>devil505linux@gmail.com</Email>
+                <Email>devil505@tuta.io</Email>
             </Update>
         </History>
         <BuildHost>solus</BuildHost>
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>181930502</InstalledSize>
-        <PackageSize>56753117</PackageSize>
-        <PackageHash>fb2ccbc37456e539045cf0f89cc71cf0c25aa0fa</PackageHash>
-        <PackageURI>duckietv-1.1.5-1-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>7897051</InstalledSize>
+        <PackageSize>3081129</PackageSize>
+        <PackageHash>e109fbe2dea7ae1e3da1646a735bb6d21e0e3eb3</PackageHash>
+        <PackageURI>megasync-3.6.7.0-8-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
-            <Name>duckietv</Name>
+            <Name>megasync</Name>
             <Packager>
                 <Name>Devil505</Name>
-                <Email>devil505linux@gmail.com</Email>
+                <Email>devil505@tuta.io</Email>
             </Packager>
         </Source>
     </Package>
@@ -1472,14 +1472,14 @@
         <PartOf>desktop.gnome</PartOf>
         <License>MEGA LIMITED CODE REVIEW LICENCE</License>
         <RuntimeDependencies>
-            <Dependency releaseFrom="48">nautilus-extension</Dependency>
+            <Dependency releaseFrom="51">nautilus-extension</Dependency>
             <Dependency releaseFrom="51">glibc</Dependency>
             <Dependency releaseFrom="45">glib2</Dependency>
         </RuntimeDependencies>
         <History>
             <Update release="1">
-                <Date>2018-06-09</Date>
-                <Version>3.6.6.0</Version>
+                <Date>2018-08-13</Date>
+                <Version>3.6.7.0</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Devil505</Name>
                 <Email>devil505@tuta.io</Email>
@@ -1490,9 +1490,9 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>64308</InstalledSize>
-        <PackageSize>46996</PackageSize>
-        <PackageHash>ae269e09745fe30bd63daebc3781ebc5553a285f</PackageHash>
-        <PackageURI>nautilus-megasync-3.6.6.0-1-1-x86_64.eopkg</PackageURI>
+        <PackageSize>46995</PackageSize>
+        <PackageHash>a63f792416e05eb5072daa78a34ae06d739b3b85</PackageHash>
+        <PackageURI>nautilus-megasync-3.6.7.0-1-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>nautilus-megasync</Name>
