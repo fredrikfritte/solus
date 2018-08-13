@@ -32,9 +32,9 @@ If the Solus dev team is interested, I'll provide a patch to them.
 | --- | --- | ---
 | aesop |  | 
 | audience |  | 
-| budgie-brightness-applet |  | 
+| budgie-brightness-applet | [TASK 5945](https://dev.solus-project.com/T5495) | 
 | budgie-extra |  | 
-| budgie-weather-applet |  | 
+| budgie-weather-applet | [TASK 4482](https://dev.solus-project.com/T4482) | 
 | ciano |  | 
 | duckietv | [TASK 1338](https://dev.solus-project.com/T1338) |  | 
 | elementary-calendar |  | 
@@ -68,7 +68,7 @@ If the Solus dev team is interested, I'll provide a patch to them.
 | quilter |  | 
 | screencast |  | 
 | showmypictures |  | 
-| stacer |  | 
+| stacer | [TASK 5321](https://dev.solus-project.com/T5321) | 
 | tutrl | [TASK 535](https://dev.solus-project.com/T535) |  | 
 | wireguard | [TASK 3778](https://dev.solus-project.com/T3778) |  | 
 | wireguard-current | [TASK 3778](https://dev.solus-project.com/T3778) |  | 
