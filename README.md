@@ -20,158 +20,60 @@ This is my Solus 3rd-party repo source.
 
  sudo eopkg disable-repo devil505
 
-## Want a package in official repo ?
+## Want a package in Solus official repo ?
 
-Make a feature request at <http://dev.solus-project.com/>
+Make a packagerequest at <http://dev.solus-project.com/> or support the opened task (see below)
 
-If the Solus dev team is interested, I'll provide a patch to them
+If the Solus dev team is interested, I'll provide a patch to them.
 
 ## Packages list
 
-- duckietv
-
-  _DuckieTV is an application that takes care of TV-Show addicts by providing a personalized TV-Show calendar._
-
-- megasync
-
-  _Easy automated syncing between your computers and your MEGA Cloud Drive._
-
-- nautilus-megasync
-
-  _Upload your files to your Mega account from nautilus._
-
-- gimp-lensfun
-
-  _GIMP plugin for correcting lens distortion using the lensfun library and database._
-
-- gimp-plugin-beautify
-
-  _GIMP Beautify is a set of GIMP plug-ins for quickly and easily beautify photo._
-
-  *Don't forget to install textures as explained here: <https://github.com/hejiann/beautify/wiki/Textures-Download>*
-
-- gimp-plugin-bimp
-
-  _BIMP. Batch Image Manipulation Plugin for GIMP._
-
-- karim
-
-  _Graphical interface for command-line tool youtube-dl_
-
-- quilter
-
-  _Focus on your writing._
-
-- screencast
-
-  _Simple screen recorder_
-
-- audience
-
-  _Audience videos app designed for elementary OS._
-
-- ciano
-
-  _A simple multimedia file converter._
-
-- geth
-
-  _Official golang implementation of the Ethereum protocol._
-
-- turtl
-
-  _Turtl lets you take notes, bookmark websites, and store documents for sensitive projects._
-
-- gbml
-
-  _Gaming Backup Multitool for Linux - Backup utility and database for Linux Steam games._
-
-- notejot
-
-  _Stupidly-simple sticky notes applet._
-
-- openresolv
-
-  _resolv.conf management framework (resolvconf)_
-
-- eradio
-
-  _A minimalist and powerful radio player._
-
-- imageburner
-
-  _A simple imageburner._
-
-- playmymusic
-
-  _A music player for listening to local music files, online radios, and Audio CD's._
-
-- showmypictures
-
-  _An image viewer for managing local image files._
-
-- budgie-extras
-
-  _Budgie plugins from Ubuntu Budgie (be aware, not all plugins are working, just some of them)_
-
-- budgie-brightness-applet
-
-  _Brightness control applet for budgie desktop._
-
-- budgie-weather-applet
-
-  _A weather applet for Budgie Desktop_
-
-- news
-
- _network.news._
-
-- screenshot-tool
-
- _Screenshot tool designed for elementary OS._
-
-- elementary-calendar
-
- _Desktop calendar app designed for elementary OS._
-
-- stacer
-
- _Linux System Optimizer and Monitoring._
-
-- aesop
-
-_The simplest PDF viewer around._
-
-- pwned-checker
-
-_Simple application for checking if a password is found in Pwned Passwords repository._
-
-- palaura
-
-_Find any word's definition with this handy dictionary_
-
-- monilet
-
-_See percentage of use your CPU and number of cores. Also percentage used memory, amount of memory used and total memory._
-
-- findfileconflicts
-
-_Helps to find file names which could have conflicts._
-
-- protonmail-bridge-bin
-
-_The Bridge is an application that runs on your computer in the background and seamlessly encrypts and decrypts your mail as it enters and leaves your computer._
-
-- protonvpn-cli
-
-_ProtonVPN CLI tool for protonvpn.com._
-
-- qarte
-
-_Allow you to browse into the archive of arte+7 & arteLiveWeb sites and to record your prefered videos._
-
-## EXPERIMENTAL
-
- - nvidia 396.51
-
-It's the NVIDIA driver 396.51, you can install the packages, be aware it can broken your system after an kernel upgrade from Solus official repo !!!
+aesop
+audience
+budgie-brightness-applet
+budgie-extra
+budgie-weather-applet
+ciano
+duckietv [TASK 1338](https://dev.solus-project.com/T1338)
+elementary-calendar
+elementary-calendar-devel
+eradio
+findfileconflicts
+gbml [TASK 5949](https://dev.solus-project.com/T5949) Patch submitted [D3544](https://dev.solus-project.com/D3544)
+geth
+gimp-lensfun
+gimp-plugin-beautify
+gimp-plugin-bimp
+imageburner
+karim
+megasync [TASK 163](https://dev.solus-project.com/T163) rejected but they can change their opinions later ;)
+monilet
+nautilus-megasync
+news
+notejot
+nvidia-glx-driver-32bit-396.51
+nvidia-glx-driver-396.51-255  EXPERIMENTAL, BE AWARE ! but people want it --> [TASK 5221](https://dev.solus-project.com/T5221)
+nvidia-glx-driver-common-396.51-255
+nvidia-glx-driver-current-396.51-255
+nvidia-glx-driver-modaliases-396.51-255
+openresolv [TASK 2931](https://dev.solus-project.com/T2931)
+palaura
+playmymusic [TASK 6683](https://dev.solus-project.com/T6683) rejected...
+protonmail-bridge-bin
+protonvpn-cli [TASK 6682](https://dev.solus-project.com/T6682)
+qarte
+qomui [TASK 6722](https://dev.solus-project.com/T6722)
+quilter
+screencast
+showmypictures
+stacer
+tutrl [TASK 535](https://dev.solus-project.com/T535)
+wireguard [TASK 3778](https://dev.solus-project.com/T3778)
+wireguard-current [TASK 3778](https://dev.solus-project.com/T3778)
+wireguard-tools [TASK 3778](https://dev.solus-project.com/T3778)
+
+## A problem ?
+
+Please fill a report [here](https://gitlab.com/devil505/solus-3rd-party-repo/issues)
+
+Don't post on Solus forums, subreddit...etc. Solus dev team seems bored to heard about this repo XD

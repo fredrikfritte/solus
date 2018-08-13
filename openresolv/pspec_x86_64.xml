@@ -3,7 +3,7 @@
         <Name>openresolv</Name>
         <Packager>
             <Name>Devil505</Name>
-            <Email>devil505linux@gmail.com</Email>
+            <Email>devil505@tuta.io</Email>
         </Packager>
         <License>BSD</License>
         <PartOf>network</PartOf>
@@ -27,16 +27,16 @@
             <Path fileType="data">/libexec/resolvconf/unbound</Path>
             <Path fileType="data">/man5/resolvconf.conf.5</Path>
             <Path fileType="data">/man8/resolvconf.8</Path>
-            <Path fileType="executable">/sbin</Path>
+            <Path fileType="executable">/sbin/resolvconf</Path>
         </Files>
     </Package>
     <History>
-        <Update release="1">
-            <Date>2018-02-27</Date>
+        <Update release="2">
+            <Date>2018-08-13</Date>
             <Version>3.9.0</Version>
             <Comment>Packaging update</Comment>
             <Name>Devil505</Name>
-            <Email>devil505linux@gmail.com</Email>
+            <Email>devil505@tuta.io</Email>
         </Update>
     </History>
 </PISI>

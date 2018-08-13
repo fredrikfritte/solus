@@ -43,8 +43,8 @@
     </Package>
     <History>
         <Update release="1">
-            <Date>2018-06-09</Date>
-            <Version>3.6.6.0</Version>
+            <Date>2018-08-13</Date>
+            <Version>3.6.7.0</Version>
             <Comment>Packaging update</Comment>
             <Name>Devil505</Name>
             <Email>devil505@tuta.io</Email>
