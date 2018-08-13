@@ -54,10 +54,10 @@ If the Solus dev team is interested, I'll provide a patch to them.
 | news |  | 
 | notejot |  | 
 | nvidia-glx-driver-32bit-396.51 |  | 
-| nvidia-glx-driver-396.51-255  | [TASK 5221](https://dev.solus-project.com/T5221) | EXPERIMENTAL, BE AWARE ! |
-| nvidia-glx-driver-common-396.51-255 |  | 
-| nvidia-glx-driver-current-396.51-255 |  | 
-| nvidia-glx-driver-modaliases-396.51-255 |  | 
+| nvidia-glx-driver-396.51 | [TASK 5221](https://dev.solus-project.com/T5221) | EXPERIMENTAL, BE AWARE ! |
+| nvidia-glx-driver-common-396.51 |  | 
+| nvidia-glx-driver-current-396.51 |  | 
+| nvidia-glx-driver-modaliases-396.51 |  | 
 | openresolv | [TASK 2931](https://dev.solus-project.com/T2931) |  | 
 | palaura |  | 
 | playmymusic | [TASK 6683](https://dev.solus-project.com/T6683) | rejected... | 
