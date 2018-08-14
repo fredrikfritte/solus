@@ -35,38 +35,6 @@
         </Source>
     </Package>
     <Package>
-        <Name>openresolv</Name>
-        <Summary xml:lang="en">resolv.conf management framework (resolvconf)</Summary>
-        <Description xml:lang="en">Enter resolvconf, the middleman between the network configuration services and /etc/resolv.conf. resolvconf itself is just a script that stores, removes and lists a full resolv.conf generated for the interface. It then calls all the helper scripts it knows about so it can configure the real /etc/resolv.conf and optionally any local nameservers other than libc.</Description>
-        <PartOf>network</PartOf>
-        <License>BSD</License>
-        <History>
-            <Update release="2">
-                <Date>2018-08-13</Date>
-                <Version>3.9.0</Version>
-                <Comment>Packaging update</Comment>
-                <Name>Devil505</Name>
-                <Email>devil505@tuta.io</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>64773</InstalledSize>
-        <PackageSize>18573</PackageSize>
-        <PackageHash>95ea465fbeae42d6c48ebfc5be2de0283f92eafd</PackageHash>
-        <PackageURI>openresolv-3.9.0-2-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>openresolv</Name>
-            <Packager>
-                <Name>Devil505</Name>
-                <Email>devil505@tuta.io</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
         <Name>ciano</Name>
         <Summary xml:lang="en">Multimedia converter</Summary>
         <Description xml:lang="en">A simple multimedia file converter.</Description>
@@ -442,20 +410,20 @@
         <Name>protonvpn-cli</Name>
         <Summary xml:lang="en">ProtonVPN CLI tool for protonvpn.com</Summary>
         <Description xml:lang="en">ProtonVPN CLI tool for protonvpn.com</Description>
-        <PartOf>network</PartOf>
+        <PartOf>network.clients</PartOf>
         <License>MIT</License>
         <RuntimeDependencies>
             <Dependency>dialog</Dependency>
-            <Dependency>openresolv</Dependency>
             <Dependency>openvpn</Dependency>
             <Dependency>procps-ng</Dependency>
+            <Dependency>python3</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="1">
-                <Date>2018-07-27</Date>
+            <Update release="2">
+                <Date>2018-08-14</Date>
                 <Version>1.1.0</Version>
                 <Comment>Packaging update</Comment>
-                <Name>Daniel</Name>
+                <Name>Devil505</Name>
                 <Email>devil505@tuta.io</Email>
             </Update>
         </History>
@@ -463,15 +431,15 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>40230</InstalledSize>
-        <PackageSize>10490</PackageSize>
-        <PackageHash>04bc629749256d8660fc794b5bd95a7009bc4c92</PackageHash>
-        <PackageURI>protonvpn-cli-1.1.0-1-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>40186</InstalledSize>
+        <PackageSize>10457</PackageSize>
+        <PackageHash>06b73244267d78960bd87f710fdd07cadaccf9cc</PackageHash>
+        <PackageURI>protonvpn-cli-1.1.0-2-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>protonvpn-cli</Name>
             <Packager>
-                <Name>Daniel</Name>
+                <Name>Devil505</Name>
                 <Email>devil505@tuta.io</Email>
             </Packager>
         </Source>
@@ -1045,45 +1013,6 @@
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>aesop</Name>
-            <Packager>
-                <Name>Devil505</Name>
-                <Email>devil505@tuta.io</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>pwned-checker</Name>
-        <Summary xml:lang="en">Simple application for interacting with haveibeenpwned API.</Summary>
-        <Description xml:lang="en">Simple application for checking if a password is found in Pwned Passwords repository.</Description>
-        <PartOf>network.web</PartOf>
-        <License>GPL-3.0-or-later</License>
-        <RuntimeDependencies>
-            <Dependency releaseFrom="14">libjson-glib</Dependency>
-            <Dependency releaseFrom="51">glibc</Dependency>
-            <Dependency releaseFrom="78">libgtk-3</Dependency>
-            <Dependency releaseFrom="20">libsoup</Dependency>
-            <Dependency releaseFrom="45">glib2</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="2">
-                <Date>2018-06-30</Date>
-                <Version>0.1.8</Version>
-                <Comment>Packaging update</Comment>
-                <Name>Devil505</Name>
-                <Email>devil505@tuta.io</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>230014</InstalledSize>
-        <PackageSize>29064</PackageSize>
-        <PackageHash>bfb7965b10c121bbb793c1f00e49a9b897439b83</PackageHash>
-        <PackageURI>pwned-checker-0.1.8-2-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>pwned-checker</Name>
             <Packager>
                 <Name>Devil505</Name>
                 <Email>devil505@tuta.io</Email>

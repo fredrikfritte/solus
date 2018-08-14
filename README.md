@@ -58,7 +58,6 @@ If the Solus dev team is interested, I'll provide a patch to them.
 | nvidia-glx-driver-common-396.51 |  | 
 | nvidia-glx-driver-current-396.51 |  | 
 | nvidia-glx-driver-modaliases-396.51 |  | 
-| openresolv | [TASK 2931](https://dev.solus-project.com/T2931) | patch submitted [D3587](https://dev.solus-project.com/D3587) | 
 | palaura |  | 
 | playmymusic | [TASK 6683](https://dev.solus-project.com/T6683) | rejected... | 
 | protonmail-bridge-bin

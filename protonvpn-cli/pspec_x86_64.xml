@@ -2,11 +2,11 @@
     <Source>
         <Name>protonvpn-cli</Name>
         <Packager>
-            <Name>Daniel</Name>
+            <Name>Devil505</Name>
             <Email>devil505@tuta.io</Email>
         </Packager>
         <License>MIT</License>
-        <PartOf>network</PartOf>
+        <PartOf>network.clients</PartOf>
         <Summary xml:lang="en">ProtonVPN CLI tool for protonvpn.com</Summary>
         <Description xml:lang="en">ProtonVPN CLI tool for protonvpn.com
 </Description>
@@ -17,19 +17,19 @@
         <Summary xml:lang="en">ProtonVPN CLI tool for protonvpn.com</Summary>
         <Description xml:lang="en">ProtonVPN CLI tool for protonvpn.com
 </Description>
-        <PartOf>network</PartOf>
+        <PartOf>network.clients</PartOf>
         <Files>
             <Path fileType="executable">/usr/bin/protonvpn-cli</Path>
             <Path fileType="executable">/usr/bin/pvpn</Path>
-            <Path fileType="data">/usr/share/licenses/protonvpn-cli/LICENSE</Path>
+            <Path fileType="doc">/usr/share/doc/protonvpn-cli/LICENSE</Path>
         </Files>
     </Package>
     <History>
-        <Update release="1">
-            <Date>2018-07-27</Date>
+        <Update release="2">
+            <Date>2018-08-14</Date>
             <Version>1.1.0</Version>
             <Comment>Packaging update</Comment>
-            <Name>Daniel</Name>
+            <Name>Devil505</Name>
             <Email>devil505@tuta.io</Email>
         </Update>
     </History>
