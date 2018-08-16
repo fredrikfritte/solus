@@ -24,12 +24,12 @@
             <Path fileType="executable">/usr/bin/qomui-cli</Path>
             <Path fileType="executable">/usr/bin/qomui-gui</Path>
             <Path fileType="executable">/usr/bin/qomui-service</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/qomui-0.6.4-py3.6.egg-info/PKG-INFO</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/qomui-0.6.4-py3.6.egg-info/SOURCES.txt</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/qomui-0.6.4-py3.6.egg-info/dependency_links.txt</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/qomui-0.6.4-py3.6.egg-info/entry_points.txt</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/qomui-0.6.4-py3.6.egg-info/requires.txt</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/qomui-0.6.4-py3.6.egg-info/top_level.txt</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/qomui-0.6.5-py3.6.egg-info/PKG-INFO</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/qomui-0.6.5-py3.6.egg-info/SOURCES.txt</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/qomui-0.6.5-py3.6.egg-info/dependency_links.txt</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/qomui-0.6.5-py3.6.egg-info/entry_points.txt</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/qomui-0.6.5-py3.6.egg-info/requires.txt</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/qomui-0.6.5-py3.6.egg-info/top_level.txt</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/qomui/__init__.py</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/qomui/__pycache__/__init__.cpython-36.pyc</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/qomui/__pycache__/bypass.cpython-36.pyc</Path>
@@ -59,6 +59,7 @@
             <Path fileType="data">/usr/share/qomui/ProtonVPN_config</Path>
             <Path fileType="data">/usr/share/qomui/VERSION</Path>
             <Path fileType="data">/usr/share/qomui/Windscribe_config</Path>
+            <Path fileType="data">/usr/share/qomui/countries.json</Path>
             <Path fileType="data">/usr/share/qomui/default_config.json</Path>
             <Path fileType="data">/usr/share/qomui/firewall_default.json</Path>
             <Path fileType="data">/usr/share/qomui/flags/Afghanistan.png</Path>
@@ -150,8 +151,8 @@
     </Package>
     <History>
         <Update release="1">
-            <Date>2018-08-12</Date>
-            <Version>0.6.4</Version>
+            <Date>2018-08-16</Date>
+            <Version>0.6.5</Version>
             <Comment>Packaging update</Comment>
             <Name>Devil505</Name>
             <Email>devil505@tuta.io</Email>

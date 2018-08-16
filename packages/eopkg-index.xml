@@ -215,15 +215,15 @@
             <Dependency>python-lxml</Dependency>
             <Dependency>python-pexpect</Dependency>
             <Dependency>python-psutil</Dependency>
-            <Dependency>python-pycountry</Dependency>
             <Dependency>python-qtpy</Dependency>
             <Dependency>python-requests</Dependency>
+            <Dependency>python-simplejson</Dependency>
             <Dependency>stunnel</Dependency>
         </RuntimeDependencies>
         <History>
             <Update release="1">
-                <Date>2018-08-12</Date>
-                <Version>0.6.4</Version>
+                <Date>2018-08-16</Date>
+                <Version>0.6.5</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Devil505</Name>
                 <Email>devil505@tuta.io</Email>
@@ -233,10 +233,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>3314990</InstalledSize>
-        <PackageSize>2879762</PackageSize>
-        <PackageHash>9afb585288d6bad8b91b481e91b7d0e0a8bdc343</PackageHash>
-        <PackageURI>qomui-0.6.4-1-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>3329615</InstalledSize>
+        <PackageSize>2884167</PackageSize>
+        <PackageHash>b836482e61b0eac813299fa87dc26e1fc6751e72</PackageHash>
+        <PackageURI>qomui-0.6.5-1-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>qomui</Name>

@@ -1,8 +1,8 @@
 name       : qomui
-version    : 0.6.4
+version    : 0.6.5
 release    : 1
 source     :
-    -  https://github.com/corrad1nho/qomui/archive/v0.6.4.tar.gz : 1a35f2bce0ba60ef8f4debd283c4836799d28310494abc7d439457a05437704c
+    -  https://github.com/corrad1nho/qomui/archive/v0.6.5.tar.gz : 103600898eb0213d1796a9fba808d9e362e2e2b5db9bdb2eb77cbe08c06e590c
 license    : GPL-3.0-or-later
 component  : network.clients
 summary    : OpenVPN Gui with advanced features and support for multiple providers
@@ -20,9 +20,9 @@ rundeps  :
     - python-lxml
     - python-pexpect
     - python-psutil
-    - python-pycountry
     - python-qtpy
     - python-requests
+    - python-simplejson
     - stunnel
 build      : |
     %python3_setup
