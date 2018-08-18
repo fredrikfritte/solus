@@ -35,6 +35,39 @@
         </Source>
     </Package>
     <Package>
+        <Name>nvidia-396-glx-driver-modaliases</Name>
+        <Summary xml:lang="en">These files are used by the Software Center for hardware detection</Summary>
+        <Description xml:lang="en">NVIDIA Binary Driver</Description>
+        <PartOf>kernel.drivers</PartOf>
+        <License>EULA</License>
+        <History>
+            <Update release="256">
+                <Date>2018-08-18</Date>
+                <Version>396.51</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Devil505</Name>
+                <Email>devil505@tuta.io</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>37496</InstalledSize>
+        <PackageSize>1793</PackageSize>
+        <PackageHash>c312ffbb824235042f8d6de7e6afafb650534388</PackageHash>
+        <PackageURI>nvidia-396-glx-driver-modaliases-396.51-256-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>nvidia-396-glx-driver</Name>
+            <Homepage>https://nvidia.com</Homepage>
+            <Packager>
+                <Name>Devil505</Name>
+                <Email>devil505@tuta.io</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>ciano</Name>
         <Summary xml:lang="en">Multimedia converter</Summary>
         <Description xml:lang="en">A simple multimedia file converter.</Description>
@@ -446,6 +479,43 @@
         </Source>
     </Package>
     <Package>
+        <Name>nvidia-396-glx-driver</Name>
+        <Summary xml:lang="en">NVIDIA 396xx Binary Driver (LTS Kernel)</Summary>
+        <Description xml:lang="en">NVIDIA Binary Driver</Description>
+        <PartOf>kernel.drivers</PartOf>
+        <License>EULA</License>
+        <RuntimeDependencies>
+            <Dependency release="104">linux-lts</Dependency>
+            <Dependency releaseFrom="256">nvidia-396-glx-driver-common</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="256">
+                <Date>2018-08-18</Date>
+                <Version>396.51</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Devil505</Name>
+                <Email>devil505@tuta.io</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>21588784</InstalledSize>
+        <PackageSize>8330960</PackageSize>
+        <PackageHash>77aac732e94fde13a91ec02c45e1081713317c6a</PackageHash>
+        <PackageURI>nvidia-396-glx-driver-396.51-256-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>nvidia-396-glx-driver</Name>
+            <Homepage>https://nvidia.com</Homepage>
+            <Packager>
+                <Name>Devil505</Name>
+                <Email>devil505@tuta.io</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>qarte</Name>
         <Summary xml:lang="en">Allow you to browse into the archive of arte+7 &amp; arteLiveWeb sites and to record your prefered videos.</Summary>
         <Description xml:lang="en">Allow you to browse into the archive of arte+7 &amp; arteLiveWeb sites and to record your prefered videos.</Description>
@@ -695,100 +765,6 @@
         </Source>
     </Package>
     <Package>
-        <Name>nvidia-glx-driver-32bit</Name>
-        <Summary xml:lang="en">32-bit libraries for nvidia-glx-driver</Summary>
-        <Description xml:lang="en">NVIDIA Binary Driver</Description>
-        <PartOf>xorg.driver</PartOf>
-        <License>EULA</License>
-        <RuntimeDependencies>
-            <Dependency releaseFrom="18">libx11-32bit</Dependency>
-            <Dependency releaseFrom="9">libxext</Dependency>
-            <Dependency releaseFrom="4">libglvnd-32bit</Dependency>
-            <Dependency releaseFrom="51">glibc-32bit</Dependency>
-            <Dependency releaseFrom="256">nvidia-glx-driver-common</Dependency>
-            <Dependency>libva-vdpau-driver-32bit</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="256">
-                <Date>2018-08-18</Date>
-                <Version>396.51</Version>
-                <Comment>Packaging update</Comment>
-                <Name>Devil505</Name>
-                <Email>devil505@tuta.io</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>174520490</InstalledSize>
-        <PackageSize>45473532</PackageSize>
-        <PackageHash>486773314ab169e120d6a59f9c91e05f231c75f5</PackageHash>
-        <PackageURI>nvidia-glx-driver-32bit-396.51-256-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>nvidia-glx-driver</Name>
-            <Homepage>https://nvidia.com</Homepage>
-            <Packager>
-                <Name>Devil505</Name>
-                <Email>devil505@tuta.io</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>nvidia-glx-driver-common</Name>
-        <Summary xml:lang="en">Shared assets for the NVIDIA GLX Driver</Summary>
-        <Description xml:lang="en">NVIDIA Binary Driver</Description>
-        <PartOf>xorg.driver</PartOf>
-        <License>EULA</License>
-        <RuntimeDependencies>
-            <Dependency releaseFrom="45">glib2</Dependency>
-            <Dependency releaseFrom="39">libcairo</Dependency>
-            <Dependency releaseFrom="51">glibc</Dependency>
-            <Dependency releaseFrom="18">libx11</Dependency>
-            <Dependency releaseFrom="35">gdk-pixbuf</Dependency>
-            <Dependency releaseFrom="9">libxext</Dependency>
-            <Dependency releaseFrom="20">libatk</Dependency>
-            <Dependency releaseFrom="23">libgtk-2</Dependency>
-            <Dependency releaseFrom="80">libgtk-3</Dependency>
-            <Dependency releaseFrom="4">libglvnd</Dependency>
-            <Dependency releaseFrom="28">pango</Dependency>
-            <Dependency>linux-driver-management</Dependency>
-            <Dependency>libva-vdpau-driver</Dependency>
-            <Dependency>egl-wayland</Dependency>
-        </RuntimeDependencies>
-        <Conflicts>
-            <Package>nvidia-304-glx-driver-common</Package>
-            <Package>nvidia-340-glx-driver-common</Package>
-        </Conflicts>
-        <History>
-            <Update release="256">
-                <Date>2018-08-18</Date>
-                <Version>396.51</Version>
-                <Comment>Packaging update</Comment>
-                <Name>Devil505</Name>
-                <Email>devil505@tuta.io</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>200243859</InstalledSize>
-        <PackageSize>48282961</PackageSize>
-        <PackageHash>4da11565535b937f793ee3e93d12412d0f2b6224</PackageHash>
-        <PackageURI>nvidia-glx-driver-common-396.51-256-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>nvidia-glx-driver</Name>
-            <Homepage>https://nvidia.com</Homepage>
-            <Packager>
-                <Name>Devil505</Name>
-                <Email>devil505@tuta.io</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
         <Name>wireguard</Name>
         <Summary xml:lang="en">Fast and secure kernelspace VPN</Summary>
         <Description xml:lang="en">WireGuard® is an extremely simple yet fast and modern VPN that utilizes state-of-the-art cryptography. It aims to be faster, simpler, leaner, and more useful than IPSec, while avoiding the massive headache. It intends to be considerably more performant than OpenVPN. WireGuard is designed as a general purpose VPN for running on embedded interfaces and super computers alike, fit for many different circumstances. Initially released for the Linux kernel, it is now cross-platform and widely deployable. It is currently under heavy development, but already it might be regarded as the most secure, easiest to use, and simplest VPN solution in the industry.</Description>
@@ -824,15 +800,32 @@
         </Source>
     </Package>
     <Package>
-        <Name>nvidia-glx-driver</Name>
-        <Summary xml:lang="en">NVIDIA Binary Driver (LTS Kernel)</Summary>
+        <Name>nvidia-396-glx-driver-common</Name>
+        <Summary xml:lang="en">Shared assets for the NVIDIA 396xx GLX Driver</Summary>
         <Description xml:lang="en">NVIDIA Binary Driver</Description>
-        <PartOf>kernel.drivers</PartOf>
+        <PartOf>xorg.driver</PartOf>
         <License>EULA</License>
         <RuntimeDependencies>
-            <Dependency release="104">linux-lts</Dependency>
-            <Dependency releaseFrom="256">nvidia-glx-driver-common</Dependency>
+            <Dependency releaseFrom="45">glib2</Dependency>
+            <Dependency releaseFrom="39">libcairo</Dependency>
+            <Dependency releaseFrom="51">glibc</Dependency>
+            <Dependency releaseFrom="18">libx11</Dependency>
+            <Dependency releaseFrom="35">gdk-pixbuf</Dependency>
+            <Dependency releaseFrom="9">libxext</Dependency>
+            <Dependency releaseFrom="20">libatk</Dependency>
+            <Dependency releaseFrom="23">libgtk-2</Dependency>
+            <Dependency releaseFrom="80">libgtk-3</Dependency>
+            <Dependency releaseFrom="4">libglvnd</Dependency>
+            <Dependency releaseFrom="28">pango</Dependency>
+            <Dependency>linux-driver-management</Dependency>
+            <Dependency>libva-vdpau-driver</Dependency>
+            <Dependency>egl-wayland</Dependency>
         </RuntimeDependencies>
+        <Conflicts>
+            <Package>nvidia-304-glx-driver-common</Package>
+            <Package>nvidia-340-glx-driver-common</Package>
+            <Package>nvidia-glx-driver-common</Package>
+        </Conflicts>
         <History>
             <Update release="256">
                 <Date>2018-08-18</Date>
@@ -846,13 +839,13 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>21588456</InstalledSize>
-        <PackageSize>8330827</PackageSize>
-        <PackageHash>1b85fb5c791f72b19ae466d83e1b9933af22e0ef</PackageHash>
-        <PackageURI>nvidia-glx-driver-396.51-256-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>200243859</InstalledSize>
+        <PackageSize>48282965</PackageSize>
+        <PackageHash>a3e5bf2e824a59c274624132c3b15365ce4d9274</PackageHash>
+        <PackageURI>nvidia-396-glx-driver-common-396.51-256-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
-            <Name>nvidia-glx-driver</Name>
+            <Name>nvidia-396-glx-driver</Name>
             <Homepage>https://nvidia.com</Homepage>
             <Packager>
                 <Name>Devil505</Name>
@@ -908,11 +901,15 @@
         </Source>
     </Package>
     <Package>
-        <Name>nvidia-glx-driver-modaliases</Name>
-        <Summary xml:lang="en">These files are used by the Software Center for hardware detection</Summary>
+        <Name>nvidia-396-glx-driver-current</Name>
+        <Summary xml:lang="en">NVIDIA 396xx Binary Driver (Current Kernel)</Summary>
         <Description xml:lang="en">NVIDIA Binary Driver</Description>
         <PartOf>kernel.drivers</PartOf>
         <License>EULA</License>
+        <RuntimeDependencies>
+            <Dependency release="86">linux-current</Dependency>
+            <Dependency releaseFrom="256">nvidia-396-glx-driver-common</Dependency>
+        </RuntimeDependencies>
         <History>
             <Update release="256">
                 <Date>2018-08-18</Date>
@@ -926,13 +923,13 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>35448</InstalledSize>
-        <PackageSize>1778</PackageSize>
-        <PackageHash>8f6cb51e893b930dc6bae41cf7ed33b5703de9ae</PackageHash>
-        <PackageURI>nvidia-glx-driver-modaliases-396.51-256-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>22147104</InstalledSize>
+        <PackageSize>8364357</PackageSize>
+        <PackageHash>d454d4407c697e2bf0b60f1add1613eec6af7cb5</PackageHash>
+        <PackageURI>nvidia-396-glx-driver-current-396.51-256-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
-            <Name>nvidia-glx-driver</Name>
+            <Name>nvidia-396-glx-driver</Name>
             <Homepage>https://nvidia.com</Homepage>
             <Packager>
                 <Name>Devil505</Name>
@@ -1021,6 +1018,47 @@
         </Source>
     </Package>
     <Package>
+        <Name>nvidia-396-glx-driver-32bit</Name>
+        <Summary xml:lang="en">32-bit libraries for nvidia-396-glx-driver</Summary>
+        <Description xml:lang="en">NVIDIA Binary Driver</Description>
+        <PartOf>xorg.driver</PartOf>
+        <License>EULA</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="18">libx11-32bit</Dependency>
+            <Dependency releaseFrom="9">libxext</Dependency>
+            <Dependency releaseFrom="4">libglvnd-32bit</Dependency>
+            <Dependency releaseFrom="51">glibc-32bit</Dependency>
+            <Dependency releaseFrom="256">nvidia-396-glx-driver-common</Dependency>
+            <Dependency>libva-vdpau-driver-32bit</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="256">
+                <Date>2018-08-18</Date>
+                <Version>396.51</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Devil505</Name>
+                <Email>devil505@tuta.io</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>174520490</InstalledSize>
+        <PackageSize>45473553</PackageSize>
+        <PackageHash>123608f36181a0e8416703574f08e9d0fd2aa040</PackageHash>
+        <PackageURI>nvidia-396-glx-driver-32bit-396.51-256-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>nvidia-396-glx-driver</Name>
+            <Homepage>https://nvidia.com</Homepage>
+            <Packager>
+                <Name>Devil505</Name>
+                <Email>devil505@tuta.io</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>protonmail-bridge-bin</Name>
         <Summary xml:lang="en">The Bridge is an application that runs on your computer in the background and seamlessly encrypts and decrypts your mail as it enters and leaves your computer.</Summary>
         <Description xml:lang="en">The Bridge is an application that runs on your computer in the background and seamlessly encrypts and decrypts your mail as it enters and leaves your computer.</Description>
@@ -1096,24 +1134,24 @@
         </Source>
     </Package>
     <Package>
-        <Name>monilet</Name>
-        <Summary xml:lang="en">It&apos;s a system monitor applet.</Summary>
-        <Description xml:lang="en">See percentage of use your CPU and number of cores. Also percentage used memory, amount of memory used and total memory.</Description>
-        <PartOf>system.utils</PartOf>
+        <Name>palaura</Name>
+        <Summary xml:lang="en">Find any word&apos;s definition with this handy dictionary</Summary>
+        <Description xml:lang="en">Find any word&apos;s definition, and details about it, with this handy dictionary by your side.</Description>
+        <PartOf>office</PartOf>
         <License>GPL-3.0-or-later</License>
         <RuntimeDependencies>
             <Dependency releaseFrom="78">libgtk-3</Dependency>
-            <Dependency releaseFrom="12">libgtop</Dependency>
-            <Dependency releaseFrom="36">libcairo</Dependency>
+            <Dependency releaseFrom="45">glib2</Dependency>
+            <Dependency releaseFrom="11">libgee</Dependency>
+            <Dependency releaseFrom="14">libjson-glib</Dependency>
             <Dependency releaseFrom="9">granite</Dependency>
             <Dependency releaseFrom="51">glibc</Dependency>
-            <Dependency releaseFrom="45">glib2</Dependency>
-            <Dependency releaseFrom="23">pango</Dependency>
+            <Dependency releaseFrom="20">libsoup</Dependency>
         </RuntimeDependencies>
         <History>
             <Update release="2">
                 <Date>2018-06-30</Date>
-                <Version>0.1.9</Version>
+                <Version>1.0.1</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Devil505</Name>
                 <Email>devil505@tuta.io</Email>
@@ -1123,13 +1161,13 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>157784</InstalledSize>
-        <PackageSize>30438</PackageSize>
-        <PackageHash>92bc123ad5be93b8a467ab656afce1dc999e4622</PackageHash>
-        <PackageURI>monilet-0.1.9-2-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>174141</InstalledSize>
+        <PackageSize>36664</PackageSize>
+        <PackageHash>ef9a6aace848a6ea76d10189ce800351403c1fdd</PackageHash>
+        <PackageURI>palaura-1.0.1-2-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
-            <Name>monilet</Name>
+            <Name>palaura</Name>
             <Packager>
                 <Name>Devil505</Name>
                 <Email>devil505@tuta.io</Email>
@@ -1304,43 +1342,6 @@
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>elementary-calendar</Name>
-            <Packager>
-                <Name>Devil505</Name>
-                <Email>devil505@tuta.io</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>nvidia-glx-driver-current</Name>
-        <Summary xml:lang="en">NVIDIA Binary Driver (Current Kernel)</Summary>
-        <Description xml:lang="en">NVIDIA Binary Driver</Description>
-        <PartOf>kernel.drivers</PartOf>
-        <License>EULA</License>
-        <RuntimeDependencies>
-            <Dependency release="86">linux-current</Dependency>
-            <Dependency releaseFrom="256">nvidia-glx-driver-common</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="256">
-                <Date>2018-08-18</Date>
-                <Version>396.51</Version>
-                <Comment>Packaging update</Comment>
-                <Name>Devil505</Name>
-                <Email>devil505@tuta.io</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>22146784</InstalledSize>
-        <PackageSize>8364411</PackageSize>
-        <PackageHash>9c352f73465d94ab2408f956e29957f681e2088c</PackageHash>
-        <PackageURI>nvidia-glx-driver-current-396.51-256-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>nvidia-glx-driver</Name>
-            <Homepage>https://nvidia.com</Homepage>
             <Packager>
                 <Name>Devil505</Name>
                 <Email>devil505@tuta.io</Email>
@@ -1755,24 +1756,24 @@
         </Source>
     </Package>
     <Package>
-        <Name>palaura</Name>
-        <Summary xml:lang="en">Find any word&apos;s definition with this handy dictionary</Summary>
-        <Description xml:lang="en">Find any word&apos;s definition, and details about it, with this handy dictionary by your side.</Description>
-        <PartOf>office</PartOf>
+        <Name>monilet</Name>
+        <Summary xml:lang="en">It&apos;s a system monitor applet.</Summary>
+        <Description xml:lang="en">See percentage of use your CPU and number of cores. Also percentage used memory, amount of memory used and total memory.</Description>
+        <PartOf>system.utils</PartOf>
         <License>GPL-3.0-or-later</License>
         <RuntimeDependencies>
             <Dependency releaseFrom="78">libgtk-3</Dependency>
-            <Dependency releaseFrom="45">glib2</Dependency>
-            <Dependency releaseFrom="11">libgee</Dependency>
-            <Dependency releaseFrom="14">libjson-glib</Dependency>
+            <Dependency releaseFrom="12">libgtop</Dependency>
+            <Dependency releaseFrom="36">libcairo</Dependency>
             <Dependency releaseFrom="9">granite</Dependency>
             <Dependency releaseFrom="51">glibc</Dependency>
-            <Dependency releaseFrom="20">libsoup</Dependency>
+            <Dependency releaseFrom="45">glib2</Dependency>
+            <Dependency releaseFrom="23">pango</Dependency>
         </RuntimeDependencies>
         <History>
             <Update release="2">
                 <Date>2018-06-30</Date>
-                <Version>1.0.1</Version>
+                <Version>0.1.9</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Devil505</Name>
                 <Email>devil505@tuta.io</Email>
@@ -1782,13 +1783,13 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>174141</InstalledSize>
-        <PackageSize>36664</PackageSize>
-        <PackageHash>ef9a6aace848a6ea76d10189ce800351403c1fdd</PackageHash>
-        <PackageURI>palaura-1.0.1-2-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>157784</InstalledSize>
+        <PackageSize>30438</PackageSize>
+        <PackageHash>92bc123ad5be93b8a467ab656afce1dc999e4622</PackageHash>
+        <PackageURI>monilet-0.1.9-2-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
-            <Name>palaura</Name>
+            <Name>monilet</Name>
             <Packager>
                 <Name>Devil505</Name>
                 <Email>devil505@tuta.io</Email>

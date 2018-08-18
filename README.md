@@ -53,11 +53,11 @@ If the Solus dev team is interested, I'll provide a patch to them.
 | nautilus-megasync |  | 
 | news |  | 
 | notejot |  | 
-| nvidia-glx-driver-32bit-396.51 |  | 
-| nvidia-glx-driver-396.51 | [TASK 5221](https://dev.solus-project.com/T5221) | EXPERIMENTAL, BE AWARE ! |
-| nvidia-glx-driver-common-396.51 |  | 
-| nvidia-glx-driver-current-396.51 |  | 
-| nvidia-glx-driver-modaliases-396.51 |  | 
+| nvidia-396-glx-driver-32bit |  | 
+| nvidia-396-glx-driver | [TASK 5221](https://dev.solus-project.com/T5221) | EXPERIMENTAL, BE AWARE ! |
+| nvidia-396-glx-driver-common |  | 
+| nvidia-396-glx-driver-current |  | 
+| nvidia-396-glx-driver-modaliases |  | 
 | palaura |  | 
 | playmymusic | [TASK 6683](https://dev.solus-project.com/T6683) | rejected... | 
 | protonmail-bridge-bin
