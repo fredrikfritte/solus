@@ -41,7 +41,7 @@ If the Solus dev team is interested, I'll provide a patch to them.
 | elementary-calendar-devel |  | 
 | eradio |  | 
 | findfileconflicts |  | 
-| gbml | [TASK 5949](https://dev.solus-project.com/T5949)  | patch submitted [D3544](https://dev.solus-project.com/D3544) | 
+| gbml | REMOVED | NOW IN SOLUS REPO ! |  
 | geth |  | 
 | gimp-lensfun |  | 
 | gimp-plugin-beautify |  | 
@@ -61,7 +61,7 @@ If the Solus dev team is interested, I'll provide a patch to them.
 | palaura |  | 
 | playmymusic | [TASK 6683](https://dev.solus-project.com/T6683) | rejected... | 
 | protonmail-bridge-bin
-| protonvpn-cli | [TASK 6682](https://dev.solus-project.com/T6682) | patch submitted [D3588](https://dev.solus-project.com/D3588) | 
+| protonvpn-cli | REMOVED | NOW IN SOLUS REPO ! | 
 | qarte |  | 
 | qomui | [TASK 6722](https://dev.solus-project.com/T6722) |  | 
 | quilter |  | 

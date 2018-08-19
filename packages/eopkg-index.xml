@@ -441,44 +441,6 @@
         </Source>
     </Package>
     <Package>
-        <Name>protonvpn-cli</Name>
-        <Summary xml:lang="en">ProtonVPN CLI tool for protonvpn.com</Summary>
-        <Description xml:lang="en">ProtonVPN CLI tool for protonvpn.com</Description>
-        <PartOf>network.clients</PartOf>
-        <License>MIT</License>
-        <RuntimeDependencies>
-            <Dependency>dialog</Dependency>
-            <Dependency>openvpn</Dependency>
-            <Dependency>procps-ng</Dependency>
-            <Dependency>python3</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="2">
-                <Date>2018-08-14</Date>
-                <Version>1.1.0</Version>
-                <Comment>Packaging update</Comment>
-                <Name>Devil505</Name>
-                <Email>devil505@tuta.io</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>40186</InstalledSize>
-        <PackageSize>10457</PackageSize>
-        <PackageHash>06b73244267d78960bd87f710fdd07cadaccf9cc</PackageHash>
-        <PackageURI>protonvpn-cli-1.1.0-2-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>protonvpn-cli</Name>
-            <Packager>
-                <Name>Devil505</Name>
-                <Email>devil505@tuta.io</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
         <Name>nvidia-396-glx-driver</Name>
         <Summary xml:lang="en">NVIDIA 396xx Binary Driver (LTS Kernel)</Summary>
         <Description xml:lang="en">NVIDIA Binary Driver</Description>
@@ -931,45 +893,6 @@
         <Source>
             <Name>nvidia-396-glx-driver</Name>
             <Homepage>https://nvidia.com</Homepage>
-            <Packager>
-                <Name>Devil505</Name>
-                <Email>devil505@tuta.io</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>gbml</Name>
-        <Summary xml:lang="en">Gaming Backup Multitool for Linux</Summary>
-        <Description xml:lang="en">Gaming Backup Multitool for Linux - Backup utility and database for Linux Steam games</Description>
-        <PartOf>games.platformer</PartOf>
-        <License>GPL-3.0-or-later</License>
-        <RuntimeDependencies>
-            <Dependency releaseFrom="42">libstdc++</Dependency>
-            <Dependency releaseFrom="51">glibc</Dependency>
-            <Dependency releaseFrom="42">libgcc</Dependency>
-            <Dependency releaseFrom="19">qt5-base</Dependency>
-            <Dependency>steam</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="1">
-                <Date>2018-06-09</Date>
-                <Version>1.4.0.0</Version>
-                <Comment>Packaging update</Comment>
-                <Name>Devil505</Name>
-                <Email>devil505@tuta.io</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>1796714</InstalledSize>
-        <PackageSize>734377</PackageSize>
-        <PackageHash>8a4372cb53a1af7bc85c97521739eff4a5857094</PackageHash>
-        <PackageURI>gbml-1.4.0.0-1-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>gbml</Name>
             <Packager>
                 <Name>Devil505</Name>
                 <Email>devil505@tuta.io</Email>
