@@ -41,7 +41,8 @@ If the Solus dev team is interested, I'll provide a patch to them.
 | elementary-calendar-devel |  | 
 | eradio |  | 
 | findfileconflicts |  | 
-| gbml | REMOVED | NOW IN SOLUS REPO ! |  
+| gamehub |  | 
+| gbml | REMOVED | NOW IN SOLUS REPO ! |
 | geth |  | 
 | gimp-lensfun |  | 
 | gimp-plugin-beautify |  | 

@@ -816,6 +816,51 @@
         </Source>
     </Package>
     <Package>
+        <Name>gamehub</Name>
+        <Summary xml:lang="en">Games manager/downloader/library written in Vala</Summary>
+        <Description xml:lang="en">Games manager/downloader/library written in Vala that supports GOG, Steam and Humble Bundle.</Description>
+        <PartOf>games.platformer</PartOf>
+        <License>WTFPL</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="53">libwebkit-gtk</Dependency>
+            <Dependency releaseFrom="80">libgtk-3</Dependency>
+            <Dependency releaseFrom="45">glib2</Dependency>
+            <Dependency releaseFrom="39">libcairo</Dependency>
+            <Dependency releaseFrom="51">glibc</Dependency>
+            <Dependency releaseFrom="26">sqlite3</Dependency>
+            <Dependency releaseFrom="35">gdk-pixbuf</Dependency>
+            <Dependency releaseFrom="11">libgee</Dependency>
+            <Dependency releaseFrom="14">libjson-glib</Dependency>
+            <Dependency releaseFrom="9">granite</Dependency>
+            <Dependency releaseFrom="22">libsoup</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2018-08-19</Date>
+                <Version>0.8.0</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Devil505</Name>
+                <Email>devil505@tuta.io</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>483782</InstalledSize>
+        <PackageSize>138430</PackageSize>
+        <PackageHash>9f2d31c727bfc1ad3222a788fc63bbf8a950647d</PackageHash>
+        <PackageURI>gamehub-0.8.0-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>gamehub</Name>
+            <Packager>
+                <Name>Devil505</Name>
+                <Email>devil505@tuta.io</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>playmymusic</Name>
         <Summary xml:lang="en">A music player for listening to local music files, online radios, and Audio CD&apos;s</Summary>
         <Description xml:lang="en">A music player for listening to local music files, online radios, and Audio CD&apos;s</Description>
@@ -1057,24 +1102,24 @@
         </Source>
     </Package>
     <Package>
-        <Name>palaura</Name>
-        <Summary xml:lang="en">Find any word&apos;s definition with this handy dictionary</Summary>
-        <Description xml:lang="en">Find any word&apos;s definition, and details about it, with this handy dictionary by your side.</Description>
-        <PartOf>office</PartOf>
+        <Name>monilet</Name>
+        <Summary xml:lang="en">It&apos;s a system monitor applet.</Summary>
+        <Description xml:lang="en">See percentage of use your CPU and number of cores. Also percentage used memory, amount of memory used and total memory.</Description>
+        <PartOf>system.utils</PartOf>
         <License>GPL-3.0-or-later</License>
         <RuntimeDependencies>
             <Dependency releaseFrom="78">libgtk-3</Dependency>
-            <Dependency releaseFrom="45">glib2</Dependency>
-            <Dependency releaseFrom="11">libgee</Dependency>
-            <Dependency releaseFrom="14">libjson-glib</Dependency>
+            <Dependency releaseFrom="12">libgtop</Dependency>
+            <Dependency releaseFrom="36">libcairo</Dependency>
             <Dependency releaseFrom="9">granite</Dependency>
             <Dependency releaseFrom="51">glibc</Dependency>
-            <Dependency releaseFrom="20">libsoup</Dependency>
+            <Dependency releaseFrom="45">glib2</Dependency>
+            <Dependency releaseFrom="23">pango</Dependency>
         </RuntimeDependencies>
         <History>
             <Update release="2">
                 <Date>2018-06-30</Date>
-                <Version>1.0.1</Version>
+                <Version>0.1.9</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Devil505</Name>
                 <Email>devil505@tuta.io</Email>
@@ -1084,13 +1129,13 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>174141</InstalledSize>
-        <PackageSize>36664</PackageSize>
-        <PackageHash>ef9a6aace848a6ea76d10189ce800351403c1fdd</PackageHash>
-        <PackageURI>palaura-1.0.1-2-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>157784</InstalledSize>
+        <PackageSize>30438</PackageSize>
+        <PackageHash>92bc123ad5be93b8a467ab656afce1dc999e4622</PackageHash>
+        <PackageURI>monilet-0.1.9-2-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
-            <Name>palaura</Name>
+            <Name>monilet</Name>
             <Packager>
                 <Name>Devil505</Name>
                 <Email>devil505@tuta.io</Email>
@@ -1679,24 +1724,24 @@
         </Source>
     </Package>
     <Package>
-        <Name>monilet</Name>
-        <Summary xml:lang="en">It&apos;s a system monitor applet.</Summary>
-        <Description xml:lang="en">See percentage of use your CPU and number of cores. Also percentage used memory, amount of memory used and total memory.</Description>
-        <PartOf>system.utils</PartOf>
+        <Name>palaura</Name>
+        <Summary xml:lang="en">Find any word&apos;s definition with this handy dictionary</Summary>
+        <Description xml:lang="en">Find any word&apos;s definition, and details about it, with this handy dictionary by your side.</Description>
+        <PartOf>office</PartOf>
         <License>GPL-3.0-or-later</License>
         <RuntimeDependencies>
             <Dependency releaseFrom="78">libgtk-3</Dependency>
-            <Dependency releaseFrom="12">libgtop</Dependency>
-            <Dependency releaseFrom="36">libcairo</Dependency>
+            <Dependency releaseFrom="45">glib2</Dependency>
+            <Dependency releaseFrom="11">libgee</Dependency>
+            <Dependency releaseFrom="14">libjson-glib</Dependency>
             <Dependency releaseFrom="9">granite</Dependency>
             <Dependency releaseFrom="51">glibc</Dependency>
-            <Dependency releaseFrom="45">glib2</Dependency>
-            <Dependency releaseFrom="23">pango</Dependency>
+            <Dependency releaseFrom="20">libsoup</Dependency>
         </RuntimeDependencies>
         <History>
             <Update release="2">
                 <Date>2018-06-30</Date>
-                <Version>0.1.9</Version>
+                <Version>1.0.1</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Devil505</Name>
                 <Email>devil505@tuta.io</Email>
@@ -1706,13 +1751,13 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>157784</InstalledSize>
-        <PackageSize>30438</PackageSize>
-        <PackageHash>92bc123ad5be93b8a467ab656afce1dc999e4622</PackageHash>
-        <PackageURI>monilet-0.1.9-2-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>174141</InstalledSize>
+        <PackageSize>36664</PackageSize>
+        <PackageHash>ef9a6aace848a6ea76d10189ce800351403c1fdd</PackageHash>
+        <PackageURI>palaura-1.0.1-2-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
-            <Name>monilet</Name>
+            <Name>palaura</Name>
             <Packager>
                 <Name>Devil505</Name>
                 <Email>devil505@tuta.io</Email>
