@@ -1,8 +1,8 @@
 name       : nvidia-396-glx-driver
-version    : '396.51'
+version    : '396.54'
 release    : 256
 source     :
-    - http://us.download.nvidia.com/XFree86/Linux-x86_64/396.51/NVIDIA-Linux-x86_64-396.51.run : 6add8c3782bdf276b4a5a5bcea102ceff8e90cf3fc2439dde9d5e60d557ac0d6
+    - http://us.download.nvidia.com/XFree86/Linux-x86_64/396.54/NVIDIA-Linux-x86_64-396.54.run : 7c3e3c9ca6aea31ad2613ef9cb6a4510d95d61b698f084e55adcc0611ee9eec3
 extract    : no
 homepage   : https://nvidia.com
 license    :
@@ -60,7 +60,7 @@ builddeps  :
 permanent  :
     - /lib/modules
 setup      : |
-    sh $sources/NVIDIA-Linux-x86_64-396.51.run --extract-only
+    sh $sources/NVIDIA-Linux-x86_64-396.54.run --extract-only
     pushd NVIDIA*
 
     # Prepare kernel trees
