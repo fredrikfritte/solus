@@ -1,17 +1,19 @@
 <PISI>
     <Package>
-        <Name>wireguard-current</Name>
-        <Summary xml:lang="en">wireguard module for linux-current</Summary>
-        <Description xml:lang="en">WireGuard® is an extremely simple yet fast and modern VPN that utilizes state-of-the-art cryptography. It aims to be faster, simpler, leaner, and more useful than IPSec, while avoiding the massive headache. It intends to be considerably more performant than OpenVPN. WireGuard is designed as a general purpose VPN for running on embedded interfaces and super computers alike, fit for many different circumstances. Initially released for the Linux kernel, it is now cross-platform and widely deployable. It is currently under heavy development, but already it might be regarded as the most secure, easiest to use, and simplest VPN solution in the industry.</Description>
-        <PartOf>kernel.drivers</PartOf>
-        <License>GPL-2.0-or-later</License>
+        <Name>proton-32bit</Name>
+        <Summary xml:lang="en">32-bit libraries for proton</Summary>
+        <Description xml:lang="en">Proton is a tool for use with the Steam client which allows games which are exclusive to Windows to run on Linux and macOS operating systems. It uses Wine to facilitate this.</Description>
+        <PartOf>emul32</PartOf>
+        <License>BSD</License>
         <RuntimeDependencies>
-            <Dependency release="85">linux-current</Dependency>
+            <Dependency releaseFrom="51">glibc</Dependency>
+            <Dependency release="1">proton</Dependency>
+            <Dependency releaseFrom="46">wine</Dependency>
         </RuntimeDependencies>
         <History>
             <Update release="1">
-                <Date>2018-08-12</Date>
-                <Version>0.0.20180809</Version>
+                <Date>2018-08-22</Date>
+                <Version>3.7.20180821</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Devil505</Name>
                 <Email>devil505@tuta.io</Email>
@@ -21,13 +23,13 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>330408</InstalledSize>
-        <PackageSize>87287</PackageSize>
-        <PackageHash>7188e0daddcdddd27524935ee8daa3a62a0fe7fb</PackageHash>
-        <PackageURI>wireguard-current-0.0.20180809-1-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>2353832</InstalledSize>
+        <PackageSize>240738</PackageSize>
+        <PackageHash>fa0044a0f13ccb88f11a8717a78bd6366cd19aae</PackageHash>
+        <PackageURI>proton-32bit-3.7.20180821-1-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
-            <Name>wireguard</Name>
+            <Name>proton</Name>
             <Packager>
                 <Name>Devil505</Name>
                 <Email>devil505@tuta.io</Email>
@@ -188,6 +190,41 @@
             <Packager>
                 <Name>Devil505</Name>
                 <Email>devil505linux@gmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>wireguard-current</Name>
+        <Summary xml:lang="en">wireguard module for linux-current</Summary>
+        <Description xml:lang="en">WireGuard® is an extremely simple yet fast and modern VPN that utilizes state-of-the-art cryptography. It aims to be faster, simpler, leaner, and more useful than IPSec, while avoiding the massive headache. It intends to be considerably more performant than OpenVPN. WireGuard is designed as a general purpose VPN for running on embedded interfaces and super computers alike, fit for many different circumstances. Initially released for the Linux kernel, it is now cross-platform and widely deployable. It is currently under heavy development, but already it might be regarded as the most secure, easiest to use, and simplest VPN solution in the industry.</Description>
+        <PartOf>kernel.drivers</PartOf>
+        <License>GPL-2.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency release="85">linux-current</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2018-08-12</Date>
+                <Version>0.0.20180809</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Devil505</Name>
+                <Email>devil505@tuta.io</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>330408</InstalledSize>
+        <PackageSize>87287</PackageSize>
+        <PackageHash>7188e0daddcdddd27524935ee8daa3a62a0fe7fb</PackageHash>
+        <PackageURI>wireguard-current-0.0.20180809-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>wireguard</Name>
+            <Packager>
+                <Name>Devil505</Name>
+                <Email>devil505@tuta.io</Email>
             </Packager>
         </Source>
     </Package>
@@ -979,6 +1016,43 @@
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>aesop</Name>
+            <Packager>
+                <Name>Devil505</Name>
+                <Email>devil505@tuta.io</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>proton</Name>
+        <Summary xml:lang="en">Compatibility tool for Steam Play based on Wine and additional components</Summary>
+        <Description xml:lang="en">Proton is a tool for use with the Steam client which allows games which are exclusive to Windows to run on Linux and macOS operating systems. It uses Wine to facilitate this.</Description>
+        <PartOf>games.platformer</PartOf>
+        <License>BSD</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="51">glibc</Dependency>
+            <Dependency releaseFrom="46">wine</Dependency>
+            <Dependency>steam</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2018-08-22</Date>
+                <Version>3.7.20180821</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Devil505</Name>
+                <Email>devil505@tuta.io</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>2366238</InstalledSize>
+        <PackageSize>245487</PackageSize>
+        <PackageHash>51c8984ec398aecf95942c784ebae8b18dac3363</PackageHash>
+        <PackageURI>proton-3.7.20180821-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>proton</Name>
             <Packager>
                 <Name>Devil505</Name>
                 <Email>devil505@tuta.io</Email>

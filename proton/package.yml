@@ -1,0 +1,45 @@
+name       : proton
+version    : 3.7.20180821
+release    : 1
+source     :
+    -  https://github.com/ValveSoftware/Proton/archive/proton-3.7-20180821.tar.gz : cd3f8124374a58ca77460997b8089b0ebdac0227c8d10926d07c9d5a3aca4315
+license    : BSD
+component  : games.platformer
+summary    : Compatibility tool for Steam Play based on Wine and additional components 
+description: |
+    Proton is a tool for use with the Steam client which allows games which are exclusive to Windows to run on Linux and macOS operating systems. It uses Wine to facilitate this.
+builddeps  :
+    - vulkan-headers
+    - wine-devel
+rundeps  :
+    - steam
+    - wine
+build      : |
+    export CXXFLAGS="$CXXFLAGS -Wno-attributes"
+    export WINEMAKEFLAGS="--nosource-fix --nolower-include --nodlls --nomsvcrt --dll"
+    export WINEMAKEFLAGS32="$WINEMAKEFLAGS --wine32"
+
+    # The build script provided has so much cruft that it's easier to make everything manually
+    mkdir -p build/lsteamclient.win32
+    cp -a lsteamclient/* build/lsteamclient.win32
+    cd build/lsteamclient.win32
+    winemaker $WINEMAKEFLAGS32 -DSTEAM_API_EXPORTS .
+    make
+    cd $workdir
+    mkdir -p build/lsteamclient.win64
+    cp -a lsteamclient/* build/lsteamclient.win64
+    cd build/lsteamclient.win64
+    winemaker $WINEMAKEFLAGS -DSTEAM_API_EXPORTS .
+    make
+install    : |
+    install -d -m755 $installdir/usr/share/doc/proton
+    install -m644 README.md $installdir/usr/share/doc/proton/README.md
+    install -m644 LICENSE $installdir//usr/share/doc/proton/LICENSE
+    install -m644 LICENSE.proton $installdir//usr/share/doc/proton/LICENSE.proton
+    install -m644 dist.LICENSE.lin $installdir//usr/share/doc/proton/dist.LICENSE.lin
+    
+    install -d -m755 $installdir/usr/lib32/wine
+    install -m755 build/lsteamclient.win32/lsteamclient.dll.so $installdir/usr/lib32/wine/
+
+    install -d -m755 $installdir/usr/lib/wine
+    install -m755 build/lsteamclient.win64/lsteamclient.dll.so $installdir/usr/lib/wine/

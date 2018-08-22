@@ -61,7 +61,8 @@ If the Solus dev team is interested, I'll provide a patch to them.
 | nvidia-396-glx-driver-modaliases |  | 
 | palaura |  | 
 | playmymusic | [TASK 6683](https://dev.solus-project.com/T6683) | rejected... | 
-| protonmail-bridge-bin
+| proton | | |
+| protonmail-bridge-bin | | |
 | protonvpn-cli | REMOVED | NOW IN SOLUS REPO ! | 
 | qarte |  | 
 | qomui | [TASK 6722](https://dev.solus-project.com/T6722) |  | 
