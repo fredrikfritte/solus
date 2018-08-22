@@ -256,8 +256,8 @@
         </RuntimeDependencies>
         <History>
             <Update release="1">
-                <Date>2018-08-18</Date>
-                <Version>0.7.0</Version>
+                <Date>2018-08-22</Date>
+                <Version>0.7.1</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Devil505</Name>
                 <Email>devil505@tuta.io</Email>
@@ -267,10 +267,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>3344683</InstalledSize>
-        <PackageSize>2889323</PackageSize>
-        <PackageHash>7f3197544e4102619b9cd766906955aec25256d8</PackageHash>
-        <PackageURI>qomui-0.7.0-1-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>3367579</InstalledSize>
+        <PackageSize>2894665</PackageSize>
+        <PackageHash>1b5b675b66549cb8fb85cd74ade8034e8ed9cd5b</PackageHash>
+        <PackageURI>qomui-0.7.1-1-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>qomui</Name>

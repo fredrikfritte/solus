@@ -1,8 +1,8 @@
 name       : qomui
-version    : 0.7.0
+version    : 0.7.1
 release    : 1
 source     :
-    -  https://github.com/corrad1nho/qomui/archive/v0.7.0.tar.gz : 8e46bc96630a16c875742bf0e8f2f720f754d7425e9a5a861b1d3e71bca84ae2
+    -  https://github.com/corrad1nho/qomui/archive/v0.7.1.tar.gz : 4cc94f08cb8be79dae181c52e0514ddd8cd19cbe0b81732403a652a635a3b739
 license    : GPL-3.0-or-later
 component  : network.clients
 summary    : OpenVPN Gui with advanced features and support for multiple providers
