@@ -54,14 +54,14 @@ If the Solus dev team is interested, I'll provide a patch to them.
 | nautilus-megasync |  | 
 | news |  | 
 | notejot |  | 
-| nvidia-396-glx-driver-32bit |  | 
-| nvidia-396-glx-driver | [TASK 5221](https://dev.solus-project.com/T5221) | EXPERIMENTAL, BE AWARE ! |
-| nvidia-396-glx-driver-common |  | 
-| nvidia-396-glx-driver-current |  | 
-| nvidia-396-glx-driver-modaliases |  | 
+| nvidia-396-glx-driver-32bit  Removed | WILL BE ADDED TO OFFICIAL SOLUS REPO !|
+| nvidia-396-glx-driver | Removed | WILL BE ADDED TO OFFICIAL SOLUS REPO !|
+| nvidia-396-glx-driver-common | Removed | WILL BE ADDED TO OFFICIAL SOLUS REPO !| 
+| nvidia-396-glx-driver-current | Removed | WILL BE ADDED TO OFFICIAL SOLUS REPO !|
+| nvidia-396-glx-driver-modaliases |  | WILL BE ADDED TO OFFICIAL SOLUS REPO !|
 | palaura |  | 
 | playmymusic | [TASK 6683](https://dev.solus-project.com/T6683) | rejected... | 
-| proton | | |
+| proton | Removed | useless since steam brings its own version |
 | protonmail-bridge-bin | | |
 | protonvpn-cli | REMOVED | NOW IN SOLUS REPO ! | 
 | qarte |  | 

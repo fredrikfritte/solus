@@ -1,19 +1,17 @@
 <PISI>
     <Package>
-        <Name>proton-32bit</Name>
-        <Summary xml:lang="en">32-bit libraries for proton</Summary>
-        <Description xml:lang="en">Proton is a tool for use with the Steam client which allows games which are exclusive to Windows to run on Linux and macOS operating systems. It uses Wine to facilitate this.</Description>
-        <PartOf>emul32</PartOf>
-        <License>BSD</License>
+        <Name>wireguard-current</Name>
+        <Summary xml:lang="en">wireguard module for linux-current</Summary>
+        <Description xml:lang="en">WireGuard® is an extremely simple yet fast and modern VPN that utilizes state-of-the-art cryptography. It aims to be faster, simpler, leaner, and more useful than IPSec, while avoiding the massive headache. It intends to be considerably more performant than OpenVPN. WireGuard is designed as a general purpose VPN for running on embedded interfaces and super computers alike, fit for many different circumstances. Initially released for the Linux kernel, it is now cross-platform and widely deployable. It is currently under heavy development, but already it might be regarded as the most secure, easiest to use, and simplest VPN solution in the industry.</Description>
+        <PartOf>kernel.drivers</PartOf>
+        <License>GPL-2.0-or-later</License>
         <RuntimeDependencies>
-            <Dependency releaseFrom="51">glibc</Dependency>
-            <Dependency release="1">proton</Dependency>
-            <Dependency releaseFrom="46">wine</Dependency>
+            <Dependency release="85">linux-current</Dependency>
         </RuntimeDependencies>
         <History>
             <Update release="1">
-                <Date>2018-08-22</Date>
-                <Version>3.7.20180821</Version>
+                <Date>2018-08-12</Date>
+                <Version>0.0.20180809</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Devil505</Name>
                 <Email>devil505@tuta.io</Email>
@@ -23,46 +21,13 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>2353832</InstalledSize>
-        <PackageSize>240738</PackageSize>
-        <PackageHash>fa0044a0f13ccb88f11a8717a78bd6366cd19aae</PackageHash>
-        <PackageURI>proton-32bit-3.7.20180821-1-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>330408</InstalledSize>
+        <PackageSize>87287</PackageSize>
+        <PackageHash>7188e0daddcdddd27524935ee8daa3a62a0fe7fb</PackageHash>
+        <PackageURI>wireguard-current-0.0.20180809-1-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
-            <Name>proton</Name>
-            <Packager>
-                <Name>Devil505</Name>
-                <Email>devil505@tuta.io</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>nvidia-396-glx-driver-modaliases</Name>
-        <Summary xml:lang="en">These files are used by the Software Center for hardware detection</Summary>
-        <Description xml:lang="en">NVIDIA Binary Driver</Description>
-        <PartOf>kernel.drivers</PartOf>
-        <License>EULA</License>
-        <History>
-            <Update release="256">
-                <Date>2018-08-22</Date>
-                <Version>396.54</Version>
-                <Comment>Packaging update</Comment>
-                <Name>Devil505</Name>
-                <Email>devil505@tuta.io</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>37496</InstalledSize>
-        <PackageSize>1789</PackageSize>
-        <PackageHash>2dba9a5a4148f937d93e86d983ac747e71438712</PackageHash>
-        <PackageURI>nvidia-396-glx-driver-modaliases-396.54-256-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>nvidia-396-glx-driver</Name>
-            <Homepage>https://nvidia.com</Homepage>
+            <Name>wireguard</Name>
             <Packager>
                 <Name>Devil505</Name>
                 <Email>devil505@tuta.io</Email>
@@ -190,41 +155,6 @@
             <Packager>
                 <Name>Devil505</Name>
                 <Email>devil505linux@gmail.com</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>wireguard-current</Name>
-        <Summary xml:lang="en">wireguard module for linux-current</Summary>
-        <Description xml:lang="en">WireGuard® is an extremely simple yet fast and modern VPN that utilizes state-of-the-art cryptography. It aims to be faster, simpler, leaner, and more useful than IPSec, while avoiding the massive headache. It intends to be considerably more performant than OpenVPN. WireGuard is designed as a general purpose VPN for running on embedded interfaces and super computers alike, fit for many different circumstances. Initially released for the Linux kernel, it is now cross-platform and widely deployable. It is currently under heavy development, but already it might be regarded as the most secure, easiest to use, and simplest VPN solution in the industry.</Description>
-        <PartOf>kernel.drivers</PartOf>
-        <License>GPL-2.0-or-later</License>
-        <RuntimeDependencies>
-            <Dependency release="85">linux-current</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="1">
-                <Date>2018-08-12</Date>
-                <Version>0.0.20180809</Version>
-                <Comment>Packaging update</Comment>
-                <Name>Devil505</Name>
-                <Email>devil505@tuta.io</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>330408</InstalledSize>
-        <PackageSize>87287</PackageSize>
-        <PackageHash>7188e0daddcdddd27524935ee8daa3a62a0fe7fb</PackageHash>
-        <PackageURI>wireguard-current-0.0.20180809-1-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>wireguard</Name>
-            <Packager>
-                <Name>Devil505</Name>
-                <Email>devil505@tuta.io</Email>
             </Packager>
         </Source>
     </Package>
@@ -471,53 +401,6 @@
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>elementary-calendar</Name>
-            <Packager>
-                <Name>Devil505</Name>
-                <Email>devil505@tuta.io</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>playmymusic</Name>
-        <Summary xml:lang="en">A music player for listening to local music files, online radios, and Audio CD&apos;s</Summary>
-        <Description xml:lang="en">A music player for listening to local music files, online radios, and Audio CD&apos;s</Description>
-        <PartOf>multimedia.audio</PartOf>
-        <License>GPL-2.0-or-later</License>
-        <RuntimeDependencies>
-            <Dependency releaseFrom="78">libgtk-3</Dependency>
-            <Dependency releaseFrom="45">glib2</Dependency>
-            <Dependency releaseFrom="20">gstreamer-1.0</Dependency>
-            <Dependency releaseFrom="51">glibc</Dependency>
-            <Dependency releaseFrom="36">libcairo</Dependency>
-            <Dependency releaseFrom="26">sqlite3</Dependency>
-            <Dependency releaseFrom="22">gstreamer-1.0-plugins-base</Dependency>
-            <Dependency releaseFrom="35">gdk-pixbuf</Dependency>
-            <Dependency releaseFrom="4">taglib</Dependency>
-            <Dependency releaseFrom="11">libgee</Dependency>
-            <Dependency releaseFrom="14">libjson-glib</Dependency>
-            <Dependency releaseFrom="9">granite</Dependency>
-            <Dependency releaseFrom="20">libsoup</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="2">
-                <Date>2018-06-30</Date>
-                <Version>1.0.1</Version>
-                <Comment>Packaging update</Comment>
-                <Name>Devil505</Name>
-                <Email>devil505@tuta.io</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>700174</InstalledSize>
-        <PackageSize>185411</PackageSize>
-        <PackageHash>78f8ff86fc9f81580ce1c0854727cddc426559e9</PackageHash>
-        <PackageURI>playmymusic-1.0.1-2-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>playmymusic</Name>
             <Packager>
                 <Name>Devil505</Name>
                 <Email>devil505@tuta.io</Email>
@@ -809,60 +692,6 @@
         </Source>
     </Package>
     <Package>
-        <Name>nvidia-396-glx-driver-common</Name>
-        <Summary xml:lang="en">Shared assets for the NVIDIA 396xx GLX Driver</Summary>
-        <Description xml:lang="en">NVIDIA Binary Driver</Description>
-        <PartOf>xorg.driver</PartOf>
-        <License>EULA</License>
-        <RuntimeDependencies>
-            <Dependency releaseFrom="45">glib2</Dependency>
-            <Dependency releaseFrom="39">libcairo</Dependency>
-            <Dependency releaseFrom="51">glibc</Dependency>
-            <Dependency releaseFrom="18">libx11</Dependency>
-            <Dependency releaseFrom="35">gdk-pixbuf</Dependency>
-            <Dependency releaseFrom="9">libxext</Dependency>
-            <Dependency releaseFrom="20">libatk</Dependency>
-            <Dependency releaseFrom="23">libgtk-2</Dependency>
-            <Dependency releaseFrom="80">libgtk-3</Dependency>
-            <Dependency releaseFrom="4">libglvnd</Dependency>
-            <Dependency releaseFrom="28">pango</Dependency>
-            <Dependency>linux-driver-management</Dependency>
-            <Dependency>libva-vdpau-driver</Dependency>
-            <Dependency>egl-wayland</Dependency>
-        </RuntimeDependencies>
-        <Conflicts>
-            <Package>nvidia-304-glx-driver-common</Package>
-            <Package>nvidia-340-glx-driver-common</Package>
-            <Package>nvidia-glx-driver-common</Package>
-        </Conflicts>
-        <History>
-            <Update release="256">
-                <Date>2018-08-22</Date>
-                <Version>396.54</Version>
-                <Comment>Packaging update</Comment>
-                <Name>Devil505</Name>
-                <Email>devil505@tuta.io</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>200315763</InstalledSize>
-        <PackageSize>48296330</PackageSize>
-        <PackageHash>1121454714ffd422f9d3ef8386101298081b0fbc</PackageHash>
-        <PackageURI>nvidia-396-glx-driver-common-396.54-256-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>nvidia-396-glx-driver</Name>
-            <Homepage>https://nvidia.com</Homepage>
-            <Packager>
-                <Name>Devil505</Name>
-                <Email>devil505@tuta.io</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
         <Name>gamehub</Name>
         <Summary xml:lang="en">Games manager/downloader/library written in Vala</Summary>
         <Description xml:lang="en">Games manager/downloader/library written in Vala that supports GOG, Steam and Humble Bundle.</Description>
@@ -908,19 +737,30 @@
         </Source>
     </Package>
     <Package>
-        <Name>nvidia-396-glx-driver</Name>
-        <Summary xml:lang="en">NVIDIA 396xx Binary Driver (LTS Kernel)</Summary>
-        <Description xml:lang="en">NVIDIA Binary Driver</Description>
-        <PartOf>kernel.drivers</PartOf>
-        <License>EULA</License>
+        <Name>playmymusic</Name>
+        <Summary xml:lang="en">A music player for listening to local music files, online radios, and Audio CD&apos;s</Summary>
+        <Description xml:lang="en">A music player for listening to local music files, online radios, and Audio CD&apos;s</Description>
+        <PartOf>multimedia.audio</PartOf>
+        <License>GPL-2.0-or-later</License>
         <RuntimeDependencies>
-            <Dependency release="104">linux-lts</Dependency>
-            <Dependency releaseFrom="256">nvidia-396-glx-driver-common</Dependency>
+            <Dependency releaseFrom="78">libgtk-3</Dependency>
+            <Dependency releaseFrom="45">glib2</Dependency>
+            <Dependency releaseFrom="20">gstreamer-1.0</Dependency>
+            <Dependency releaseFrom="51">glibc</Dependency>
+            <Dependency releaseFrom="36">libcairo</Dependency>
+            <Dependency releaseFrom="26">sqlite3</Dependency>
+            <Dependency releaseFrom="22">gstreamer-1.0-plugins-base</Dependency>
+            <Dependency releaseFrom="35">gdk-pixbuf</Dependency>
+            <Dependency releaseFrom="4">taglib</Dependency>
+            <Dependency releaseFrom="11">libgee</Dependency>
+            <Dependency releaseFrom="14">libjson-glib</Dependency>
+            <Dependency releaseFrom="9">granite</Dependency>
+            <Dependency releaseFrom="20">libsoup</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="256">
-                <Date>2018-08-22</Date>
-                <Version>396.54</Version>
+            <Update release="2">
+                <Date>2018-06-30</Date>
+                <Version>1.0.1</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Devil505</Name>
                 <Email>devil505@tuta.io</Email>
@@ -930,51 +770,13 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>21591848</InstalledSize>
-        <PackageSize>8332847</PackageSize>
-        <PackageHash>99db232d4bc8ff39d4fa59ecb474ce77b3cf814a</PackageHash>
-        <PackageURI>nvidia-396-glx-driver-396.54-256-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>700174</InstalledSize>
+        <PackageSize>185411</PackageSize>
+        <PackageHash>78f8ff86fc9f81580ce1c0854727cddc426559e9</PackageHash>
+        <PackageURI>playmymusic-1.0.1-2-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
-            <Name>nvidia-396-glx-driver</Name>
-            <Homepage>https://nvidia.com</Homepage>
-            <Packager>
-                <Name>Devil505</Name>
-                <Email>devil505@tuta.io</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>nvidia-396-glx-driver-current</Name>
-        <Summary xml:lang="en">NVIDIA 396xx Binary Driver (Current Kernel)</Summary>
-        <Description xml:lang="en">NVIDIA Binary Driver</Description>
-        <PartOf>kernel.drivers</PartOf>
-        <License>EULA</License>
-        <RuntimeDependencies>
-            <Dependency release="86">linux-current</Dependency>
-            <Dependency releaseFrom="256">nvidia-396-glx-driver-common</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="256">
-                <Date>2018-08-22</Date>
-                <Version>396.54</Version>
-                <Comment>Packaging update</Comment>
-                <Name>Devil505</Name>
-                <Email>devil505@tuta.io</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>22150488</InstalledSize>
-        <PackageSize>8367958</PackageSize>
-        <PackageHash>8115799afa93e4f31841b34cd3e2fb42c379382c</PackageHash>
-        <PackageURI>nvidia-396-glx-driver-current-396.54-256-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>nvidia-396-glx-driver</Name>
-            <Homepage>https://nvidia.com</Homepage>
+            <Name>playmymusic</Name>
             <Packager>
                 <Name>Devil505</Name>
                 <Email>devil505@tuta.io</Email>
@@ -1016,84 +818,6 @@
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>aesop</Name>
-            <Packager>
-                <Name>Devil505</Name>
-                <Email>devil505@tuta.io</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>proton</Name>
-        <Summary xml:lang="en">Compatibility tool for Steam Play based on Wine and additional components</Summary>
-        <Description xml:lang="en">Proton is a tool for use with the Steam client which allows games which are exclusive to Windows to run on Linux and macOS operating systems. It uses Wine to facilitate this.</Description>
-        <PartOf>games.platformer</PartOf>
-        <License>BSD</License>
-        <RuntimeDependencies>
-            <Dependency releaseFrom="51">glibc</Dependency>
-            <Dependency releaseFrom="46">wine</Dependency>
-            <Dependency>steam</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="1">
-                <Date>2018-08-22</Date>
-                <Version>3.7.20180821</Version>
-                <Comment>Packaging update</Comment>
-                <Name>Devil505</Name>
-                <Email>devil505@tuta.io</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>2366238</InstalledSize>
-        <PackageSize>245487</PackageSize>
-        <PackageHash>51c8984ec398aecf95942c784ebae8b18dac3363</PackageHash>
-        <PackageURI>proton-3.7.20180821-1-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>proton</Name>
-            <Packager>
-                <Name>Devil505</Name>
-                <Email>devil505@tuta.io</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>nvidia-396-glx-driver-32bit</Name>
-        <Summary xml:lang="en">32-bit libraries for nvidia-396-glx-driver</Summary>
-        <Description xml:lang="en">NVIDIA Binary Driver</Description>
-        <PartOf>xorg.driver</PartOf>
-        <License>EULA</License>
-        <RuntimeDependencies>
-            <Dependency releaseFrom="18">libx11-32bit</Dependency>
-            <Dependency releaseFrom="9">libxext</Dependency>
-            <Dependency releaseFrom="4">libglvnd-32bit</Dependency>
-            <Dependency releaseFrom="51">glibc-32bit</Dependency>
-            <Dependency releaseFrom="256">nvidia-396-glx-driver-common</Dependency>
-            <Dependency>libva-vdpau-driver-32bit</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="256">
-                <Date>2018-08-22</Date>
-                <Version>396.54</Version>
-                <Comment>Packaging update</Comment>
-                <Name>Devil505</Name>
-                <Email>devil505@tuta.io</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>174591850</InstalledSize>
-        <PackageSize>45489395</PackageSize>
-        <PackageHash>cdd05c7baa0eac1e1707778cd3b040dea866559d</PackageHash>
-        <PackageURI>nvidia-396-glx-driver-32bit-396.54-256-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>nvidia-396-glx-driver</Name>
-            <Homepage>https://nvidia.com</Homepage>
             <Packager>
                 <Name>Devil505</Name>
                 <Email>devil505@tuta.io</Email>
