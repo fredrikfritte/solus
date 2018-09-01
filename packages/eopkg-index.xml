@@ -35,6 +35,39 @@
         </Source>
     </Package>
     <Package>
+        <Name>nvidia-396-glx-driver-modaliases</Name>
+        <Summary xml:lang="en">These files are used by the Software Center for hardware detection</Summary>
+        <Description xml:lang="en">NVIDIA Binary Driver</Description>
+        <PartOf>kernel.drivers</PartOf>
+        <License>EULA</License>
+        <History>
+            <Update release="260">
+                <Date>2018-09-01</Date>
+                <Version>396.54</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Devil505</Name>
+                <Email>devil505@tuta.io</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>37496</InstalledSize>
+        <PackageSize>1793</PackageSize>
+        <PackageHash>32fc3926e989fa2c411d73dcd8b9ab949dde88cb</PackageHash>
+        <PackageURI>nvidia-396-glx-driver-modaliases-396.54-260-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>nvidia-396-glx-driver</Name>
+            <Homepage>https://nvidia.com</Homepage>
+            <Packager>
+                <Name>Devil505</Name>
+                <Email>devil505@tuta.io</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>ciano</Name>
         <Summary xml:lang="en">Multimedia converter</Summary>
         <Description xml:lang="en">A simple multimedia file converter.</Description>
@@ -408,6 +441,53 @@
         </Source>
     </Package>
     <Package>
+        <Name>playmymusic</Name>
+        <Summary xml:lang="en">A music player for listening to local music files, online radios, and Audio CD&apos;s</Summary>
+        <Description xml:lang="en">A music player for listening to local music files, online radios, and Audio CD&apos;s</Description>
+        <PartOf>multimedia.audio</PartOf>
+        <License>GPL-2.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="78">libgtk-3</Dependency>
+            <Dependency releaseFrom="45">glib2</Dependency>
+            <Dependency releaseFrom="20">gstreamer-1.0</Dependency>
+            <Dependency releaseFrom="51">glibc</Dependency>
+            <Dependency releaseFrom="36">libcairo</Dependency>
+            <Dependency releaseFrom="26">sqlite3</Dependency>
+            <Dependency releaseFrom="22">gstreamer-1.0-plugins-base</Dependency>
+            <Dependency releaseFrom="35">gdk-pixbuf</Dependency>
+            <Dependency releaseFrom="4">taglib</Dependency>
+            <Dependency releaseFrom="11">libgee</Dependency>
+            <Dependency releaseFrom="14">libjson-glib</Dependency>
+            <Dependency releaseFrom="9">granite</Dependency>
+            <Dependency releaseFrom="20">libsoup</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="2">
+                <Date>2018-06-30</Date>
+                <Version>1.0.1</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Devil505</Name>
+                <Email>devil505@tuta.io</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>700174</InstalledSize>
+        <PackageSize>185411</PackageSize>
+        <PackageHash>78f8ff86fc9f81580ce1c0854727cddc426559e9</PackageHash>
+        <PackageURI>playmymusic-1.0.1-2-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>playmymusic</Name>
+            <Packager>
+                <Name>Devil505</Name>
+                <Email>devil505@tuta.io</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>qarte</Name>
         <Summary xml:lang="en">Allow you to browse into the archive of arte+7 &amp; arteLiveWeb sites and to record your prefered videos.</Summary>
         <Description xml:lang="en">Allow you to browse into the archive of arte+7 &amp; arteLiveWeb sites and to record your prefered videos.</Description>
@@ -692,6 +772,60 @@
         </Source>
     </Package>
     <Package>
+        <Name>nvidia-396-glx-driver-common</Name>
+        <Summary xml:lang="en">Shared assets for the NVIDIA 396xx GLX Driver</Summary>
+        <Description xml:lang="en">NVIDIA Binary Driver</Description>
+        <PartOf>xorg.driver</PartOf>
+        <License>EULA</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="45">glib2</Dependency>
+            <Dependency releaseFrom="39">libcairo</Dependency>
+            <Dependency releaseFrom="52">glibc</Dependency>
+            <Dependency releaseFrom="19">libx11</Dependency>
+            <Dependency releaseFrom="35">gdk-pixbuf</Dependency>
+            <Dependency releaseFrom="9">libxext</Dependency>
+            <Dependency releaseFrom="20">libatk</Dependency>
+            <Dependency releaseFrom="23">libgtk-2</Dependency>
+            <Dependency releaseFrom="81">libgtk-3</Dependency>
+            <Dependency releaseFrom="4">libglvnd</Dependency>
+            <Dependency releaseFrom="29">pango</Dependency>
+            <Dependency>linux-driver-management</Dependency>
+            <Dependency>libva-vdpau-driver</Dependency>
+            <Dependency>egl-wayland</Dependency>
+        </RuntimeDependencies>
+        <Conflicts>
+            <Package>nvidia-304-glx-driver-common</Package>
+            <Package>nvidia-340-glx-driver-common</Package>
+            <Package>nvidia-glx-driver-common</Package>
+        </Conflicts>
+        <History>
+            <Update release="260">
+                <Date>2018-09-01</Date>
+                <Version>396.54</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Devil505</Name>
+                <Email>devil505@tuta.io</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>200315763</InstalledSize>
+        <PackageSize>48296368</PackageSize>
+        <PackageHash>364620202124f7ecf3fdf20fd703aaa5a3ee4bed</PackageHash>
+        <PackageURI>nvidia-396-glx-driver-common-396.54-260-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>nvidia-396-glx-driver</Name>
+            <Homepage>https://nvidia.com</Homepage>
+            <Packager>
+                <Name>Devil505</Name>
+                <Email>devil505@tuta.io</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>gamehub</Name>
         <Summary xml:lang="en">Games manager/downloader/library written in Vala</Summary>
         <Description xml:lang="en">Games manager/downloader/library written in Vala that supports GOG, Steam and Humble Bundle.</Description>
@@ -737,30 +871,19 @@
         </Source>
     </Package>
     <Package>
-        <Name>playmymusic</Name>
-        <Summary xml:lang="en">A music player for listening to local music files, online radios, and Audio CD&apos;s</Summary>
-        <Description xml:lang="en">A music player for listening to local music files, online radios, and Audio CD&apos;s</Description>
-        <PartOf>multimedia.audio</PartOf>
-        <License>GPL-2.0-or-later</License>
+        <Name>nvidia-396-glx-driver</Name>
+        <Summary xml:lang="en">NVIDIA 396xx Binary Driver (LTS Kernel)</Summary>
+        <Description xml:lang="en">NVIDIA Binary Driver</Description>
+        <PartOf>kernel.drivers</PartOf>
+        <License>EULA</License>
         <RuntimeDependencies>
-            <Dependency releaseFrom="78">libgtk-3</Dependency>
-            <Dependency releaseFrom="45">glib2</Dependency>
-            <Dependency releaseFrom="20">gstreamer-1.0</Dependency>
-            <Dependency releaseFrom="51">glibc</Dependency>
-            <Dependency releaseFrom="36">libcairo</Dependency>
-            <Dependency releaseFrom="26">sqlite3</Dependency>
-            <Dependency releaseFrom="22">gstreamer-1.0-plugins-base</Dependency>
-            <Dependency releaseFrom="35">gdk-pixbuf</Dependency>
-            <Dependency releaseFrom="4">taglib</Dependency>
-            <Dependency releaseFrom="11">libgee</Dependency>
-            <Dependency releaseFrom="14">libjson-glib</Dependency>
-            <Dependency releaseFrom="9">granite</Dependency>
-            <Dependency releaseFrom="20">libsoup</Dependency>
+            <Dependency release="106">linux-lts</Dependency>
+            <Dependency releaseFrom="260">nvidia-396-glx-driver-common</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="2">
-                <Date>2018-06-30</Date>
-                <Version>1.0.1</Version>
+            <Update release="260">
+                <Date>2018-09-01</Date>
+                <Version>396.54</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Devil505</Name>
                 <Email>devil505@tuta.io</Email>
@@ -770,13 +893,51 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>700174</InstalledSize>
-        <PackageSize>185411</PackageSize>
-        <PackageHash>78f8ff86fc9f81580ce1c0854727cddc426559e9</PackageHash>
-        <PackageURI>playmymusic-1.0.1-2-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>21742864</InstalledSize>
+        <PackageSize>8342570</PackageSize>
+        <PackageHash>68edba99df58f7547b72ca42b912c42a46e1f06f</PackageHash>
+        <PackageURI>nvidia-396-glx-driver-396.54-260-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
-            <Name>playmymusic</Name>
+            <Name>nvidia-396-glx-driver</Name>
+            <Homepage>https://nvidia.com</Homepage>
+            <Packager>
+                <Name>Devil505</Name>
+                <Email>devil505@tuta.io</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>nvidia-396-glx-driver-current</Name>
+        <Summary xml:lang="en">NVIDIA 396xx Binary Driver (Current Kernel)</Summary>
+        <Description xml:lang="en">NVIDIA Binary Driver</Description>
+        <PartOf>kernel.drivers</PartOf>
+        <License>EULA</License>
+        <RuntimeDependencies>
+            <Dependency release="90">linux-current</Dependency>
+            <Dependency releaseFrom="260">nvidia-396-glx-driver-common</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="260">
+                <Date>2018-09-01</Date>
+                <Version>396.54</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Devil505</Name>
+                <Email>devil505@tuta.io</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>22304936</InstalledSize>
+        <PackageSize>8381085</PackageSize>
+        <PackageHash>2e3d2867f0d1bf66117e012d2bc00e7535600683</PackageHash>
+        <PackageURI>nvidia-396-glx-driver-current-396.54-260-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>nvidia-396-glx-driver</Name>
+            <Homepage>https://nvidia.com</Homepage>
             <Packager>
                 <Name>Devil505</Name>
                 <Email>devil505@tuta.io</Email>
@@ -818,6 +979,47 @@
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>aesop</Name>
+            <Packager>
+                <Name>Devil505</Name>
+                <Email>devil505@tuta.io</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>nvidia-396-glx-driver-32bit</Name>
+        <Summary xml:lang="en">32-bit libraries for nvidia-396-glx-driver</Summary>
+        <Description xml:lang="en">NVIDIA Binary Driver</Description>
+        <PartOf>xorg.driver</PartOf>
+        <License>EULA</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="19">libx11-32bit</Dependency>
+            <Dependency releaseFrom="9">libxext</Dependency>
+            <Dependency releaseFrom="4">libglvnd-32bit</Dependency>
+            <Dependency releaseFrom="52">glibc-32bit</Dependency>
+            <Dependency releaseFrom="260">nvidia-396-glx-driver-common</Dependency>
+            <Dependency>libva-vdpau-driver-32bit</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="260">
+                <Date>2018-09-01</Date>
+                <Version>396.54</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Devil505</Name>
+                <Email>devil505@tuta.io</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>174591850</InstalledSize>
+        <PackageSize>45489407</PackageSize>
+        <PackageHash>2de22aad8a8e117e9a92463914bf10ae98d75d63</PackageHash>
+        <PackageURI>nvidia-396-glx-driver-32bit-396.54-260-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>nvidia-396-glx-driver</Name>
+            <Homepage>https://nvidia.com</Homepage>
             <Packager>
                 <Name>Devil505</Name>
                 <Email>devil505@tuta.io</Email>
