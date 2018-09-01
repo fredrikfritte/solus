@@ -54,18 +54,18 @@ If the Solus dev team is interested, I'll provide a patch to them.
 | nautilus-megasync |  | 
 | news |  | 
 | notejot |  | 
-| nvidia-396-glx-driver-32bit  Removed | WILL BE ADDED TO OFFICIAL SOLUS REPO !|
-| nvidia-396-glx-driver | Removed | WILL BE ADDED TO OFFICIAL SOLUS REPO !|
-| nvidia-396-glx-driver-common | Removed | WILL BE ADDED TO OFFICIAL SOLUS REPO !| 
-| nvidia-396-glx-driver-current | Removed | WILL BE ADDED TO OFFICIAL SOLUS REPO !|
-| nvidia-396-glx-driver-modaliases |  | WILL BE ADDED TO OFFICIAL SOLUS REPO !|
+| nvidia-396-glx-driver-32bit | will be removed | WILL BE ADDED TO OFFICIAL SOLUS REPO !|
+| nvidia-396-glx-driver | will be removed  | WILL BE ADDED TO OFFICIAL SOLUS REPO !|
+| nvidia-396-glx-driver-common | will be removed  | WILL BE ADDED TO OFFICIAL SOLUS REPO !| 
+| nvidia-396-glx-driver-current | will be removed  | WILL BE ADDED TO OFFICIAL SOLUS REPO !|
+| nvidia-396-glx-driver-modaliases | will be removed  | WILL BE ADDED TO OFFICIAL SOLUS REPO !|
 | palaura |  | 
 | playmymusic | [TASK 6683](https://dev.solus-project.com/T6683) | rejected... | 
 | proton | Removed | useless since steam brings its own version |
 | protonmail-bridge-bin | | |
 | protonvpn-cli | REMOVED | NOW IN SOLUS REPO ! | 
 | qarte |  | 
-| qomui | [TASK 6722](https://dev.solus-project.com/T6722) |  | 
+| qomui | [TASK 6722](https://dev.solus-project.com/T6722) | Patch submitted [D3760](https://dev.solus-project.com/D3760) | 
 | quilter |  | 
 | screencast |  | 
 | showmypictures |  | 
