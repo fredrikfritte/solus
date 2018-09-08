@@ -54,11 +54,11 @@ If the Solus dev team is interested, I'll provide a patch to them.
 | nautilus-megasync |  | 
 | news |  | 
 | notejot |  | 
-| nvidia-396-glx-driver-32bit | will be removed | WILL BE ADDED TO OFFICIAL SOLUS REPO !|
-| nvidia-396-glx-driver | will be removed  | WILL BE ADDED TO OFFICIAL SOLUS REPO !|
-| nvidia-396-glx-driver-common | will be removed  | WILL BE ADDED TO OFFICIAL SOLUS REPO !| 
-| nvidia-396-glx-driver-current | will be removed  | WILL BE ADDED TO OFFICIAL SOLUS REPO !|
-| nvidia-396-glx-driver-modaliases | will be removed  | WILL BE ADDED TO OFFICIAL SOLUS REPO !|
+| nvidia-396-glx-driver-32bit | removed | ADDED TO OFFICIAL SOLUS REPO !|
+| nvidia-396-glx-driver | removed  | ADDED TO OFFICIAL SOLUS REPO !|
+| nvidia-396-glx-driver-common | removed  | ADDED TO OFFICIAL SOLUS REPO !| 
+| nvidia-396-glx-driver-current | removed  | ADDED TO OFFICIAL SOLUS REPO !|
+| nvidia-396-glx-driver-modaliases | removed  | ADDED TO OFFICIAL SOLUS REPO !|
 | palaura |  | 
 | playmymusic | [TASK 6683](https://dev.solus-project.com/T6683) | rejected... | 
 | proton | Removed | useless since steam brings its own version |
