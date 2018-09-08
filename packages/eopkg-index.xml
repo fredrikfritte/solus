@@ -831,52 +831,24 @@
         <PartOf>network.mail</PartOf>
         <License>MIT</License>
         <RuntimeDependencies>
-            <Dependency releaseFrom="18">libx11</Dependency>
-            <Dependency releaseFrom="42">libstdc++</Dependency>
-            <Dependency releaseFrom="42">libgcc</Dependency>
-            <Dependency releaseFrom="17">libxcb</Dependency>
-            <Dependency releaseFrom="22">gstreamer-1.0-plugins-base</Dependency>
-            <Dependency releaseFrom="3">libglvnd</Dependency>
-            <Dependency releaseFrom="6">libice</Dependency>
-            <Dependency releaseFrom="18">cups</Dependency>
-            <Dependency releaseFrom="23">qt5-base</Dependency>
-            <Dependency releaseFrom="20">gstreamer-1.0</Dependency>
-            <Dependency releaseFrom="17">alsa-lib</Dependency>
-            <Dependency releaseFrom="51">glibc</Dependency>
-            <Dependency releaseFrom="21">qt5-webengine</Dependency>
-            <Dependency releaseFrom="32">fontconfig</Dependency>
-            <Dependency releaseFrom="16">qt5-declarative</Dependency>
-            <Dependency releaseFrom="35">gdk-pixbuf</Dependency>
-            <Dependency releaseFrom="10">qt5-websockets</Dependency>
-            <Dependency releaseFrom="11">libsecret</Dependency>
-            <Dependency releaseFrom="20">libatk</Dependency>
-            <Dependency releaseFrom="6">qt5-charts</Dependency>
-            <Dependency releaseFrom="9">libxext</Dependency>
-            <Dependency releaseFrom="13">qt5-location</Dependency>
-            <Dependency releaseFrom="10">qt5-sensors</Dependency>
-            <Dependency releaseFrom="23">libdrm</Dependency>
-            <Dependency releaseFrom="17">postgresql</Dependency>
-            <Dependency releaseFrom="24">pango</Dependency>
-            <Dependency releaseFrom="78">libgtk-3</Dependency>
-            <Dependency releaseFrom="10">qt5-webchannel</Dependency>
-            <Dependency releaseFrom="10">qt5-connectivity</Dependency>
-            <Dependency releaseFrom="25">freetype2</Dependency>
-            <Dependency releaseFrom="37">libcairo</Dependency>
-            <Dependency releaseFrom="23">dbus</Dependency>
-            <Dependency releaseFrom="18">zlib</Dependency>
-            <Dependency releaseFrom="29">pulseaudio</Dependency>
-            <Dependency releaseFrom="8">mariadb-libs</Dependency>
-            <Dependency releaseFrom="11">libxi</Dependency>
+            <Dependency releaseFrom="19">zlib</Dependency>
+            <Dependency releaseFrom="52">glibc</Dependency>
+            <Dependency releaseFrom="19">libx11</Dependency>
+            <Dependency releaseFrom="44">libstdc++</Dependency>
+            <Dependency releaseFrom="44">libgcc</Dependency>
+            <Dependency releaseFrom="18">libxcb</Dependency>
             <Dependency releaseFrom="45">glib2</Dependency>
-            <Dependency releaseFrom="7">libsm</Dependency>
-            <Dependency releaseFrom="10">qt5-xmlpatterns</Dependency>
+            <Dependency releaseFrom="4">libglvnd</Dependency>
+            <Dependency releaseFrom="25">dbus</Dependency>
+            <Dependency>qt5-base</Dependency>
             <Dependency>qt5-multimedia</Dependency>
+            <Dependency>libsecret</Dependency>
             <Dependency>dejavu-fonts-ttf</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="1">
-                <Date>2018-07-13</Date>
-                <Version>1.0.5</Version>
+            <Update release="2">
+                <Date>2018-09-08</Date>
+                <Version>1.0.6</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Devil505</Name>
                 <Email>devil505@tuta.io</Email>
@@ -886,10 +858,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>127060960</InstalledSize>
-        <PackageSize>37012587</PackageSize>
-        <PackageHash>c29f5ab1d813e4ce67fe7fb60dae1905da81388f</PackageHash>
-        <PackageURI>protonmail-bridge-bin-1.0.5-1-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>127098695</InstalledSize>
+        <PackageSize>37023865</PackageSize>
+        <PackageHash>60505efc3c0dfe765beb2aa0dfb4c6bb942fb062</PackageHash>
+        <PackageURI>protonmail-bridge-bin-1.0.6-2-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>protonmail-bridge-bin</Name>
