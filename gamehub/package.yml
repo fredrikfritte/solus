@@ -1,8 +1,8 @@
 name       : gamehub
-version    : 0.8.0
-release    : 1
+version    : 0.11.5.20
+release    : 3
 source     :
-    - https://github.com/tkashkin/GameHub/archive/0.8.0.tar.gz : 259879f8c2bb9e22e93c717fdc0fcaaa098d8db7fe1437d57d29354dd2ef5de2
+    - https://github.com/tkashkin/GameHub/archive/0.11.5-20-dev.tar.gz : dbe23b82fe68ec1a04e197f874174a9106618ea99b0c3d5cffcb7d6b6b757d95
 license    : WTFPL
 component  : games.platformer
 summary    : Games manager/downloader/library written in Vala

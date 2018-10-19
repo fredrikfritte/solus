@@ -1,8 +1,8 @@
 name       : elementary-calendar
-version    : 0.4.2
-release    : 1
+version    : 0.4.3
+release    : 2
 source     :
-    - https://github.com/elementary/calendar/archive/0.4.2.tar.gz : 089d95e2062d81ac5aaa72742248c34b8119288f4d1f9a25a9a0957462a54ff6
+    - https://github.com/elementary/calendar/archive/4.2.3.tar.gz : 4f36334ec9402bb59998816fd1849be9e8eb6a3ee96df292efe79d322ee3aa09
 license    : GPL-3.0-or-later
 component  : office
 summary    : Desktop calendar app designed for elementary OS
@@ -22,14 +22,15 @@ builddeps  :
     - pkgconfig(libedataserver-1.2)
     - pkgconfig(libedataserverui-1.2)
     - pkgconfig(libecal-1.2)
+    - pkgconfig(libgeoclue-2.0)
     - pkgconfig(libical)
     - pkgconfig(libnotify)
     - pkgconfig(libsoup-2.4)
     - cmake
     - vala
 setup      : |
-    %cmake
+    %meson_configure
 build      : |
-    %make
+    %meson_build
 install    : |
-    %make_install
+    %meson_install

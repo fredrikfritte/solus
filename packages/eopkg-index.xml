@@ -370,21 +370,21 @@
         <PartOf>programming.devel</PartOf>
         <License>GPL-3.0-or-later</License>
         <RuntimeDependencies>
-            <Dependency releaseFrom="78">libgtk-3-devel</Dependency>
-            <Dependency releaseFrom="36">evolution-data-server-devel</Dependency>
-            <Dependency releaseFrom="11">libgee-devel</Dependency>
-            <Dependency releaseFrom="8">granite-devel</Dependency>
-            <Dependency releaseFrom="45">glib2-devel</Dependency>
-            <Dependency release="1">elementary-calendar</Dependency>
+            <Dependency releaseFrom="81">libgtk-3-devel</Dependency>
             <Dependency releaseFrom="4">libical-devel</Dependency>
+            <Dependency releaseFrom="46">glib2-devel</Dependency>
+            <Dependency releaseFrom="9">granite-devel</Dependency>
+            <Dependency releaseFrom="22">libsoup-devel</Dependency>
+            <Dependency release="2">elementary-calendar</Dependency>
+            <Dependency releaseFrom="40">evolution-data-server-devel</Dependency>
         </RuntimeDependencies>
         <Provides>
-            <PkgConfig>io.elementary.calendar</PkgConfig>
+            <PkgConfig>elementary-calendar</PkgConfig>
         </Provides>
         <History>
-            <Update release="1">
-                <Date>2018-06-09</Date>
-                <Version>0.4.2</Version>
+            <Update release="2">
+                <Date>2018-10-19</Date>
+                <Version>0.4.3</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Devil505</Name>
                 <Email>devil505@tuta.io</Email>
@@ -394,10 +394,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>41067</InstalledSize>
-        <PackageSize>7764</PackageSize>
-        <PackageHash>d9d448229291731f5dd9f06cb035e8be2e598ae4</PackageHash>
-        <PackageURI>elementary-calendar-devel-0.4.2-1-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>40989</InstalledSize>
+        <PackageSize>7779</PackageSize>
+        <PackageHash>453c51ccbf80e054097eabd754eba36ea395ec57</PackageHash>
+        <PackageURI>elementary-calendar-devel-0.4.3-2-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>elementary-calendar</Name>
@@ -698,22 +698,23 @@
         <PartOf>games.platformer</PartOf>
         <License>WTFPL</License>
         <RuntimeDependencies>
-            <Dependency releaseFrom="53">libwebkit-gtk</Dependency>
-            <Dependency releaseFrom="80">libgtk-3</Dependency>
-            <Dependency releaseFrom="45">glib2</Dependency>
+            <Dependency releaseFrom="54">libwebkit-gtk</Dependency>
+            <Dependency releaseFrom="81">libgtk-3</Dependency>
+            <Dependency releaseFrom="46">glib2</Dependency>
             <Dependency releaseFrom="39">libcairo</Dependency>
-            <Dependency releaseFrom="51">glibc</Dependency>
-            <Dependency releaseFrom="26">sqlite3</Dependency>
-            <Dependency releaseFrom="35">gdk-pixbuf</Dependency>
+            <Dependency releaseFrom="19">libxml2</Dependency>
+            <Dependency releaseFrom="52">glibc</Dependency>
+            <Dependency releaseFrom="27">sqlite3</Dependency>
+            <Dependency releaseFrom="36">gdk-pixbuf</Dependency>
             <Dependency releaseFrom="11">libgee</Dependency>
             <Dependency releaseFrom="14">libjson-glib</Dependency>
             <Dependency releaseFrom="9">granite</Dependency>
             <Dependency releaseFrom="22">libsoup</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="1">
-                <Date>2018-08-19</Date>
-                <Version>0.8.0</Version>
+            <Update release="3">
+                <Date>2018-10-19</Date>
+                <Version>0.11.5.20</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Devil505</Name>
                 <Email>devil505@tuta.io</Email>
@@ -723,10 +724,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>483782</InstalledSize>
-        <PackageSize>138430</PackageSize>
-        <PackageHash>9f2d31c727bfc1ad3222a788fc63bbf8a950647d</PackageHash>
-        <PackageURI>gamehub-0.8.0-1-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>868992</InstalledSize>
+        <PackageSize>247223</PackageSize>
+        <PackageHash>d9b25a9367343c5939ab9f592a9d8e36aa8091a8</PackageHash>
+        <PackageURI>gamehub-0.11.5.20-3-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>gamehub</Name>
@@ -739,28 +740,28 @@
     <Package>
         <Name>playmymusic</Name>
         <Summary xml:lang="en">A music player for listening to local music files, online radios, and Audio CD&apos;s</Summary>
-        <Description xml:lang="en">A music player for listening to local music files, online radios, and Audio CD&apos;s</Description>
+        <Description xml:lang="en">A music player for listening to local music files, online radios, and Audio CDs</Description>
         <PartOf>multimedia.audio</PartOf>
         <License>GPL-2.0-or-later</License>
         <RuntimeDependencies>
-            <Dependency releaseFrom="78">libgtk-3</Dependency>
-            <Dependency releaseFrom="45">glib2</Dependency>
-            <Dependency releaseFrom="20">gstreamer-1.0</Dependency>
-            <Dependency releaseFrom="51">glibc</Dependency>
-            <Dependency releaseFrom="36">libcairo</Dependency>
-            <Dependency releaseFrom="26">sqlite3</Dependency>
-            <Dependency releaseFrom="22">gstreamer-1.0-plugins-base</Dependency>
-            <Dependency releaseFrom="35">gdk-pixbuf</Dependency>
+            <Dependency releaseFrom="81">libgtk-3</Dependency>
+            <Dependency releaseFrom="46">glib2</Dependency>
+            <Dependency releaseFrom="22">gstreamer-1.0</Dependency>
+            <Dependency releaseFrom="52">glibc</Dependency>
+            <Dependency releaseFrom="39">libcairo</Dependency>
+            <Dependency releaseFrom="27">sqlite3</Dependency>
+            <Dependency releaseFrom="25">gstreamer-1.0-plugins-base</Dependency>
+            <Dependency releaseFrom="36">gdk-pixbuf</Dependency>
             <Dependency releaseFrom="4">taglib</Dependency>
             <Dependency releaseFrom="11">libgee</Dependency>
             <Dependency releaseFrom="14">libjson-glib</Dependency>
             <Dependency releaseFrom="9">granite</Dependency>
-            <Dependency releaseFrom="20">libsoup</Dependency>
+            <Dependency releaseFrom="22">libsoup</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="2">
-                <Date>2018-06-30</Date>
-                <Version>1.0.1</Version>
+            <Update release="4">
+                <Date>2018-10-19</Date>
+                <Version>1.1.1</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Devil505</Name>
                 <Email>devil505@tuta.io</Email>
@@ -770,10 +771,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>700174</InstalledSize>
-        <PackageSize>185411</PackageSize>
-        <PackageHash>78f8ff86fc9f81580ce1c0854727cddc426559e9</PackageHash>
-        <PackageURI>playmymusic-1.0.1-2-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>723695</InstalledSize>
+        <PackageSize>190906</PackageSize>
+        <PackageHash>036762c81edd9a5fda86f6ebf408dfd7e6377e4c</PackageHash>
+        <PackageURI>playmymusic-1.1.1-4-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>playmymusic</Name>
@@ -1043,27 +1044,28 @@
         <PartOf>office</PartOf>
         <License>GPL-3.0-or-later</License>
         <RuntimeDependencies>
-            <Dependency releaseFrom="19">clutter</Dependency>
+            <Dependency releaseFrom="12">geoclue</Dependency>
             <Dependency releaseFrom="15">clutter-gtk</Dependency>
-            <Dependency releaseFrom="11">libgee</Dependency>
+            <Dependency releaseFrom="21">clutter</Dependency>
             <Dependency releaseFrom="5">libnotify</Dependency>
             <Dependency releaseFrom="13">libchamplain</Dependency>
-            <Dependency releaseFrom="78">libgtk-3</Dependency>
-            <Dependency releaseFrom="20">libsoup</Dependency>
-            <Dependency releaseFrom="36">evolution-data-server</Dependency>
-            <Dependency releaseFrom="36">libcairo</Dependency>
-            <Dependency releaseFrom="51">glibc</Dependency>
-            <Dependency releaseFrom="7">libgeocode-glib</Dependency>
-            <Dependency releaseFrom="35">gdk-pixbuf</Dependency>
+            <Dependency releaseFrom="81">libgtk-3</Dependency>
+            <Dependency releaseFrom="22">libsoup</Dependency>
+            <Dependency releaseFrom="40">evolution-data-server</Dependency>
+            <Dependency releaseFrom="39">libcairo</Dependency>
+            <Dependency releaseFrom="52">glibc</Dependency>
+            <Dependency releaseFrom="8">libgeocode-glib</Dependency>
+            <Dependency releaseFrom="9">granite</Dependency>
+            <Dependency releaseFrom="36">gdk-pixbuf</Dependency>
             <Dependency releaseFrom="12">folks</Dependency>
-            <Dependency releaseFrom="8">granite</Dependency>
-            <Dependency releaseFrom="45">glib2</Dependency>
+            <Dependency releaseFrom="11">libgee</Dependency>
+            <Dependency releaseFrom="46">glib2</Dependency>
             <Dependency releaseFrom="4">libical</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="1">
-                <Date>2018-06-09</Date>
-                <Version>0.4.2</Version>
+            <Update release="2">
+                <Date>2018-10-19</Date>
+                <Version>0.4.3</Version>
                 <Comment>Packaging update</Comment>
                 <Name>Devil505</Name>
                 <Email>devil505@tuta.io</Email>
@@ -1073,10 +1075,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>1267841</InstalledSize>
-        <PackageSize>290845</PackageSize>
-        <PackageHash>8917184b3f97bfdeb02ac09a53d21bd65ee48522</PackageHash>
-        <PackageURI>elementary-calendar-0.4.2-1-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>1261273</InstalledSize>
+        <PackageSize>287482</PackageSize>
+        <PackageHash>c29a34520cdbce709eb6662965d84229672533ca</PackageHash>
+        <PackageURI>elementary-calendar-0.4.3-2-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>elementary-calendar</Name>
