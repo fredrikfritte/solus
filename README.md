@@ -21,7 +21,7 @@ Solus 3rd Party Repo
 
 ## Want a package in Solus official repo ?
 
-Make a package request at <http://dev.solus-project.com/> or support the opened task (see below)
+Make a package request at <http://dev.getsol.us/> or support the opened task (see below)
 
 If the Solus dev team is interested, I'll provide a patch to them.
 
@@ -32,11 +32,11 @@ If the Solus dev team is interested, I'll provide a patch to them.
 | --- | --- | ---
 | aesop |  | 
 | audience |  | 
-| budgie-brightness-applet | [TASK 5945](https://dev.solus-project.com/T5495) | 
+| budgie-brightness-applet | [TASK 5945](https://dev.getsol.us/T5495) | 
 | budgie-extra |  | 
-| budgie-weather-applet | [TASK 4482](https://dev.solus-project.com/T4482) | 
+| budgie-weather-applet | [TASK 4482](https://dev.getsol.us/T4482) | 
 | ciano |  | 
-| duckietv | [TASK 1338](https://dev.solus-project.com/T1338) |  | 
+| duckietv | [TASK 1338](https://dev.getsol.us/T1338) |  | 
 | elementary-calendar |  | 
 | elementary-calendar-devel |  | 
 | eradio |  | 
@@ -49,7 +49,7 @@ If the Solus dev team is interested, I'll provide a patch to them.
 | gimp-plugin-bimp |  | 
 | imageburner |  | 
 | karim |  | 
-| megasync | [TASK 163](https://dev.solus-project.com/T163)  | rejected but they can change their opinions later |
+| megasync | [TASK 163](https://dev.getsol.us/T163)  | rejected but they can change their opinions later |
 | monilet |  | 
 | nautilus-megasync |  | 
 | news |  | 
@@ -60,20 +60,20 @@ If the Solus dev team is interested, I'll provide a patch to them.
 | nvidia-396-glx-driver-current | removed  | ADDED TO OFFICIAL SOLUS REPO !|
 | nvidia-396-glx-driver-modaliases | removed  | ADDED TO OFFICIAL SOLUS REPO !|
 | palaura |  | 
-| playmymusic | [TASK 6683](https://dev.solus-project.com/T6683) | rejected... | 
+| playmymusic | [TASK 6683](https://dev.getsol.us/T6683) | rejected... | 
 | proton | Removed | useless since steam brings its own version |
 | protonmail-bridge-bin | | |
 | protonvpn-cli | REMOVED | NOW IN SOLUS REPO ! | 
 | qarte |  | 
-| qomui | [TASK 6722](https://dev.solus-project.com/T6722) | Patch submitted [D3760](https://dev.solus-project.com/D3760) | 
+| qomui | [TASK 6722](https://dev.getsol.us/T6722) | Patch submitted [D3760](https://dev.getsol.us/D3760) | 
 | quilter |  | 
 | screencast |  | 
 | showmypictures |  | 
-| stacer | [TASK 5321](https://dev.solus-project.com/T5321) | 
-| tutrl | [TASK 535](https://dev.solus-project.com/T535) |  | 
-| wireguard | [TASK 3778](https://dev.solus-project.com/T3778) |  | 
-| wireguard-current | [TASK 3778](https://dev.solus-project.com/T3778) |  | 
-| wireguard-tools | [TASK 3778](https://dev.solus-project.com/T3778) |  | 
+| stacer | [TASK 5321](https://dev.getsol.us/T5321) | 
+| tutrl | [TASK 535](https://dev.getsol.us/T535) |  | 
+| wireguard | [TASK 3778](https://dev.getsol.us/T3778) |  | 
+| wireguard-current | [TASK 3778](https://dev.getsol.us/T3778) |  | 
+| wireguard-tools | [TASK 3778](https://dev.getsol.us/T3778) |  | 
 
 ## A problem ?
 
