@@ -1,13 +1,18 @@
 name       : budgie-extra
-version    : 0.5.0
-release    : 1
+version    : 0.6.1
+release    : 2
 source     :
-    - https://github.com/UbuntuBudgie/budgie-extras/archive/v0.5.0.tar.gz : ced39bf827795b88bc60d280c01233079ebd3e2519bbccd7646a5459842fc005
+    - https://github.com/UbuntuBudgie/budgie-extras/releases/download/v0.6.1/budgie-extras-0.6.1.tar.xz : 35695526cc4a06229ef430820910a67a128b1ddb370881fba320c9a2555f5709
 license    : GPL-3-or-later
 summary    : additional Budgie Desktop enhancements for the user experience
 component  : desktop.budgie
 builddeps  :
+    - pkgconfig(budgie-1.0)
+    - pkgconfig(gee-0.8)
+    - pkgconfig(gtk+-3.0)
+    - pkgconfig(json-glib-1.0)
     - meson
+    - vala
 rundeps  :
     - budgie-desktop
     - python3-pyudev
