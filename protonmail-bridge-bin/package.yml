@@ -1,9 +1,9 @@
 name        : protonmail-bridge-bin
-version     : 1.0.6
-release     : 2
+version     : 1.1.0
+release     : 3
 license     : MIT
 source      :
-    - https://protonmail.com/download/protonmail-bridge_1.0.6-2_amd64.deb : 8815fae433c69af5502aa73d5f16fd62d146ab91c0606be9016be4a8c7ce7e5b
+    - https://protonmail.com/download/protonmail-bridge_1.1.0-1_amd64.deb : 6bfec875e593d1df535df56e045cb795b672491d40301b5f1bcde68980f84950
 component   : network.mail
 summary     : The Bridge is an application that runs on your computer in the background and seamlessly encrypts and decrypts your mail as it enters and leaves your computer.
 description : |
@@ -17,7 +17,7 @@ rundeps     :
     - dejavu-fonts-ttf
 extract     : no
 install     : |
-    ar vx $sources/protonmail-bridge_%version%-%release%_amd64.deb
+    ar vx $sources/protonmail-bridge_%version%-1_amd64.deb
     mkdir -p $installdir
     tar xJC $installdir -f data.tar.xz
     rm -rf $installdir/opt

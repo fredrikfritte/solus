@@ -826,53 +826,6 @@
         </Source>
     </Package>
     <Package>
-        <Name>protonmail-bridge-bin</Name>
-        <Summary xml:lang="en">The Bridge is an application that runs on your computer in the background and seamlessly encrypts and decrypts your mail as it enters and leaves your computer.</Summary>
-        <Description xml:lang="en">The Bridge is an application that runs on your computer in the background and seamlessly encrypts and decrypts your mail as it enters and leaves your computer.</Description>
-        <PartOf>network.mail</PartOf>
-        <License>MIT</License>
-        <RuntimeDependencies>
-            <Dependency releaseFrom="19">zlib</Dependency>
-            <Dependency releaseFrom="52">glibc</Dependency>
-            <Dependency releaseFrom="19">libx11</Dependency>
-            <Dependency releaseFrom="44">libstdc++</Dependency>
-            <Dependency releaseFrom="44">libgcc</Dependency>
-            <Dependency releaseFrom="18">libxcb</Dependency>
-            <Dependency releaseFrom="45">glib2</Dependency>
-            <Dependency releaseFrom="4">libglvnd</Dependency>
-            <Dependency releaseFrom="25">dbus</Dependency>
-            <Dependency>qt5-base</Dependency>
-            <Dependency>qt5-multimedia</Dependency>
-            <Dependency>libsecret</Dependency>
-            <Dependency>dejavu-fonts-ttf</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="2">
-                <Date>2018-09-08</Date>
-                <Version>1.0.6</Version>
-                <Comment>Packaging update</Comment>
-                <Name>Devil505</Name>
-                <Email>devil505@tuta.io</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>127098695</InstalledSize>
-        <PackageSize>37023865</PackageSize>
-        <PackageHash>60505efc3c0dfe765beb2aa0dfb4c6bb942fb062</PackageHash>
-        <PackageURI>protonmail-bridge-bin-1.0.6-2-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>protonmail-bridge-bin</Name>
-            <Packager>
-                <Name>Devil505</Name>
-                <Email>devil505@tuta.io</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
         <Name>monilet</Name>
         <Summary xml:lang="en">It&apos;s a system monitor applet.</Summary>
         <Description xml:lang="en">See percentage of use your CPU and number of cores. Also percentage used memory, amount of memory used and total memory.</Description>
