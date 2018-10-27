@@ -1,8 +1,8 @@
 name       : imageburner
-version    : 0.1.15
-release    : 2
+version    : 1.0.1
+release    : 3
 source     :
-    - https://github.com/artemanufrij/imageburner/archive/0.1.15.tar.gz : 23e1ef8876f828e9ea0f21305a93754ba6d9185abaa209b0b5fb4ebc7c121648
+    - https://github.com/artemanufrij/imageburner/archive/1.0.1.tar.gz : 97143eb0330d8156bbb55153d33e7abead105b4647067347de01f32dbafddc5d
 license    : GPL-3.0
 component  : multimedia
 summary    : A simple imageburner
@@ -10,14 +10,11 @@ description: |
     A simple imageburner.
 builddeps  :
     - pkgconfig(granite)
-    - cmake
+    - meson
     - vala
 setup      : |
-    %apply_patches
-    mkdir cmake
-    install -m 00644 $pkgfiles/cmake/*.cmake cmake/.
-    %cmake .
+    %meson_configure
 build      : |
-    %make
+    %meson_build
 install    : |
-    %make_install
+    %meson_install
