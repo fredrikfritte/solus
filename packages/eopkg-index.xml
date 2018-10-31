@@ -905,6 +905,48 @@
         </Source>
     </Package>
     <Package>
+        <Name>multibootusb</Name>
+        <Summary xml:lang="en">Boot multiple live Linux distros from a usb flash drive.</Summary>
+        <Description xml:lang="en">MultiBootUSB is a cross platform* software/utility to create multi boot live Linux on a removable USB disk. It is similar to UNetbootin but many distros can be installed, provided you have enough space on the disk. MultiBootUSB also provides an option to uninstall distro(s) at any time, if you wish.</Description>
+        <PartOf>system.utils</PartOf>
+        <License>GPL-2.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency>mtools</Dependency>
+            <Dependency>p7zip</Dependency>
+            <Dependency>parted</Dependency>
+            <Dependency>python3-dbus</Dependency>
+            <Dependency>python3-pyudev</Dependency>
+            <Dependency>python-qtpy</Dependency>
+            <Dependency>python-six</Dependency>
+            <Dependency>util-linux</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2018-10-31</Date>
+                <Version>9.2.0</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Devil505</Name>
+                <Email>devil505@tuta.io</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>13815554</InstalledSize>
+        <PackageSize>6848061</PackageSize>
+        <PackageHash>72200be12c75e2f86a6248229a4415a78b482f9b</PackageHash>
+        <PackageURI>multibootusb-9.2.0-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>multibootusb</Name>
+            <Packager>
+                <Name>Devil505</Name>
+                <Email>devil505@tuta.io</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>eradio</Name>
         <Summary xml:lang="en">A minimalist and powerful radio player</Summary>
         <Description xml:lang="en">A minimalist and powerful radio player.</Description>

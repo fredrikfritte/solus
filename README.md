@@ -51,6 +51,7 @@ If the Solus dev team is interested, I'll provide a patch to them.
 | karim |  | 
 | megasync | [TASK 163](https://dev.getsol.us/T163)  | rejected but they can change their opinions later |
 | monilet |  | 
+| multibootusb | desktop shortcut buggy, user sudo multibootusb in terminal | 
 | nautilus-megasync |  | 
 | news |  | 
 | notejot |  | 
