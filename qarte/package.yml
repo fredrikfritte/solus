@@ -1,8 +1,8 @@
 name       : qarte
-version    : 4.4.0
-release    : 1
+version    : 4.6.0
+release    : 2
 source     :
-    - http://ppa.launchpad.net/vincent-vandevyvre/vvv/ubuntu/pool/main/q/qarte/qarte_4.4.0.orig.tar.gz : 447217304dcd816960a0cc345ed5508686352f8a651e3f5b169597e655f65f66
+    - http://ppa.launchpad.net/vincent-vandevyvre/vvv/ubuntu/pool/main/q/qarte/qarte_4.6.0.orig.tar.gz : b6ddb3bb7b71b4cdd3b40d0421ec7099227694be07f0ede014a19e3350eda881
 license    : GPL-3.0-or-later
 component  : network.web
 summary    : Allow you to browse into the archive of arte+7 & arteLiveWeb sites and to record your prefered videos.
