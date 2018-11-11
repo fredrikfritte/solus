@@ -1,0 +1,111 @@
+<PISI>
+    <Source>
+        <Name>mattermost-desktop-bin</Name>
+        <Packager>
+            <Name>Devil505</Name>
+            <Email>devil505@tuta.io</Email>
+        </Packager>
+        <License>Apache</License>
+        <PartOf>network.web</PartOf>
+        <Summary xml:lang="en">Mattermost Desktop (Beta) for Linux (binary)</Summary>
+        <Description xml:lang="en">Mattermost Desktop (Beta) for Linux (binary)
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>mattermost-desktop-bin</Name>
+        <Summary xml:lang="en">Mattermost Desktop (Beta) for Linux (binary)</Summary>
+        <Description xml:lang="en">Mattermost Desktop (Beta) for Linux (binary)
+</Description>
+        <PartOf>network.web</PartOf>
+        <Files>
+            <Path fileType="executable">/usr/bin/mattermost-desktop</Path>
+            <Path fileType="library">/usr/lib/mattermost/LICENSE.electron.txt</Path>
+            <Path fileType="library">/usr/lib/mattermost/LICENSE.txt</Path>
+            <Path fileType="library">/usr/lib/mattermost/LICENSES.chromium.html</Path>
+            <Path fileType="library">/usr/lib/mattermost/NOTICE.txt</Path>
+            <Path fileType="library">/usr/lib/mattermost/README.md</Path>
+            <Path fileType="library">/usr/lib/mattermost/blink_image_resources_200_percent.pak</Path>
+            <Path fileType="library">/usr/lib/mattermost/content_resources_200_percent.pak</Path>
+            <Path fileType="library">/usr/lib/mattermost/content_shell.pak</Path>
+            <Path fileType="library">/usr/lib/mattermost/create_desktop_file.sh</Path>
+            <Path fileType="library">/usr/lib/mattermost/icon.png</Path>
+            <Path fileType="library">/usr/lib/mattermost/icudtl.dat</Path>
+            <Path fileType="library">/usr/lib/mattermost/libffmpeg.so</Path>
+            <Path fileType="library">/usr/lib/mattermost/libnode.so</Path>
+            <Path fileType="library">/usr/lib/mattermost/locales/am.pak</Path>
+            <Path fileType="library">/usr/lib/mattermost/locales/ar.pak</Path>
+            <Path fileType="library">/usr/lib/mattermost/locales/bg.pak</Path>
+            <Path fileType="library">/usr/lib/mattermost/locales/bn.pak</Path>
+            <Path fileType="library">/usr/lib/mattermost/locales/ca.pak</Path>
+            <Path fileType="library">/usr/lib/mattermost/locales/cs.pak</Path>
+            <Path fileType="library">/usr/lib/mattermost/locales/da.pak</Path>
+            <Path fileType="library">/usr/lib/mattermost/locales/de.pak</Path>
+            <Path fileType="library">/usr/lib/mattermost/locales/el.pak</Path>
+            <Path fileType="library">/usr/lib/mattermost/locales/en-GB.pak</Path>
+            <Path fileType="library">/usr/lib/mattermost/locales/en-US.pak</Path>
+            <Path fileType="library">/usr/lib/mattermost/locales/es-419.pak</Path>
+            <Path fileType="library">/usr/lib/mattermost/locales/es.pak</Path>
+            <Path fileType="library">/usr/lib/mattermost/locales/et.pak</Path>
+            <Path fileType="library">/usr/lib/mattermost/locales/fa.pak</Path>
+            <Path fileType="library">/usr/lib/mattermost/locales/fake-bidi.pak</Path>
+            <Path fileType="library">/usr/lib/mattermost/locales/fi.pak</Path>
+            <Path fileType="library">/usr/lib/mattermost/locales/fil.pak</Path>
+            <Path fileType="library">/usr/lib/mattermost/locales/fr.pak</Path>
+            <Path fileType="library">/usr/lib/mattermost/locales/gu.pak</Path>
+            <Path fileType="library">/usr/lib/mattermost/locales/he.pak</Path>
+            <Path fileType="library">/usr/lib/mattermost/locales/hi.pak</Path>
+            <Path fileType="library">/usr/lib/mattermost/locales/hr.pak</Path>
+            <Path fileType="library">/usr/lib/mattermost/locales/hu.pak</Path>
+            <Path fileType="library">/usr/lib/mattermost/locales/id.pak</Path>
+            <Path fileType="library">/usr/lib/mattermost/locales/it.pak</Path>
+            <Path fileType="library">/usr/lib/mattermost/locales/ja.pak</Path>
+            <Path fileType="library">/usr/lib/mattermost/locales/kn.pak</Path>
+            <Path fileType="library">/usr/lib/mattermost/locales/ko.pak</Path>
+            <Path fileType="library">/usr/lib/mattermost/locales/lt.pak</Path>
+            <Path fileType="library">/usr/lib/mattermost/locales/lv.pak</Path>
+            <Path fileType="library">/usr/lib/mattermost/locales/ml.pak</Path>
+            <Path fileType="library">/usr/lib/mattermost/locales/mr.pak</Path>
+            <Path fileType="library">/usr/lib/mattermost/locales/ms.pak</Path>
+            <Path fileType="library">/usr/lib/mattermost/locales/nb.pak</Path>
+            <Path fileType="library">/usr/lib/mattermost/locales/nl.pak</Path>
+            <Path fileType="library">/usr/lib/mattermost/locales/pl.pak</Path>
+            <Path fileType="library">/usr/lib/mattermost/locales/pt-BR.pak</Path>
+            <Path fileType="library">/usr/lib/mattermost/locales/pt-PT.pak</Path>
+            <Path fileType="library">/usr/lib/mattermost/locales/ro.pak</Path>
+            <Path fileType="library">/usr/lib/mattermost/locales/ru.pak</Path>
+            <Path fileType="library">/usr/lib/mattermost/locales/sk.pak</Path>
+            <Path fileType="library">/usr/lib/mattermost/locales/sl.pak</Path>
+            <Path fileType="library">/usr/lib/mattermost/locales/sr.pak</Path>
+            <Path fileType="library">/usr/lib/mattermost/locales/sv.pak</Path>
+            <Path fileType="library">/usr/lib/mattermost/locales/sw.pak</Path>
+            <Path fileType="library">/usr/lib/mattermost/locales/ta.pak</Path>
+            <Path fileType="library">/usr/lib/mattermost/locales/te.pak</Path>
+            <Path fileType="library">/usr/lib/mattermost/locales/th.pak</Path>
+            <Path fileType="library">/usr/lib/mattermost/locales/tr.pak</Path>
+            <Path fileType="library">/usr/lib/mattermost/locales/uk.pak</Path>
+            <Path fileType="library">/usr/lib/mattermost/locales/vi.pak</Path>
+            <Path fileType="library">/usr/lib/mattermost/locales/zh-CN.pak</Path>
+            <Path fileType="library">/usr/lib/mattermost/locales/zh-TW.pak</Path>
+            <Path fileType="library">/usr/lib/mattermost/mattermost-desktop</Path>
+            <Path fileType="library">/usr/lib/mattermost/natives_blob.bin</Path>
+            <Path fileType="library">/usr/lib/mattermost/pdf_viewer_resources.pak</Path>
+            <Path fileType="library">/usr/lib/mattermost/resources/app.asar</Path>
+            <Path fileType="library">/usr/lib/mattermost/resources/electron.asar</Path>
+            <Path fileType="library">/usr/lib/mattermost/snapshot_blob.bin</Path>
+            <Path fileType="library">/usr/lib/mattermost/ui_resources_200_percent.pak</Path>
+            <Path fileType="library">/usr/lib/mattermost/views_resources_200_percent.pak</Path>
+            <Path fileType="data">/usr/share/applications/mattermost-desktop.desktop</Path>
+            <Path fileType="data">/usr/share/pixmaps/mattermost-desktop.png</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2018-11-11</Date>
+            <Version>4.1.2</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Devil505</Name>
+            <Email>devil505@tuta.io</Email>
+        </Update>
+    </History>
+</PISI>

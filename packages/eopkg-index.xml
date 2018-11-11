@@ -826,6 +826,49 @@
         </Source>
     </Package>
     <Package>
+        <Name>mattermost-desktop-bin</Name>
+        <Summary xml:lang="en">Mattermost Desktop (Beta) for Linux (binary)</Summary>
+        <Description xml:lang="en">Mattermost Desktop (Beta) for Linux (binary)</Description>
+        <PartOf>network.web</PartOf>
+        <License>Apache</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="23">libnss</Dependency>
+            <Dependency releaseFrom="52">glibc</Dependency>
+            <Dependency releaseFrom="15">expat</Dependency>
+            <Dependency releaseFrom="44">libstdc++</Dependency>
+            <Dependency releaseFrom="44">libgcc</Dependency>
+            <Dependency releaseFrom="12">libnspr</Dependency>
+            <Dependency releaseFrom="47">glib2</Dependency>
+            <Dependency releaseFrom="27">dbus</Dependency>
+            <Dependency>libgtk-2</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2018-11-11</Date>
+                <Version>4.1.2</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Devil505</Name>
+                <Email>devil505@tuta.io</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>180363307</InstalledSize>
+        <PackageSize>53356451</PackageSize>
+        <PackageHash>75e6a1745eaf19199e5c6e7498d856369dc4d031</PackageHash>
+        <PackageURI>mattermost-desktop-bin-4.1.2-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>mattermost-desktop-bin</Name>
+            <Packager>
+                <Name>Devil505</Name>
+                <Email>devil505@tuta.io</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>monilet</Name>
         <Summary xml:lang="en">It&apos;s a system monitor applet.</Summary>
         <Description xml:lang="en">See percentage of use your CPU and number of cores. Also percentage used memory, amount of memory used and total memory.</Description>

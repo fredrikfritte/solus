@@ -1,0 +1,20 @@
+name       : mattermost-desktop-bin
+version    : 4.1.2
+release    : 1
+source     :
+    - https://releases.mattermost.com/desktop/4.1.2/mattermost-desktop-4.1.2-linux-x64.tar.gz : 3a4d036fcce7027455be189148758963e1baf94bd50b04047536e8050e32b699
+license    : Apache
+component  : network.web
+summary    : Mattermost Desktop (Beta) for Linux (binary)
+description: |
+    Mattermost Desktop (Beta) for Linux (binary)
+rundeps:
+    - libgtk-2
+setup      : |
+    install -d -m 755 "$installdir"/usr/lib/mattermost
+install    : |
+    cp -r * "$installdir/usr/lib/mattermost"
+    install -d -m 755 "$installdir/usr/bin"
+    ln -s /usr/lib/mattermost/mattermost-desktop "$installdir/usr/bin/mattermost-desktop"
+    install -Dm644 "$pkgfiles/mattermost-desktop.desktop" "$installdir/usr/share/applications/mattermost-desktop.desktop"
+    install -Dm644 "$installdir/usr/lib/mattermost/icon.png" "$installdir/usr/share/pixmaps/mattermost-desktop.png"
